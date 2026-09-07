@@ -1,15 +1,17 @@
-# Tony D-Line Weekly Scout v13.2
+# Tony D-Line Weekly Scout v13.3
 
-Run diagram synchronization fix:
+2025 UAB sample cutoff:
+- 2025 UAB data now starts with the Memphis game on October 18, 2025.
+- All games before Memphis are excluded from the 2025 view.
+- This isolates the Alex Mortensen interim-head-coach sample.
+- Included 2025 opponents from the cutoff forward:
+  - Memphis
+  - South Florida / USF
+  - Rice
+  - Tulane
+  - East Carolina / ECU
+  - Navy
+- The cutoff applies to season-level play data, run charts, formations, personnel, situations and the uploaded breakdown source.
+- 2026 data is unchanged.
 
-- Both run diagrams now use the exact same filtered run rows.
-- The second TE / H chart no longer re-filters itself to a dominant formation.
-- Every hit-lane count, YPP, frequency arrow and circle is calculated from the exact same sample in both charts.
-- The only difference between the two visuals is:
-  1. Chart 1 = clean run-hit distribution
-  2. Chart 2 = same run-hit distribution + attached Y / U / H / TE surface overlay
-- If ULM Formation or Personnel is explicitly selected in the run filters, that exact selection controls the structure drawn on chart 2.
-- If no formation is explicitly selected, the dominant formation is used only to draw the attached-player structure. It does not change the run sample.
-- Both charts display the same run count for verification.
-
-All existing filters and Tony app features remain intact.
+All existing Tony app features remain intact.

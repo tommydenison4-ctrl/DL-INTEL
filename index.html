@@ -89,7 +89,7 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 <body>
 <header><div class="head"><img class="logo" src="ulm_avg_roundel_edge_star.png"><div class="brand"><div class="eyebrow">ULM Football · Defensive Line</div><h1>Tony | D-Line Weekly Scout</h1><div class="sub">Opponent OL + personnel intelligence · run game · protection · situations</div></div>
 <div class="controls">
-<div class="seasonSwitch"><button id="s2025">2025</button><button id="s2026" class="active">2026</button></div>
+<div class="seasonSwitch"><button id="s2025" title="Mortensen era only: Memphis game forward">2025</button><button id="s2026" class="active">2026</button></div>
 <button id="msstBtn">Mississippi State</button><button id="uabBtn" class="active">UAB</button><button id="reloadBtn" class="gold">Reload</button>
 </div></div></header>
 <div class="wrap">
@@ -250,12 +250,39 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 
 function seasonYear(r){return String(v(r,'pff_GAMEDATE','pff_GAMESEASON','GAMESEASON','Season')||'').slice(0,4)}
 function uabIsCurrentRow(r){return String(v(r,'pff_GAMEDATE')||'').startsWith('2026-09-03') || String(v(r,'pff_GAMEID')||'')==='31055'}
+
+const UAB_2025_MORTENSEN_CUTOFF='2025-10-18';
+function rowGameDate(r){
+  let raw=String(v(r,'pff_GAMEDATE','GAME DATE','Game Date','Date')||'').trim();
+  if(!raw)return '';
+  let d=new Date(raw);
+  if(!Number.isNaN(d.getTime()))return d.toISOString().slice(0,10);
+  let m=raw.match(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/);
+  if(m)return `${m[1]}-${String(m[2]).padStart(2,'0')}-${String(m[3]).padStart(2,'0')}`;
+  return '';
+}
+function isMortensen2025Row(r){
+  let d=rowGameDate(r);
+  if(d)return d>=UAB_2025_MORTENSEN_CUTOFF && d<'2026-01-01';
+  let name=String(v(r,'Name','name','GAME','Game')||'').toUpperCase();
+  // If a named 2025 game is present but no parsable date, keep only known Mortensen-era opponents.
+  if(name){
+    return ['MEMPHIS','USF','SOUTH FLORIDA','RICE','TULANE','EAST CAROLINA','ECU','NAVY'].some(x=>name.includes(x));
+  }
+  return false;
+}
+
 function seasonRows(rows){
- if(team==='UAB'){
-   if(seasonView==='2026') return rows.filter(r=>uabIsCurrentRow(r)||seasonYear(r)==='2026');
-   return rows.filter(r=>seasonYear(r)==='2025');
- }
- return rows.filter(r=>seasonYear(r)===seasonView);
+  rows=rows||[];
+  if(team==='UAB'){
+    if(seasonView==='2026'){
+      return rows.filter(r=>uabIsCurrentRow(r)||seasonYear(r)==='2026');
+    }
+    if(seasonView==='2025'){
+      return rows.filter(r=>seasonYear(r)==='2025' && isMortensen2025Row(r));
+    }
+  }
+  return rows.filter(r=>seasonYear(r)===seasonView);
 }
 function initials(name){return String(name||'?').split(/\s+/).slice(0,2).map(x=>x[0]||'').join('').toUpperCase()}
 function rosterPhoto(p,cls='olThumb'){
@@ -357,7 +384,12 @@ function metricRows(rows){let g=rows.map(gain).filter(x=>x!=null),neg=g.filter(x
 
 
 function breakdownRowsForSeason(){
-  if(team==='UAB' && seasonView==='2025') return ALL_BREAKDOWN_GAMES;
+  if(team==='UAB' && seasonView==='2025'){
+    return ALL_BREAKDOWN_GAMES.filter(r=>{
+      let n=String(r.Name||'').toUpperCase();
+      return ['MEMPHIS','USF','SOUTH FLORIDA','RICE','TULANE','EAST CAROLINA','ECU','NAVY'].some(x=>n.includes(x));
+    });
+  }
   return [];
 }
 function breakdownBy(fn,rows=breakdownRowsForSeason()){
