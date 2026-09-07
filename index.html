@@ -64,6 +64,26 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 
 .tag-cloud{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .tag-cloud .tag{padding:6px 8px;border:1px solid #35485a;border-radius:8px;background:#0d1a26;color:#f3f7fa;font-size:9px;font-weight:850}
+
+.runHitStack{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:14px}
+.runHitCard{background:#0d1924;border:1px solid #304253;border-radius:15px;padding:14px;overflow:hidden}
+.runHitHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:8px}
+.runHitHead h3{margin:2px 0 3px;font-size:19px}.runHitHead .muted{max-width:760px}
+.runHitDiagram{background:linear-gradient(180deg,#0e5137,#1f754f);border:1px solid #0d3e2a;border-radius:18px;padding:10px;margin-top:10px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.runHitMeta{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:9px}
+.runHitMeta>div{background:#08131c;border:1px solid #263847;border-radius:9px;padding:8px}
+.runHitMeta span{display:block;font-size:8px;text-transform:uppercase;color:#89a2b8;font-weight:900}.runHitMeta b{display:block;font-size:14px;margin-top:3px}
+.hitLegend{font-size:9px;color:#9fb5c8;font-weight:800}
+@media(max-width:850px){.runHitMeta{grid-template-columns:1fr 1fr}}
+
+
+.runFilterBar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;background:#0a151f;border:1px solid #2c3e4e;border-radius:14px;padding:12px;margin-bottom:14px}
+.runFilterBar label{font-size:8px;text-transform:uppercase;color:#8fa6bb;font-weight:900;display:flex;flex-direction:column;gap:4px}
+.runFilterBar select{width:100%;background:#101e2a;color:#f4f7fa;border:1px solid #344a5d;border-radius:8px;padding:8px;font-size:11px;font-weight:800}
+.runFilterActions{display:flex;align-items:end;gap:8px}.runFilterActions button{width:100%}
+.runFilterNote{grid-column:1/-1;font-size:10px;color:#9db2c5;padding-top:2px}
+@media(max-width:900px){.runFilterBar{grid-template-columns:1fr 1fr}}@media(max-width:560px){.runFilterBar{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -109,7 +129,31 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
   <div id="olBoard" class="olBoard"></div>
 </div>
 <div class="card section"><h3>Opponent OL Depth / Roster</h3><div id="olGrid" class="playerGrid"></div></div><div class="card section"><h3>Pass Blocking Data</h3><div class="scroll"><table id="pbTable"></table></div></div><div class="card section"><h3>Run Blocking Data</h3><div class="scroll"><table id="rbTable"></table></div></div></section>
-<section id="run" class="tabview hidden"><div class="grid2"><div class="card"><h3>Run Concept</h3><div id="runConcepts"></div></div><div class="card"><h3>Run Direction / Point of Attack</h3><div id="runDirections"></div></div></div><div class="card section"><h3>Run Plays</h3><div class="scroll"><table id="runTable"></table></div></div></section>
+<section id="run" class="tabview hidden">
+<div class="runFilterBar">
+  <label>ULM Formation<select id="runFFormation"></select></label>
+  <label>Personnel<select id="runFPersonnel"></select></label>
+  <label>Backfield<select id="runFBackfield"></select></label>
+  <label>Motion<select id="runFMotion"></select></label>
+  <label>Down<select id="runFDown"></select></label>
+  <label>Distance<select id="runFDistance"></select></label>
+  <label>Hash<select id="runFHash"></select></label>
+  <label>Run Concept<select id="runFConcept"></select></label>
+  <div class="runFilterActions"><button id="runFReset" type="button">Reset Run Filters</button></div>
+  <div class="runFilterNote" id="runFilterNote"></div>
+</div>
+<div class="runHitStack">
+  <div class="runHitCard">
+    <div class="runHitHead"><div><div class="eyebrow">D Run Hit Diagram</div><h3>Run Distribution · Defensive View</h3><div class="muted">Same run-hit lane orientation used in Defensive Intelligence. Width and circle size reflect frequency; each hit point includes YPP.</div></div><div class="hitLegend">OFFENSE ↑ · DEFENSE ↓</div></div>
+    <div id="dRunHitDiagram"></div>
+    <div id="dRunHitMeta" class="runHitMeta"></div>
+  </div>
+  <div class="runHitCard">
+    <div class="runHitHead"><div><div class="eyebrow">Attached Surface</div><h3>TE / H Structure + Run Distribution</h3><div class="muted">Second D Intel visual. Uses the selected/dominant ULM formation and personnel to add attached Y/U/H/TE surface players.</div></div></div>
+    <div id="dRunHitSurface"></div>
+  </div>
+</div>
+<div class="grid2"><div class="card"><h3>Run Concept</h3><div id="runConcepts"></div></div><div class="card"><h3>Run Direction / Point of Attack</h3><div id="runDirections"></div></div></div><div class="card section"><h3>Run Plays</h3><div class="scroll"><table id="runTable"></table></div></div></section>
 <section id="pass" class="tabview hidden"><div class="grid2"><div class="card"><h3>Protection / Dropback Family</h3><div id="protections"></div></div><div class="card"><h3>Sack / Negative Outcomes</h3><div id="passOutcomes"></div></div></div><div class="card section"><h3>Pass Plays</h3><div class="scroll"><table id="passTable"></table></div></div></section>
 <section id="personnel" class="tabview hidden">
   <div id="ulmLanguagePanel" class="card section">
@@ -425,6 +469,229 @@ function openOLFromDepth(name){
   });
 }
 
+
+function dRunNum(x){let q=parseFloat(String(x??'').replace(/[,%$]/g,''));return Number.isFinite(q)?q:0}
+function dRunMedian(a){let x=a.map(dRunNum).filter(Number.isFinite).sort((a,b)=>a-b);if(!x.length)return 0;let m=Math.floor(x.length/2);return x.length%2?x[m]:(x[m-1]+x[m])/2}
+function dRunFmt(x,d=1){let q=Number(x);return Number.isFinite(q)?q.toFixed(d):'—'}
+function dRunPct(x){return `${Number(x||0).toFixed(1)}%`}
+function dRunPOA(v){
+ let s=String(v||'').trim().toUpperCase();
+ const exact={LE:'LE',LT:'LT',LG:'LG',ML:'ML',MR:'MR',RG:'RG',RT:'RT',RE:'RE'};
+ if(exact[s])return exact[s];
+ if(s.includes('LEFT END')||s==='LEND')return'LE';
+ if(s.includes('LEFT TACKLE'))return'LT';
+ if(s.includes('LEFT GUARD'))return'LG';
+ if(s.includes('MID LEFT')||s.includes('LEFT A'))return'ML';
+ if(s.includes('MID RIGHT')||s.includes('RIGHT A'))return'MR';
+ if(s.includes('RIGHT GUARD'))return'RG';
+ if(s.includes('RIGHT TACKLE'))return'RT';
+ if(s.includes('RIGHT END')||s==='REND')return'RE';
+ // Common directional fallback in Tony/PFF exports.
+ if(s==='LEFT')return'LG';
+ if(s==='RIGHT')return'RG';
+ if(s==='MIDDLE'||s==='CENTER')return'ML';
+ return'';
+}
+function dRunPOAValue(r){
+ return v(r,'pff_POAACTUAL','pff_POINT_OF_ATTACK','pff_POA','POA','Point of Attack','Run Strength','pff_RUNDIRECTION','pff_RUNLOCATION')||'';
+}
+function dRunGapMap(){
+ return [
+  {raw:'RE',label:'Def Left D',short:'LD',x:170},
+  {raw:'RT',label:'Def Left C',short:'LC',x:230},
+  {raw:'RG',label:'Def Left B',short:'LB',x:290},
+  {raw:'MR',label:'Def Left A',short:'LA',x:330},
+  {raw:'ML',label:'Def Right A',short:'RA',x:370},
+  {raw:'LG',label:'Def Right B',short:'RB',x:410},
+  {raw:'LT',label:'Def Right C',short:'RC',x:470},
+  {raw:'LE',label:'Def Right D',short:'RD',x:530}
+ ];
+}
+function dRunGapStats(rows){
+ let out={};dRunGapMap().forEach(g=>out[g.raw]={n:0,y:0,vals:[],ypp:0,med:0});
+ rows.forEach(r=>{
+   let k=dRunPOA(dRunPOAValue(r));if(!k||!out[k])return;
+   let g=gain(r);if(g==null)g=0;
+   out[k].n++;out[k].y+=g;out[k].vals.push(g);
+ });
+ Object.values(out).forEach(x=>{x.ypp=x.n?x.y/x.n:0;x.med=x.n?dRunMedian(x.vals):0});
+ return out;
+}
+
+let runFilters={formation:'ALL',personnel:'ALL',backfield:'ALL',motion:'ALL',down:'ALL',distance:'ALL',hash:'ALL',concept:'ALL'};
+function runFilterValue(r,key){
+ if(key==='formation')return ulmFormationOnly(r)||'';
+ if(key==='personnel')return pers(r);
+ if(key==='backfield')return hybridBackfield(r);
+ if(key==='motion')return hybridMotion(r)||'None';
+ if(key==='down')return v(r,'pff_DOWN','Down')||'';
+ if(key==='distance')return distBucket(r);
+ if(key==='hash')return v(r,'pff_HASHDEF','pff_HASH','Hash')||'Unknown';
+ if(key==='concept')return scoutingRunConcept(r)||'Unknown';
+ return '';
+}
+function distBucket(r){
+ let d=parseFloat(v(r,'pff_DISTANCE','Distance'));
+ if(!Number.isFinite(d))return'Unknown';
+ if(d<=2)return'1-2';
+ if(d<=5)return'3-5';
+ if(d<=10)return'6-10';
+ return'11+';
+}
+function runBaseRows(){
+ return (filtered||[]).filter(r=>String(v(r,'pff_RUNPASS','R/P')).toUpperCase()==='R');
+}
+function runFilterRows(){
+ return runBaseRows().filter(r=>{
+   for(const k of Object.keys(runFilters)){
+     let want=runFilters[k];
+     if(want!=='ALL' && runFilterValue(r,k)!==want)return false;
+   }
+   return true;
+ });
+}
+function runSetSelect(id,values,current){
+ let el=$(id);if(!el)return;
+ let uniq=[...new Set(values.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
+ el.innerHTML=`<option value="ALL">All</option>`+uniq.map(x=>`<option value="${esc(x)}" ${String(x)===String(current)?'selected':''}>${esc(x)}</option>`).join('');
+}
+function populateRunFilters(){
+ let rows=runBaseRows();
+ runSetSelect('runFFormation',rows.map(r=>ulmFormationOnly(r)).filter(Boolean),runFilters.formation);
+ runSetSelect('runFPersonnel',rows.map(r=>pers(r)),runFilters.personnel);
+ runSetSelect('runFBackfield',rows.map(r=>hybridBackfield(r)),runFilters.backfield);
+ runSetSelect('runFMotion',rows.map(r=>hybridMotion(r)||'None'),runFilters.motion);
+ runSetSelect('runFDown',rows.map(r=>v(r,'pff_DOWN','Down')),runFilters.down);
+ runSetSelect('runFDistance',rows.map(distBucket),runFilters.distance);
+ runSetSelect('runFHash',rows.map(r=>v(r,'pff_HASHDEF','pff_HASH','Hash')||'Unknown'),runFilters.hash);
+ runSetSelect('runFConcept',rows.map(r=>scoutingRunConcept(r)||'Unknown'),runFilters.concept);
+ const pairs=[['runFFormation','formation'],['runFPersonnel','personnel'],['runFBackfield','backfield'],['runFMotion','motion'],['runFDown','down'],['runFDistance','distance'],['runFHash','hash'],['runFConcept','concept']];
+ pairs.forEach(([id,key])=>{let el=$(id);if(el)el.onchange=()=>{runFilters[key]=el.value;renderRunFilteredArea()}});
+ let reset=$('runFReset');if(reset)reset.onclick=()=>{Object.keys(runFilters).forEach(k=>runFilters[k]='ALL');populateRunFilters();renderRunFilteredArea()};
+}
+function renderRunFilteredArea(){
+ populateRunFilters();
+ renderRunFilteredArea();
+ let rows=runFilterRows();
+ let note=$('runFilterNote');if(note){
+   let active=Object.entries(runFilters).filter(([,v])=>v!=='ALL').map(([k,v])=>`${k}: ${v}`);
+   note.textContent=`${rows.length} filtered runs${active.length?' · '+active.join(' · '):' · all run situations'}`;
+ }
+ // Run concept/direction tables now follow run-specific filters too.
+ let rc=$('runConcepts'),rd=$('runDirections');
+ if(rc)rc.innerHTML=ranksAll(by(rows,scoutingRunConcept),rows.length);
+ if(rd)rd.innerHTML=ranksAll(by(rows,runDirection),rows.length);
+}
+
+function dRunFilteredRows(){
+ return runFilterRows();
+}
+function dRunDominant(rows,fn){
+ let m={};rows.forEach(r=>{let q=fn(r);if(q)m[q]=(m[q]||0)+1});
+ return Object.entries(m).sort((a,b)=>b[1]-a[1])[0]?.[0]||'';
+}
+function dRunBackfield(rows){return dRunDominant(rows,r=>hybridBackfield(r))}
+function dRunFormation(rows){
+ let selected=$('fForm')?.value||'ALL';
+ if(selected!=='ALL')return selected;
+ return dRunDominant(rows,r=>ulmFormationOnly(r));
+}
+function dRunPersonnel(rows){return dRunDominant(rows,r=>pers(r))}
+function dRunRBSide(rows){
+ let raw=dRunDominant(rows,r=>v(r,'pff_RBALIGNMENT','RB Alignment','Backfield'));
+ let s=String(raw||'').toUpperCase();
+ if(/SPLIT/.test(s))return'SPLIT';
+ if(/LEFT|L\b/.test(s))return'LEFT';
+ if(/RIGHT|R\b/.test(s))return'RIGHT';
+ return'CENTER';
+}
+function dRunBaseDiagram(rows){
+ let gaps=dRunGapStats(rows),total=rows.length;
+ const lanes=[['RE','Def Left D'],['RT','Def Left C'],['RG','Def Left B'],['MR','Def Left A'],['ML','Def Right A'],['LG','Def Right B'],['LT','Def Right C'],['LE','Def Right D']];
+ const xs=[70,145,220,295,405,480,555,630],maxN=Math.max(1,...lanes.map(([k])=>gaps[k].n));
+ let form=dRunFormation(rows),under=/UNDER|\bUC\b/i.test(String(form||'')),losY=148,lineY=130,ballY=224;
+ let qbX=350,qbY=under?108:84,rbMarkers='',side=dRunRBSide(rows);
+ if(side==='SPLIT'){
+   let y=under?70:52;
+   rbMarkers=`<circle cx="305" cy="${y}" r="15" fill="#D3A83D" stroke="#0b1620" stroke-width="3"/><text x="305" y="${y+4}" text-anchor="middle" fill="#53260c" font-size="10" font-weight="950">RB</text><circle cx="395" cy="${y}" r="15" fill="#D3A83D" stroke="#0b1620" stroke-width="3"/><text x="395" y="${y+4}" text-anchor="middle" fill="#53260c" font-size="10" font-weight="950">RB</text>`;
+ } else {
+   let rbX=350,rbY=under?68:48;
+   if(side==='LEFT'){rbX=305;if(!under){qbX=343;qbY=56}}
+   if(side==='RIGHT'){rbX=395;if(!under){qbX=357;qbY=56}}
+   rbMarkers=`<circle cx="${rbX}" cy="${rbY}" r="15" fill="#D3A83D" stroke="#0b1620" stroke-width="3"/><text x="${rbX}" y="${rbY+4}" text-anchor="middle" fill="#53260c" font-size="10" font-weight="950">RB</text>`;
+ }
+ let arrows=lanes.map(([k,label],i)=>{
+   let x=xs[i],g=gaps[k],ratio=g.n/maxN,width=6+24*ratio,op=.20+.78*ratio;
+   return `<path d="M${qbX} ${qbY+6} Q ${(qbX+x)/2} 126 ${x} ${ballY}" stroke="rgba(255,198,96,${op.toFixed(2)})" stroke-width="${width.toFixed(1)}" fill="none" stroke-linecap="round"/>
+   <circle cx="${x}" cy="${ballY}" r="${(14+17*ratio).toFixed(1)}" fill="rgba(127,17,40,${(.25+.72*ratio).toFixed(2)})"/>
+   <text x="${x}" y="${ballY-4}" text-anchor="middle" font-size="14" font-weight="900" fill="#fff">${g.n}</text>
+   <text x="${x}" y="${ballY+13}" text-anchor="middle" font-size="9" font-weight="800" fill="#fff2c8">${g.n?dRunFmt(g.ypp,1)+' YPP':'—'}</text>
+   <text x="${x}" y="266" text-anchor="middle" font-size="10" font-weight="900" fill="#ffe9a8">${label}</text>`;
+ }).join('');
+ return `<div class="runHitDiagram"><svg viewBox="0 0 700 320" width="100%" height="320">
+ <text x="350" y="22" text-anchor="middle" fill="#fff2c8" font-size="10" font-weight="900">OFFENSE</text>${rbMarkers}
+ <circle cx="${qbX}" cy="${qbY}" r="15" fill="#7f1128" stroke="#D3A83D" stroke-width="3"/><text x="${qbX}" y="${qbY+4}" text-anchor="middle" fill="#fff" font-size="10" font-weight="950">QB</text>
+ <circle cx="425" cy="${lineY}" r="11" fill="#f3f5f7"/><circle cx="380" cy="${lineY}" r="11" fill="#f3f5f7"/><circle cx="335" cy="${lineY}" r="11" fill="#f3f5f7"/><circle cx="290" cy="${lineY}" r="11" fill="#f3f5f7"/><circle cx="245" cy="${lineY}" r="11" fill="#f3f5f7"/>
+ <text x="425" y="108" text-anchor="middle" fill="#f4efe8" font-size="9" font-weight="800">LT</text><text x="380" y="108" text-anchor="middle" fill="#f4efe8" font-size="9" font-weight="800">LG</text><text x="335" y="108" text-anchor="middle" fill="#f4efe8" font-size="9" font-weight="800">C</text><text x="290" y="108" text-anchor="middle" fill="#f4efe8" font-size="9" font-weight="800">RG</text><text x="245" y="108" text-anchor="middle" fill="#f4efe8" font-size="9" font-weight="800">RT</text>
+ <line x1="25" y1="${losY}" x2="675" y2="${losY}" stroke="#e5f4e8" stroke-width="3" stroke-dasharray="10 8"/><text x="34" y="${losY-5}" fill="#e5f4e8" font-size="10" font-weight="900">LOS</text>
+ ${arrows}<text x="350" y="305" text-anchor="middle" fill="#fff2c8" font-size="10" font-weight="900">DEFENSE</text></svg></div>`;
+}
+function dRunMarker(x,y,label,sub,fill){
+ return `<g><circle cx="${x}" cy="${y}" r="18" fill="${fill}" stroke="#fff" stroke-width="2.5"/><text x="${x}" y="${y-1}" text-anchor="middle" fill="#fff" font-size="11" font-weight="950">${esc(label)}</text><text x="${x}" y="${y+11}" text-anchor="middle" fill="#fff5cf" font-size="7" font-weight="900">${esc(sub||'')}</text></g>`;
+}
+function dRunSurfaceRoles(form){
+ let s=String(form||'').toUpperCase().replace(/\s+/g,' ').trim(),roles=[];
+ let add=(label,align)=>roles.push({label,align});
+ if(/\bYH OFF\b/.test(s)){add('Y','OFF');add('H','OFF');return roles}
+ if(/\bYU OFF\b/.test(s)){add('Y','OFF');add('U','OFF');return roles}
+ if(/\bY OFF U HIP\b/.test(s)){add('Y','OFF');add('U','HIP');return roles}
+ if(/\bY OFF U STING\b/.test(s)){add('Y','OFF');add('U','STING');return roles}
+ if(/\bY OFF H HIP\b/.test(s)){add('Y','OFF');add('H','HIP');return roles}
+ if(/\bY OFF H STING\b/.test(s)){add('Y','OFF');add('H','STING');return roles}
+ if(/\bU OFF B HIP\b/.test(s)){add('U','OFF');add('B','HIP');return roles}
+ if(/\bY OFF\b/.test(s))add('Y','OFF'); else if(/\bY HIP\b/.test(s))add('Y','HIP'); else if(/\bY STING\b/.test(s))add('Y','STING'); else if(/\bY\b/.test(s))add('Y','ON');
+ if(/\bU OFF\b/.test(s))add('U','OFF'); else if(/\bU HIP\b/.test(s))add('U','HIP'); else if(/\bU STING\b/.test(s))add('U','STING');
+ if(/\bH OFF\b/.test(s))add('H','OFF'); else if(/\bH HIP\b/.test(s))add('H','HIP'); else if(/\bH STING\b/.test(s))add('H','STING');
+ let seen={};return roles.filter(r=>{let k=r.label+'|'+r.align;if(seen[k])return false;seen[k]=1;return true});
+}
+function dRunPersonnelTECount(p){
+ let m=String(p||'').match(/^(\d)(\d)/);return m?Number(m[2]):0;
+}
+function dRunSurfaceDiagram(rows){
+ if(!rows.length)return '<div class="muted">No filtered run plays.</div>';
+ let form=dRunFormation(rows),formationRows=rows.filter(r=>ulmFormationOnly(r)===form);
+ if(!formationRows.length)formationRows=rows;
+ let personnel=dRunPersonnel(formationRows),back=dRunBackfield(formationRows),roles=dRunSurfaceRoles(form),teCount=dRunPersonnelTECount(personnel),display=Math.max(teCount,roles.length);
+ let gaps=dRunGapStats(formationRows),gapMap=dRunGapMap(),maxN=Math.max(1,...gapMap.map(g=>gaps[g.raw].n));
+ let side='RIGHT',opp='LEFT',right=[470,520,570],left=[230,180,130],markers=[];
+ let yFor=a=>a==='ON'?132:a==='OFF'?104:a==='HIP'?82:a==='STING'?61:104;
+ let add=(r,i,s=side)=>markers.push({label:r.label||'TE',align:r.align||'ON',x:(s==='LEFT'?left:right)[Math.min(i,2)],y:yFor(r.align||'ON')});
+ if(roles.length>=2 && /2X2|DOUBLES|DUO|ACE/i.test(form)){add(roles[0],0,side);add(roles[1],0,opp);for(let i=2;i<roles.length;i++)add(roles[i],1,side)}
+ else roles.forEach((r,i)=>add(r,i,side));
+ while(markers.length<display)add({label:'TE',align:'ON'},markers.length,markers.length%2?opp:side);
+ let markerSvg=markers.slice(0,Math.max(display,roles.length)).map(m=>dRunMarker(m.x,m.y,m.label,m.align,m.label==='Y'?'#173d5f':(m.label==='TE'?'#5f6b75':'#8a2432'))).join('');
+ let under=/UNDER|\bUC\b/i.test(String(form||'')+' '+String(back||'')),qbX=350,qbY=under?120:82,rbY=under?82:42;
+ let gapSvg=gapMap.map(g=>{let st=gaps[g.raw],ratio=st.n/maxN,width=4+22*ratio,opacity=.18+.75*ratio,r=11+14*ratio;
+   return `<g><path d="M ${qbX} ${qbY+8} Q ${(qbX+g.x)/2} ${under?146:132} ${g.x} 168" fill="none" stroke="rgba(255,198,96,${opacity.toFixed(2)})" stroke-width="${width.toFixed(1)}" stroke-linecap="round"/><circle cx="${g.x}" cy="168" r="${r.toFixed(1)}" fill="rgba(127,17,40,${(.28+.68*ratio).toFixed(2)})" stroke="rgba(255,255,255,.35)" stroke-width="2"/><text x="${g.x}" y="164" text-anchor="middle" fill="#fff" font-size="13" font-weight="950">${st.n}</text><text x="${g.x}" y="180" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="900">${st.n?dRunFmt(st.ypp,1)+' YPP':'—'}</text><text x="${g.x}" y="198" text-anchor="middle" fill="#ffe9a8" font-size="9" font-weight="900">${g.label}</text></g>`}).join('');
+ let vals=formationRows.map(gain).filter(x=>x!=null),ypp=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,med=dRunMedian(vals);
+ return `<div class="runHitMeta"><div><span>ULM Formation</span><b>${esc(form||'—')}</b></div><div><span>Personnel</span><b>${esc(personnel||'—')}</b></div><div><span>Backfield</span><b>${esc(back||'—')}</b></div><div><span>Sample</span><b>${formationRows.length} runs</b></div></div>
+ <div class="runHitDiagram"><svg viewBox="0 0 700 245" width="100%" height="245">
+ <text x="350" y="18" text-anchor="middle" fill="#fff2c8" font-size="9" font-weight="900">ULM SURFACE + RUN DISTRIBUTION</text><text x="350" y="31" text-anchor="middle" fill="#fff" font-size="8" font-weight="850">${display} attached / named surface player${display===1?'':'s'} shown</text>
+ <line x1="35" y1="145" x2="665" y2="145" stroke="#e5f4e8" stroke-width="3" stroke-dasharray="10 8"/><text x="44" y="139" fill="#e5f4e8" font-size="9" font-weight="900">LOS</text>
+ <circle cx="425" cy="132" r="11" fill="#f3f5f7"/><circle cx="380" cy="132" r="11" fill="#f3f5f7"/><circle cx="335" cy="132" r="11" fill="#f3f5f7"/><circle cx="290" cy="132" r="11" fill="#f3f5f7"/><circle cx="245" cy="132" r="11" fill="#f3f5f7"/>
+ ${dRunMarker(qbX,qbY,'QB',under?'UC':'GN','#7f1128')}${dRunMarker(350,rbY,'RB',back||'BACK','#D3A83D')}${markerSvg}${gapSvg}
+ <text x="350" y="228" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="850">${esc(form||'')} · ${esc(personnel||'')}P · ${dRunFmt(ypp,2)} YPP · ${dRunFmt(med,1)} median</text>
+ </svg></div>`;
+}
+function renderDRunHitDiagrams(){
+ let rows=dRunFilteredRows(),a=$('dRunHitDiagram'),b=$('dRunHitSurface'),m=$('dRunHitMeta');if(!a||!b||!m)return;
+ if(!rows.length){a.innerHTML='<div class="muted">No run plays in the current filters.</div>';b.innerHTML='<div class="muted">No run plays in the current filters.</div>';m.innerHTML='';return}
+ let gaps=dRunGapStats(rows),charted=Object.values(gaps).reduce((s,x)=>s+x.n,0),vals=rows.map(gain).filter(x=>x!=null),ypp=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,med=dRunMedian(vals),top=dRunGapMap().map(g=>({g,...gaps[g.raw]})).sort((a,b)=>b.n-a.n)[0];
+ a.innerHTML=dRunBaseDiagram(rows);
+ m.innerHTML=`<div><span>Filtered Runs</span><b>${rows.length}</b></div><div><span>POA Charted</span><b>${charted}</b></div><div><span>YPP</span><b>${dRunFmt(ypp,2)}</b></div><div><span>Top Hit</span><b>${top?.n?esc(top.g.label)+' · '+top.n:'—'}</b></div>`;
+ b.innerHTML=dRunSurfaceDiagram(rows);
+}
+
 function render(){
  let m=metricRows(filtered),runs=filtered.filter(r=>v(r,'pff_RUNPASS','R/P')=='R'),passes=filtered.filter(r=>v(r,'pff_RUNPASS','R/P')=='P');
  $('kpis').innerHTML=`<div class="kpi"><span>Filtered Plays</span><b>${m.n}</b></div><div class="kpi"><span>Run / Pass</span><b>${runs.length}/${passes.length}</b></div><div class="kpi"><span>YPP</span><b>${m.ypp.toFixed(2)}</b></div><div class="kpi"><span>Negative %</span><b>${m.neg.toFixed(1)}%</b></div><div class="kpi"><span>Explosive %</span><b>${m.expl.toFixed(1)}%</b></div>`;
@@ -437,6 +704,7 @@ function render(){
  table('playTable',filtered.slice(0,800),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['R/P',r=>v(r,'pff_RUNPASS','R/P')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],['Raw / Unmapped',r=>unmappedFormationLabel(r)||'—'],['PFF Formation Group',formationGroup],['Run Concept',scoutingRunConcept],['Protection',prot],['Gain',r=>gain(r)??'']]);
  let sit=Object.entries(filtered.reduce((a,r)=>{let k=`${v(r,'pff_DOWN','Down')||'?'} & ${dist(r)}`;(a[k]||(a[k]=[])).push(r);return a},{})).map(([k,rs])=>{let x=metricRows(rs);return {k,n:x.n,ypp:x.ypp,neg:x.neg,expl:x.expl,run:rs.filter(r=>v(r,'pff_RUNPASS','R/P')=='R').length}}).sort((a,b)=>b.n-a.n);
  table('sitTable',sit,[['Situation','k'],['Plays','n'],['Run %',r=>(100*r.run/Math.max(1,r.n)).toFixed(1)+'%'],['YPP',r=>r.ypp.toFixed(2)],['Neg %',r=>r.neg.toFixed(1)+'%'],['Expl %',r=>r.expl.toFixed(1)+'%']]);
+ renderDRunHitDiagrams();
  renderDepthChart();
  renderULMLanguage();
  render2021();

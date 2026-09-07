@@ -1,31 +1,28 @@
-# Tony D-Line Weekly Scout v11
+# Tony D-Line Weekly Scout v13
 
-Formation source rebuilt from the user's uploaded `ALL_BREAKDOWN_GAMES.csv`.
-
-- 328 charted plays in the uploaded breakdown.
-- 48 distinct ULM formation names.
-- Those 48 names are now the authoritative formation vocabulary.
-- No formation name is rejected because it "looks generic."
-- Examples confirmed as valid ULM language from the file:
-  - TRIPS
-  - TRIPS OPEN
-  - TRIPS BUNCH
-  - NUMBERS
-  - TREY Y OFF
-  - TREY Y OFF BUNCH
-  - DUO Y OFF
-  - KING U OFF
-  - ACE YU OFF
-  - EMPTY 3x2
-- D Intel hybrid rows are validated against that vocabulary.
-- A raw/PFF label is only marked unmapped when it is not present in ALL_BREAKDOWN_GAMES.csv.
-- 2025 UAB formation frequencies use the uploaded breakdown directly.
-- Current 2026 play metrics remain sourced from the live/current data.
-- Added an in-app authoritative formation vocabulary panel listing all 48 names.
+Run-page filter upgrade:
+- Added dedicated run filters above the D Run Hit diagrams:
+  - ULM Formation
+  - Personnel
+  - Backfield
+  - Motion
+  - Down
+  - Distance bucket
+  - Hash
+  - Run Concept
+- Added Reset Run Filters.
+- Both run-hit visuals redraw from this filtered sample:
+  1. D Run Hit Diagram
+  2. TE / H Structure + Run Distribution
+- Run Concept and Run Direction / POA tables now follow the same run-specific filters.
+- Filter note shows the active selection and resulting number of runs.
 
 Retained:
+- authoritative ALL_BREAKDOWN_GAMES.csv formation vocabulary
 - 2025/2026 toggle
 - OurLads depth chart and OL Bio links
 - OL player cards/images
-- 20/21 personnel
-- exact D Intel Backfield / Form Var / Motion / Y Location fields
+- 20/21 personnel breakdown
+- exact D Intel formation/backfield/motion/Y-location language
+
+JavaScript syntax validated before packaging.
