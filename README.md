@@ -1,11 +1,15 @@
-# Tony D-Line Weekly Scout v13.1
+# Tony D-Line Weekly Scout v13.2
 
-Run filter population repair:
-- Fixed accidental recursion in `renderRunFilteredArea()`.
-- Main render now calls `populateRunFilters()` after the opponent/season data is loaded.
-- Every run filter always includes an `All` option.
-- ULM Formation uses the authoritative ALL_BREAKDOWN_GAMES vocabulary as a fallback if the live hybrid row mapping is not ready yet.
-- Personnel, Backfield, Motion, Down, Distance, Hash and Run Concept populate from the current run sample.
-- Both run-hit diagrams and run tables redraw from the selected run-filter sample.
+Run diagram synchronization fix:
 
-All existing Tony app features are retained.
+- Both run diagrams now use the exact same filtered run rows.
+- The second TE / H chart no longer re-filters itself to a dominant formation.
+- Every hit-lane count, YPP, frequency arrow and circle is calculated from the exact same sample in both charts.
+- The only difference between the two visuals is:
+  1. Chart 1 = clean run-hit distribution
+  2. Chart 2 = same run-hit distribution + attached Y / U / H / TE surface overlay
+- If ULM Formation or Personnel is explicitly selected in the run filters, that exact selection controls the structure drawn on chart 2.
+- If no formation is explicitly selected, the dominant formation is used only to draw the attached-player structure. It does not change the run sample.
+- Both charts display the same run count for verification.
+
+All existing filters and Tony app features remain intact.

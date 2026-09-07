@@ -660,28 +660,86 @@ function dRunPersonnelTECount(p){
 }
 function dRunSurfaceDiagram(rows){
  if(!rows.length)return '<div class="muted">No filtered run plays.</div>';
- let form=dRunFormation(rows),formationRows=rows.filter(r=>ulmFormationOnly(r)===form);
- if(!formationRows.length)formationRows=rows;
- let personnel=dRunPersonnel(formationRows),back=dRunBackfield(formationRows),roles=dRunSurfaceRoles(form),teCount=dRunPersonnelTECount(personnel),display=Math.max(teCount,roles.length);
- let gaps=dRunGapStats(formationRows),gapMap=dRunGapMap(),maxN=Math.max(1,...gapMap.map(g=>gaps[g.raw].n));
+
+ // IMPORTANT: use the exact same filtered sample as the first D Run Hit chart.
+ // Do not re-filter to a dominant formation here.
+ let sampleRows=rows;
+
+ // The displayed structure comes from the selected formation/personnel when chosen.
+ // If no explicit formation is selected, use the dominant formation only for drawing
+ // the attached surface, while ALL hit-lane counts/YPP still come from sampleRows.
+ let selectedForm=runFilters?.formation&&runFilters.formation!=='ALL'?runFilters.formation:'';
+ let form=selectedForm||dRunDominant(sampleRows,r=>ulmFormationOnly(r));
+ let selectedPersonnel=runFilters?.personnel&&runFilters.personnel!=='ALL'?runFilters.personnel:'';
+ let personnel=selectedPersonnel||dRunDominant(sampleRows,r=>pers(r));
+ let back=dRunDominant(sampleRows,r=>hybridBackfield(r));
+
+ let roles=dRunSurfaceRoles(form),teCount=dRunPersonnelTECount(personnel),display=Math.max(teCount,roles.length);
+ let gaps=dRunGapStats(sampleRows),gapMap=dRunGapMap(),maxN=Math.max(1,...gapMap.map(g=>gaps[g.raw].n));
  let side='RIGHT',opp='LEFT',right=[470,520,570],left=[230,180,130],markers=[];
  let yFor=a=>a==='ON'?132:a==='OFF'?104:a==='HIP'?82:a==='STING'?61:104;
  let add=(r,i,s=side)=>markers.push({label:r.label||'TE',align:r.align||'ON',x:(s==='LEFT'?left:right)[Math.min(i,2)],y:yFor(r.align||'ON')});
- if(roles.length>=2 && /2X2|DOUBLES|DUO|ACE/i.test(form)){add(roles[0],0,side);add(roles[1],0,opp);for(let i=2;i<roles.length;i++)add(roles[i],1,side)}
- else roles.forEach((r,i)=>add(r,i,side));
+
+ if(roles.length>=2 && /2X2|DOUBLES|DUO|ACE/i.test(form)){
+   add(roles[0],0,side);add(roles[1],0,opp);
+   for(let i=2;i<roles.length;i++)add(roles[i],1,side);
+ } else {
+   roles.forEach((r,i)=>add(r,i,side));
+ }
  while(markers.length<display)add({label:'TE',align:'ON'},markers.length,markers.length%2?opp:side);
- let markerSvg=markers.slice(0,Math.max(display,roles.length)).map(m=>dRunMarker(m.x,m.y,m.label,m.align,m.label==='Y'?'#173d5f':(m.label==='TE'?'#5f6b75':'#8a2432'))).join('');
- let under=/UNDER|\bUC\b/i.test(String(form||'')+' '+String(back||'')),qbX=350,qbY=under?120:82,rbY=under?82:42;
- let gapSvg=gapMap.map(g=>{let st=gaps[g.raw],ratio=st.n/maxN,width=4+22*ratio,opacity=.18+.75*ratio,r=11+14*ratio;
-   return `<g><path d="M ${qbX} ${qbY+8} Q ${(qbX+g.x)/2} ${under?146:132} ${g.x} 168" fill="none" stroke="rgba(255,198,96,${opacity.toFixed(2)})" stroke-width="${width.toFixed(1)}" stroke-linecap="round"/><circle cx="${g.x}" cy="168" r="${r.toFixed(1)}" fill="rgba(127,17,40,${(.28+.68*ratio).toFixed(2)})" stroke="rgba(255,255,255,.35)" stroke-width="2"/><text x="${g.x}" y="164" text-anchor="middle" fill="#fff" font-size="13" font-weight="950">${st.n}</text><text x="${g.x}" y="180" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="900">${st.n?dRunFmt(st.ypp,1)+' YPP':'—'}</text><text x="${g.x}" y="198" text-anchor="middle" fill="#ffe9a8" font-size="9" font-weight="900">${g.label}</text></g>`}).join('');
- let vals=formationRows.map(gain).filter(x=>x!=null),ypp=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,med=dRunMedian(vals);
- return `<div class="runHitMeta"><div><span>ULM Formation</span><b>${esc(form||'—')}</b></div><div><span>Personnel</span><b>${esc(personnel||'—')}</b></div><div><span>Backfield</span><b>${esc(back||'—')}</b></div><div><span>Sample</span><b>${formationRows.length} runs</b></div></div>
+
+ let markerSvg=markers.slice(0,Math.max(display,roles.length)).map(m=>dRunMarker(
+   m.x,m.y,m.label,m.align,
+   m.label==='Y'?'#173d5f':(m.label==='TE'?'#5f6b75':'#8a2432')
+ )).join('');
+
+ let under=/UNDER|\bUC\b/i.test(String(form||'')+' '+String(back||'')),
+     qbX=350,qbY=under?120:82,rbY=under?82:42;
+
+ let gapSvg=gapMap.map(g=>{
+   let st=gaps[g.raw],ratio=st.n/maxN,width=4+22*ratio,opacity=.18+.75*ratio,r=11+14*ratio;
+   return `<g>
+     <path d="M ${qbX} ${qbY+8} Q ${(qbX+g.x)/2} ${under?146:132} ${g.x} 168"
+       fill="none" stroke="rgba(255,198,96,${opacity.toFixed(2)})"
+       stroke-width="${width.toFixed(1)}" stroke-linecap="round"/>
+     <circle cx="${g.x}" cy="168" r="${r.toFixed(1)}"
+       fill="rgba(127,17,40,${(.28+.68*ratio).toFixed(2)})"
+       stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+     <text x="${g.x}" y="164" text-anchor="middle" fill="#fff" font-size="13" font-weight="950">${st.n}</text>
+     <text x="${g.x}" y="180" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="900">${st.n?dRunFmt(st.ypp,1)+' YPP':'—'}</text>
+     <text x="${g.x}" y="198" text-anchor="middle" fill="#ffe9a8" font-size="9" font-weight="900">${g.label}</text>
+   </g>`;
+ }).join('');
+
+ let vals=sampleRows.map(gain).filter(x=>x!=null),
+     ypp=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,
+     med=dRunMedian(vals);
+
+ let activeFilters=Object.entries(runFilters||{})
+   .filter(([,v])=>v&&v!=='ALL')
+   .map(([k,v])=>`${k}: ${v}`).join(' · ');
+
+ return `<div class="runHitMeta">
+   <div><span>Displayed Structure</span><b>${esc(form||'—')}</b></div>
+   <div><span>Personnel</span><b>${esc(personnel||'—')}</b></div>
+   <div><span>Backfield</span><b>${esc(back||'—')}</b></div>
+   <div><span>Same Run Sample</span><b>${sampleRows.length} runs</b></div>
+ </div>
  <div class="runHitDiagram"><svg viewBox="0 0 700 245" width="100%" height="245">
- <text x="350" y="18" text-anchor="middle" fill="#fff2c8" font-size="9" font-weight="900">ULM SURFACE + RUN DISTRIBUTION</text><text x="350" y="31" text-anchor="middle" fill="#fff" font-size="8" font-weight="850">${display} attached / named surface player${display===1?'':'s'} shown</text>
- <line x1="35" y1="145" x2="665" y2="145" stroke="#e5f4e8" stroke-width="3" stroke-dasharray="10 8"/><text x="44" y="139" fill="#e5f4e8" font-size="9" font-weight="900">LOS</text>
- <circle cx="425" cy="132" r="11" fill="#f3f5f7"/><circle cx="380" cy="132" r="11" fill="#f3f5f7"/><circle cx="335" cy="132" r="11" fill="#f3f5f7"/><circle cx="290" cy="132" r="11" fill="#f3f5f7"/><circle cx="245" cy="132" r="11" fill="#f3f5f7"/>
- ${dRunMarker(qbX,qbY,'QB',under?'UC':'GN','#7f1128')}${dRunMarker(350,rbY,'RB',back||'BACK','#D3A83D')}${markerSvg}${gapSvg}
- <text x="350" y="228" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="850">${esc(form||'')} · ${esc(personnel||'')}P · ${dRunFmt(ypp,2)} YPP · ${dRunFmt(med,1)} median</text>
+   <text x="350" y="18" text-anchor="middle" fill="#fff2c8" font-size="9" font-weight="900">SAME RUN SAMPLE · ATTACHED SURFACE OVERLAY</text>
+   <text x="350" y="31" text-anchor="middle" fill="#fff" font-size="8" font-weight="850">${display} attached / named surface player${display===1?'':'s'} shown</text>
+   <line x1="35" y1="145" x2="665" y2="145" stroke="#e5f4e8" stroke-width="3" stroke-dasharray="10 8"/>
+   <text x="44" y="139" fill="#e5f4e8" font-size="9" font-weight="900">LOS</text>
+   <circle cx="425" cy="132" r="11" fill="#f3f5f7"/>
+   <circle cx="380" cy="132" r="11" fill="#f3f5f7"/>
+   <circle cx="335" cy="132" r="11" fill="#f3f5f7"/>
+   <circle cx="290" cy="132" r="11" fill="#f3f5f7"/>
+   <circle cx="245" cy="132" r="11" fill="#f3f5f7"/>
+   ${dRunMarker(qbX,qbY,'QB',under?'UC':'GN','#7f1128')}
+   ${dRunMarker(350,rbY,'RB',back||'BACK','#D3A83D')}
+   ${markerSvg}
+   ${gapSvg}
+   <text x="350" y="228" text-anchor="middle" fill="#fff2c8" font-size="8" font-weight="850">${sampleRows.length} runs · ${dRunFmt(ypp,2)} YPP · ${dRunFmt(med,1)} median${activeFilters?' · '+esc(activeFilters):''}</text>
  </svg></div>`;
 }
 function renderDRunHitDiagrams(){
@@ -689,7 +747,8 @@ function renderDRunHitDiagrams(){
  if(!rows.length){a.innerHTML='<div class="muted">No run plays in the current filters.</div>';b.innerHTML='<div class="muted">No run plays in the current filters.</div>';m.innerHTML='';return}
  let gaps=dRunGapStats(rows),charted=Object.values(gaps).reduce((s,x)=>s+x.n,0),vals=rows.map(gain).filter(x=>x!=null),ypp=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,med=dRunMedian(vals),top=dRunGapMap().map(g=>({g,...gaps[g.raw]})).sort((a,b)=>b.n-a.n)[0];
  a.innerHTML=dRunBaseDiagram(rows);
- m.innerHTML=`<div><span>Filtered Runs</span><b>${rows.length}</b></div><div><span>POA Charted</span><b>${charted}</b></div><div><span>YPP</span><b>${dRunFmt(ypp,2)}</b></div><div><span>Top Hit</span><b>${top?.n?esc(top.g.label)+' · '+top.n:'—'}</b></div>`;
+ let selectedForm=runFilters?.formation&&runFilters.formation!=='ALL'?runFilters.formation:(dRunDominant(rows,r=>ulmFormationOnly(r))||'All');
+ m.innerHTML=`<div><span>Filtered Runs</span><b>${rows.length}</b></div><div><span>Formation</span><b>${esc(selectedForm)}</b></div><div><span>YPP</span><b>${dRunFmt(ypp,2)}</b></div><div><span>Top Hit</span><b>${top?.n?esc(top.g.label)+' · '+top.n:'—'}</b></div>`;
  b.innerHTML=dRunSurfaceDiagram(rows);
 }
 
