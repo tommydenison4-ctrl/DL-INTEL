@@ -1,14 +1,18 @@
-# Tony D-Line Weekly Scout v8
+# Tony D-Line Weekly Scout v10
 
-Starter image fix:
-- For UAB in 2026, the five-man OL board now uses the current D Intel offensive two-deep starter list first (LT/LG/C/RG/RT).
-- That guarantees the current starter names and photos instead of letting historical blocking rows pick older starters.
-- Player cards merge the current starter from depth with the D Intel current roster image/bio object.
-- Available blocking metrics are still attached where a matching blocking row exists.
-- Historical / 2025 views still fall back to the highest-snap blocking sample.
+Added OurLads depth chart:
+- Uses the exact saved UAB `depth-chart.json` previously supplied.
+- Source is the user's OurLads UAB depth chart.
+- Shows the full offensive depth order, not only the five OL starters.
+- LT / LG / C / RG / RT rows are highlighted.
+- Every OL name has an `OL Bio` button.
+- Clicking `OL Bio` switches to `Their O-Line` and scrolls directly to that player's enriched OL card.
+- Existing official/full-bio links remain available from the OL card.
 
-Also retains:
-- exact D Intel ULM formation language
+Retained:
+- exact Defensive Intelligence ULM formation language
 - 2025/2026 toggle
 - UAB/MSST toggle
-- 20/21 personnel breakdown
+- current UAB OL starter board
+- player images/bios
+- 20/21 personnel scouting
