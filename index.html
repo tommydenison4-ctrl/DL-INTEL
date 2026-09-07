@@ -342,16 +342,18 @@ function switchTab(id){
  $(id)?.classList.remove('hidden');
 }
 function openOLFromDepth(name){
- switchTab('ol');
- setTimeout(()=>{
-   let key=cleanPlayerName(name);
-   let card=[...document.querySelectorAll('.olRosterCard')].find(x=>x.dataset.playerKey===key);
-   if(!card){
-     let all=[...document.querySelectorAll('.olMatch')];
-     card=all.find(x=>cleanPlayerName(x.dataset.playerName||'')===key);
-   }
-   if(card){card.scrollIntoView({behavior:'smooth',block:'center'});card.classList.add('flash');setTimeout(()=>card.classList.remove('flash'),1500)}
- },50);
+  const key=cleanPlayerName(name);
+  document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab==='ol'));
+  document.querySelectorAll('.tabview').forEach(x=>x.classList.toggle('hidden',x.id!=='ol'));
+  requestAnimationFrame(()=>{
+    let card=[...document.querySelectorAll('.olRosterCard')].find(x=>x.dataset.playerKey===key);
+    if(!card) card=[...document.querySelectorAll('.olMatch')].find(x=>cleanPlayerName(x.dataset.playerName||'')===key);
+    if(card){
+      card.scrollIntoView({behavior:'smooth',block:'center'});
+      card.classList.add('flash');
+      setTimeout(()=>card.classList.remove('flash'),1600);
+    }
+  });
 }
 
 function render(){
@@ -559,7 +561,7 @@ function renderOLBoard(){
     let r=player.roster||{}, meta=[r.number?`#${r.number}`:'',player.pos||r.position||'',r.height||'',r.weight?`${r.weight} lbs`:'' ].filter(Boolean).join(' · '); let depthNote=player.currentStarter&&player.depthBackup?`Starter · Backup ${player.depthBackup.number?('#'+player.depthBackup.number+' '):''}${player.depthBackup.name}`:(player.currentStarter?'Current starter':'');
     let bio=[r.class?`${r.class}`:'',r.hometown?`${r.hometown}`:'',r.previousSchool?`Previous: ${r.previousSchool}`:''].filter(Boolean).join(' · ');
     let img=r.image||r.photo||r.image_url||r.supabaseImageBackup||'';
-    return `<div class="olMatch ${riskClass==='hot'?'attack':''}" data-player-name="${esc(player.name)}">`
+    return `<div class="olMatch ${riskClass==='hot'?'attack':''}" data-player-name="${esc(player.name)}">
       <div class="olPhotoRow">${rosterPhoto(r,'olThumb')}<div><div class="olPos">${slot}</div><div class="olName">${esc(player.name)}</div><div class="olMeta">${esc(meta)}</div></div></div>
       ${depthNote?`<div class="olMeta" style="margin-top:5px">${esc(depthNote)}</div>`:''}${bio?`<div class="olMeta" style="margin-top:5px">${esc(bio)}</div>`:''}${(r.image||r.supabaseImageBackup)?`<div class="olMeta" style="margin-top:3px">Player image: D Intel roster</div>`:''}
       <div class="olSummaryBar"><span class="riskChip ${riskClass}">${riskLabel}</span></div>

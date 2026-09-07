@@ -1,18 +1,8 @@
-# Tony D-Line Weekly Scout v10
+# Tony D-Line Weekly Scout v10.1
 
-Added OurLads depth chart:
-- Uses the exact saved UAB `depth-chart.json` previously supplied.
-- Source is the user's OurLads UAB depth chart.
-- Shows the full offensive depth order, not only the five OL starters.
-- LT / LG / C / RG / RT rows are highlighted.
-- Every OL name has an `OL Bio` button.
-- Clicking `OL Bio` switches to `Their O-Line` and scrolls directly to that player's enriched OL card.
-- Existing official/full-bio links remain available from the OL card.
-
-Retained:
-- exact Defensive Intelligence ULM formation language
-- 2025/2026 toggle
-- UAB/MSST toggle
-- current UAB OL starter board
-- player images/bios
-- 20/21 personnel scouting
+Stability repair:
+- Fixed the JavaScript syntax error introduced in v10 that stopped the entire app from initializing.
+- Restored all existing data loading, filtering, 2025/2026 switching, player cards and tabs.
+- Kept the saved OurLads UAB offensive depth chart.
+- OL Bio buttons now switch directly to `Their O-Line` and scroll to the matching OL card without relying on a synthetic click.
+- No changes were made to the existing Supabase data paths or D Intel formation mapping.
