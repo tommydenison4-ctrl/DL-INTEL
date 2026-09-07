@@ -553,11 +553,13 @@ function runFilterRows(){
 function runSetSelect(id,values,current){
  let el=$(id);if(!el)return;
  let uniq=[...new Set(values.filter(x=>x!==null&&x!==undefined&&String(x).trim()!==''))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
- el.innerHTML=`<option value="ALL">All</option>`+uniq.map(x=>`<option value="${esc(x)}" ${String(x)===String(current)?'selected':''}>${esc(x)}</option>`).join('');
+ el.innerHTML=`<option value="ALL" ${current==='ALL'?'selected':''}>All</option>`+uniq.map(x=>`<option value="${esc(x)}" ${String(x)===String(current)?'selected':''}>${esc(x)}</option>`).join('');
 }
 function populateRunFilters(){
  let rows=runBaseRows();
- runSetSelect('runFFormation',rows.map(r=>ulmFormationOnly(r)).filter(Boolean),runFilters.formation);
+ let formValues=rows.map(r=>ulmFormationOnly(r)).filter(Boolean);
+ if(!formValues.length && team==='UAB') formValues=Object.values(AUTHORITATIVE_ULM_FORMATIONS);
+ runSetSelect('runFFormation',formValues,runFilters.formation);
  runSetSelect('runFPersonnel',rows.map(r=>pers(r)),runFilters.personnel);
  runSetSelect('runFBackfield',rows.map(r=>hybridBackfield(r)),runFilters.backfield);
  runSetSelect('runFMotion',rows.map(r=>hybridMotion(r)||'None'),runFilters.motion);
@@ -570,8 +572,7 @@ function populateRunFilters(){
  let reset=$('runFReset');if(reset)reset.onclick=()=>{Object.keys(runFilters).forEach(k=>runFilters[k]='ALL');populateRunFilters();renderRunFilteredArea()};
 }
 function renderRunFilteredArea(){
- populateRunFilters();
- renderRunFilteredArea();
+ renderDRunHitDiagrams();
  let rows=runFilterRows();
  let note=$('runFilterNote');if(note){
    let active=Object.entries(runFilters).filter(([,v])=>v!=='ALL').map(([k,v])=>`${k}: ${v}`);
@@ -704,7 +705,8 @@ function render(){
  table('playTable',filtered.slice(0,800),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['R/P',r=>v(r,'pff_RUNPASS','R/P')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],['Raw / Unmapped',r=>unmappedFormationLabel(r)||'—'],['PFF Formation Group',formationGroup],['Run Concept',scoutingRunConcept],['Protection',prot],['Gain',r=>gain(r)??'']]);
  let sit=Object.entries(filtered.reduce((a,r)=>{let k=`${v(r,'pff_DOWN','Down')||'?'} & ${dist(r)}`;(a[k]||(a[k]=[])).push(r);return a},{})).map(([k,rs])=>{let x=metricRows(rs);return {k,n:x.n,ypp:x.ypp,neg:x.neg,expl:x.expl,run:rs.filter(r=>v(r,'pff_RUNPASS','R/P')=='R').length}}).sort((a,b)=>b.n-a.n);
  table('sitTable',sit,[['Situation','k'],['Plays','n'],['Run %',r=>(100*r.run/Math.max(1,r.n)).toFixed(1)+'%'],['YPP',r=>r.ypp.toFixed(2)],['Neg %',r=>r.neg.toFixed(1)+'%'],['Expl %',r=>r.expl.toFixed(1)+'%']]);
- renderDRunHitDiagrams();
+ populateRunFilters();
+ renderRunFilteredArea();
  renderDepthChart();
  renderULMLanguage();
  render2021();

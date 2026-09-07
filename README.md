@@ -1,28 +1,11 @@
-# Tony D-Line Weekly Scout v13
+# Tony D-Line Weekly Scout v13.1
 
-Run-page filter upgrade:
-- Added dedicated run filters above the D Run Hit diagrams:
-  - ULM Formation
-  - Personnel
-  - Backfield
-  - Motion
-  - Down
-  - Distance bucket
-  - Hash
-  - Run Concept
-- Added Reset Run Filters.
-- Both run-hit visuals redraw from this filtered sample:
-  1. D Run Hit Diagram
-  2. TE / H Structure + Run Distribution
-- Run Concept and Run Direction / POA tables now follow the same run-specific filters.
-- Filter note shows the active selection and resulting number of runs.
+Run filter population repair:
+- Fixed accidental recursion in `renderRunFilteredArea()`.
+- Main render now calls `populateRunFilters()` after the opponent/season data is loaded.
+- Every run filter always includes an `All` option.
+- ULM Formation uses the authoritative ALL_BREAKDOWN_GAMES vocabulary as a fallback if the live hybrid row mapping is not ready yet.
+- Personnel, Backfield, Motion, Down, Distance, Hash and Run Concept populate from the current run sample.
+- Both run-hit diagrams and run tables redraw from the selected run-filter sample.
 
-Retained:
-- authoritative ALL_BREAKDOWN_GAMES.csv formation vocabulary
-- 2025/2026 toggle
-- OurLads depth chart and OL Bio links
-- OL player cards/images
-- 20/21 personnel breakdown
-- exact D Intel formation/backfield/motion/Y-location language
-
-JavaScript syntax validated before packaging.
+All existing Tony app features are retained.
