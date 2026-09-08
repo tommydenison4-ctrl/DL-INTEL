@@ -1,17 +1,9 @@
-# Tony D-Line Weekly Scout v13.3
+# Tony D-Line Weekly Scout v14.9
 
-2025 UAB sample cutoff:
-- 2025 UAB data now starts with the Memphis game on October 18, 2025.
-- All games before Memphis are excluded from the 2025 view.
-- This isolates the Alex Mortensen interim-head-coach sample.
-- Included 2025 opponents from the cutoff forward:
-  - Memphis
-  - South Florida / USF
-  - Rice
-  - Tulane
-  - East Carolina / ECU
-  - Navy
-- The cutoff applies to season-level play data, run charts, formations, personnel, situations and the uploaded breakdown source.
-- 2026 data is unchanged.
-
-All existing Tony app features remain intact.
+UAB play alignment update:
+- Aligned play_feed-93.csv directly to the embedded 975-row UAB hybrid by play sequence, 975 rows to 975 rows.
+- Verification: quarter, down, run/pass, personnel and hash matched 975/975 rows. One distance value differs between sources but the sequence remains aligned.
+- The aligned hybrid now carries authoritative PFF fields for RPO, Screen, Play Action, Stunt, Time To Throw, Time To Pressure, Dropback Type, Pass Result, pressure and pass-rusher fields.
+- Stunt analysis now reads those aligned fields directly; no fuzzy play matching is required for UAB.
+- Pass Family classification prioritizes PFF Screen, RPO and Play Action tags. Quick Game and Sprint Out fall back to the manual Play Type because play_feed-93 has no dedicated QUICKGAME field.
+- play_feed-93.csv is included in the ZIP for verification.
