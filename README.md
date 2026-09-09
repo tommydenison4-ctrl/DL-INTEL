@@ -1,11 +1,9 @@
-# Tony D-Line Weekly Scout v15.3
+# Tony D-Line Weekly Scout v15.4
 
-Hybrid-language update:
-- Uses the newly supplied 328-row ALL_BREAKDOWN_GAMES hybrid as the authoritative ULM tagging source.
-- Exact hybrid-tagged plays keep their exact ULM Formation values.
-- Extra PFF game-feed plays are translated only when their PFF formation structure maps cleanly/high-confidence to a ULM formation learned from the tagged hybrid.
-- Formation map coverage: 725 of 975 PFF plays.
-- Exact tagged matches: 322.
-- Ambiguous/unseen structures are left unassigned rather than guessed.
-- The same formation map is used by visible tables and stunt formation analysis.
-- Raw PFF/offensive formation language remains hidden from Tony's visible tables.
+Depth chart correction:
+- LG #66 Donovan Lawrence is now the actual 2026 game starter in the Depth Chart and five-man matchup board.
+- #59 Jaden Ligon remains visible as the pre-game listed starter.
+- The LG row is highlighted with a DEPTH CHART CHANGE badge.
+- Donovan Lawrence is labeled ACTUAL GAME STARTER · 86 snaps.
+- The five-man matchup board highlights Lawrence and notes the listed-starter change.
+- All v15.3 formation, run-game, pass-protection, stunt and TTT logic is preserved.
