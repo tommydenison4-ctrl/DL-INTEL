@@ -1,329 +1,329 @@
-﻿#,Name,Play Number,Defensive Personnel,Def Call,Front,Stunt,Blitz,Coverage,COVERAGE_PLAYED_D,Down,Distance,Field Position,Gain,Hash,R/P,Pass Result,Personnel,Formation,Backfield,Motion,Pass Concept,Run Concept,Comments 1,Comments 2,Comments 3,DE,NT,DT,Jack,Will,Mike,BC,BS,Hawk,FS,FC,LBComments
-1,"2510 UAB O vs North Texas, Play 001",,,,BENCH,,,,,0,10,'-26,5,R,R,,21,TRIPS BUNCH,GN,Z MTR,,IZ,,,,,,,,,,,,,,,
-2,"2510 UAB O vs North Texas, Play 002",,,,,,,,,2,5,'-31,8,R,P,COMPLETE,11,NUMBERS,GEMP,,NOW SCR,,,,,,,,,,,,,,,,
-3,"2510 UAB O vs North Texas, Play 003",,,,BENCH,,,,,1,10,'-39,15,M,R,,11,TREY Y OFF,GF,,,Y INSERT,,,,,,,,,,,,,,,
-4,"2510 UAB O vs North Texas, Play 004",,,,OFF EVEN,,,,,1,10,'+46,0,R,P,INTERCEPTION,11,TRIPS,GN,,FLOOD,,,,,,,,,,,,,,,,
-5,"2510 UAB O vs North Texas, Play 005",,,,BENCH,,,,,0,10,'-22,0,L,R,,12,KING U OFF,GF,Z MTR,,IZ,,,,,,,,,,,,,,,
-6,"2510 UAB O vs North Texas, Play 006",,,,EVEN,,,,,0,10,'-20,9,M,R,,11,DUO Y OFF,GF,SHIFT,,Y INSERT,,,,,,,,,,,,,,,
-7,"2510 UAB O vs North Texas, Play 007",,,,,,,,,2,1,'-29,4,R,R,,11,TREY Y OFF BUNCH,PSTL,Z MTR,,IZ,,,,,,,,,,,,,,,
-8,"2510 UAB O vs North Texas, Play 009",,,,,,,,,1,15,'-28,0,R,P,INCOMPLETE,11,DUO,GF,Z BNC,SPACING,,,,,,,,,,,,,,,,
-9,"2510 UAB O vs North Texas, Play 010",,,,,,,,,2,15,'-28,6,R,P,COMPLETE,11,TREY Y OFF,GN,,HITCHES,,,,,,,,,,,,,,,,
-10,"2510 UAB O vs North Texas, Play 011",,,,,,,,,3,9,'-34,7,R,P,COMPLETE,11,TREY Y OFF,GF,Z IN,DAGGER,,,,,,,,,,,,,,,,
-11,"2510 UAB O vs North Texas, Play 012",,,,,,,,,4,2,'-41,13,R,R,,12,TREY Y OFF BUNCH,DOT,,,IZ,,,,,,,,,,,,,,,
-12,"2510 UAB O vs North Texas, Play 013",,,,,,,,,1,10,'+46,1,M,R,,12,TWINS U STING,PSTL,,,SPL ZN,,,,,,,,,,,,,,,
-13,"2510 UAB O vs North Texas, Play 014",,,,,,,,,2,9,'+45,0,R,P,INCOMPLETE,11,TREY Y OFF FIB,GN,,CURLS,,,,,,,,,,,,,,,,
-14,"2510 UAB O vs North Texas, Play 015",,,,,,,,,3,9,'+45,10,R,P,COMPLETE,11,TREY Y OFF,GF,T RELOAD,CURLS,,,,,,,,,,,,,,,,
-15,"2510 UAB O vs North Texas, Play 016",,,,,,,,,1,10,'+35,7,L,P,COMPLETE,21,PRO Y OFF,GS,,POST WHEEL,,,,,,,,,,,,,,,,
-16,"2510 UAB O vs North Texas, Play 018",,,,,,,,,2,8,'+33,0,L,P,INCOMPLETE,11,TRIPS OPEN,GN,,229,,,,,,,,,,,,,,,,
-17,"2510 UAB O vs North Texas, Play 019",,,,,,,,,3,8,'+33,6,L,P,COMPLETE,11,TRIPS OPEN,GF,,CURLS,,,,,,,,,,,,,,,,
-18,"2510 UAB O vs North Texas, Play 020",,,,,,,,,4,2,'+27,'-3,L,R,,12,TWINS U STING,GN,,,IZ,,,,,,,,,,,,,,,
-19,"2510 UAB O vs North Texas, Play 021",,,,,,,,,0,10,'-25,0,L,R,COMPLETE,21,DUO Y OFF,GN,X MTR,,JET SWEEP,,,,,,,,,,,,,,,
-20,"2510 UAB O vs North Texas, Play 022",,,,,,,,,2,10,'-25,16,R,P,COMPLETE,11,EMPTY 3x2,GEMP,TOX,CURLS,,,,,,,,,,,,,,,,
-21,"2510 UAB O vs North Texas, Play 023",,,,,,,,,1,10,'-41,0,R,P,INCOMPLETE,11,DUO Y OFF,GN,Z MTR,SPACING,,,,,,,,,,,,,,,,
-22,"2510 UAB O vs North Texas, Play 024",,,,,,,,,2,10,'-41,3,R,R,,12,TWINS U STING,PSTL,X MTR,,OZ,,,,,,,,,,,,,,,
-23,"2510 UAB O vs North Texas, Play 025",,,,,,,,,3,7,'-44,8,R,P,COMPLETE,11,SLOT,GS (RABBIT),H RELOAD,H ANGLE,,,,,,,,,,,,,,,,
-24,"2510 UAB O vs North Texas, Play 026",,,,,,,,,1,10,'+48,3,R,P,COMPLETE,11,TREY Y OFF,GN,Y RETURN,DBL SCR,,,,,,,,,,,,,,,,
-25,"2510 UAB O vs North Texas, Play 027",,,,,,,,,2,7,'+45,9,L,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-26,"2510 UAB O vs North Texas, Play 028",,,,,,,,,1,10,'+36,'-1,LM,R,,11,TREY Y OFF,PSTL,Y MO,,OZ,,,,,,,,,,,,,,,
-27,"2510 UAB O vs North Texas, Play 029",,,,,,,,,2,11,'+37,5,L,R,,12,ACE U OFF,DOT,,,OZ,,,,,,,,,,,,,,,
-28,"2510 UAB O vs North Texas, Play 030",,,,,,,,,3,6,'+32,32,M,P,COMPLETE,10,DOUBLES,GN,S BNC,OVER,,,,,,,,,,,,,,,,
-29,"2510 UAB O vs North Texas, Play 031",,,,,,,,,0,10,'-25,4,L,R,,11,TREY Y OFF,GF,Y NR,,SPL ZN,,,,,,,,,,,,,,,
-30,"2510 UAB O vs North Texas, Play 032",,,,,,,,,2,6,'-29,11,RM,P,COMPLETE,11,TREY Y OFF,GN,Z MTR,MESH,,,,,,,,,,,,,,,,
-31,"2510 UAB O vs North Texas, Play 033",,,,,,,,,1,10,'-40,1,RM,R,,12,KING U OFF,PSTL,,,OZ,,,,,,,,,,,,,,,
-32,"2510 UAB O vs North Texas, Play 034",,,,,,,,,2,9,'-41,'-2,RM,R,,11,DUO Y OFF,GF,Y MO,,OZ,,,,,,,,,,,,,,,
-33,"2510 UAB O vs North Texas, Play 035",,,,,,,,,3,11,'-39,36,R,P,COMPLETE,11,TRIPS BUNCH,GN,,VERTS RD,,,,,,,,,,,,,,,,
-34,"2510 UAB O vs North Texas, Play 036",,,,,,,,,1,10,'+25,5,L,R,,11,TREY Y OFF,GF,H MTR,,SPL ZN,,,,,,,,,,,,,,,
-35,"2510 UAB O vs North Texas, Play 037",,,,,,,,,2,5,'+20,0,R,P,INCOMPLETE,11,TRIPS,GN,,HITCH FADE,,,,,,,,,,,,,,,,
-36,"2510 UAB O vs North Texas, Play 038",,,,,,,,,3,5,'+20,3,R,P,COMPLETE,11,TRIPS OPEN V BUNCH,GF,Y IN,OPTION H,,,,,,,,,,,,,,,,
-37,"2510 UAB O vs North Texas, Play 039",,,,,,,,,4,2,'+17,0,R,P,HIT AS THREW,11,TREY Y OFF BUNCH,GN,,MESH,,,,,,,,,,,,,,,,
-38,"2510 UAB O vs North Texas, Play 040",,,,,,,,,0,10,'-44,0,RM,P,INCOMPLETE,11,TREY Y OFF,GF,,VERTS RD,,,,,,,,,,,,,,,,
-39,"2510 UAB O vs North Texas, Play 041",,,,,,,,,2,10,'-44,'-8,RM,P,SACK,11,DUO Y OFF,GN,,HI-LO,,,,,,,,,,,,,,,,
-40,"2510 UAB O vs North Texas, Play 042",,,,,,,,,3,18,'-36,29,M,R,,11,TREY Y OFF,GN,Y NR,,IZ,,,,,,,,,,,,,,,
-41,"2510 UAB O vs North Texas, Play 043",,,,,,,,,0,10,'-25,'-3,L,P,COMPLETE,11,EMPTY 3x2 BUNCH FIB,GEMP,,NOW SCR,,,,,,,,,,,,,,,,
-42,"2510 UAB O vs North Texas, Play 044",,,,,,,,,2,13,'-22,15,L,P,COMPLETE,11,TREY Y OFF,GF,Z IN,SPACING,,,,,,,,,,,,,,,,
-43,"2510 UAB O vs North Texas, Play 045",,,,,,,,,1,10,'-37,58,R,R,,11,TREY Y OFF,GF,Y NR,,Y INSERT,,,,,,,,,,,,,,,
-44,"2510 UAB O vs North Texas, Play 046",,,,,,,,,1,5,'+5,1,L,R,,11,TREY Y OFF BUNCH,GN,,,IZ,,,,,,,,,,,,,,,
-45,"2510 UAB O vs North Texas, Play 047",,,,,,,,,2,4,'+4,3,M,R,,11T,UNBAL NUMBERS TKL OFF,GF,,,SPL ZN,,,,,,,,,,,,,,,
-46,"2510 UAB O vs North Texas, Play 048",,,,,,,,,3,1,'+1,1,M,R,,12,ACE U OFF,DOT,,,QB SNEAK,,,,,,,,,,,,,,,
-47,"2510 UAB O vs North Texas, Play 049",,,,,,,,,5,0,'+3,3,R,P,COMPLETE,11,TREY Y OFF,GF,,VERTS RD,,,,,,,,,,,,,,,,
-48,"2510 UAB O vs North Texas, Play 050",,,,,,,,,0,10,'-25,3,L,R,,12,ACE U OFF,DOT,,,POWER G,,,,,,,,,,,,,,,
-49,"2510 UAB O vs North Texas, Play 051",,,,,,,,,2,7,'-28,6,L,P,COMPLETE,12,DUO Y OFF,GN,,SPACING,,,,,,,,,,,,,,,,
-50,"2510 UAB O vs North Texas, Play 052",,,,,,,,,3,1,'-34,2,L,R,,12,ACE U OFF,DOT,,,QB SNEAK,,,,,,,,,,,,,,,
-51,"2510 UAB O vs North Texas, Play 053",,,,,,,,,1,10,'-36,21,L,P,COMPLETE,12,ACE YU OFF,DOT,,VERTS RD,,,,,,,,,,,,,,,,
-52,"2510 UAB O vs North Texas, Play 054",,,,,,,,,1,10,'+43,0,L,P,INCOMPLETE,11,TREY Y OFF BUNCH,GN,,FLOOD,,,,,,,,,,,,,,,,
-53,"2510 UAB O vs North Texas, Play 055",,,,,,,,,1,10,'+28,0,L,P,INCOMPLETE,11,TREY Y OFF,GN,,GLANCE,,,,,,,,,,,,,,,,
-54,"2510 UAB O vs North Texas, Play 056",,,,,,,,,2,10,'+28,0,L,P,INCOMPLETE,11,EMPTY 3x2,GEMP,TOZ,OPTION Y,,,,,,,,,,,,,,,,
-55,"2510 UAB O vs North Texas, Play 057",,,,,,,,,3,10,'+28,0,L,P,INCOMPLETE,11,TREY Y OFF,GF,,SPACING,,,,,,,,,,,,,,,,
-56,"2510 UAB O vs North Texas, Play 058",,,,,,,,,0,10,'-25,'-1,R,R,,11,TREY Y OFF,GN,,,CTR OY,,,,,,,,,,,,,,,
-57,"2510 UAB O vs North Texas, Play 059",,,,,,,,,2,11,'-24,16,R,P,COMPLETE,11,DUO Y OFF,GN,Z MTR,SPACING,,,,,,,,,,,,,,,,
-58,"2510 UAB O vs North Texas, Play 060",,,,,,,,,1,10,'-40,4,R,R,,20,SLOT,GS,SHIFT,,REVERSE,,,,,,,,,,,,,,,
-59,"2510 UAB O vs North Texas, Play 061",,,,,,,,,2,6,'-44,2,L,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-60,"2510 UAB O vs North Texas, Play 062",,,,,,,,,3,4,'-46,0,RM,P,INCOMPLETE,11,TRIPS OPEN V BUNCH,GF,Y IN,OPTION H,,,,,,,,,,,,,,,,
-61,"2510 UAB O vs North Texas, Play 063",,,,,,,,,4,4,'-46,8,RM,P,COMPLETE,11,TREY Y OFF,GF,,CURLS,,,,,,,,,,,,,,,,
-62,"2510 UAB O vs North Texas, Play 064",,,,,,,,,1,10,'+46,13,L,P,COMPLETE,11,TRIPS OPEN V BUNCH,GF,,DRIVE,,,,,,,,,,,,,,,,
-63,"2510 UAB O vs North Texas, Play 065",,,,,,,,,1,10,'+33,0,L,P,INCOMPLETE,21,PRO Y OFF,GS,,POST WHEEL,,,,,,,,,,,,,,,,
-64,"2510 UAB O vs North Texas, Play 066",,,,,,,,,2,10,'+33,2,L,R,,12,TREY U STING,GN,,,IZ,,,,,,,,,,,,,,,
-65,"2510 UAB O vs North Texas, Play 067",,,,,,,,,3,8,'+31,15,L,P,COMPLETE,11,TRIPS BUNCH,GN,,FLOOD,,,,,,,,,,,,,,,,
-66,"2510 UAB O vs North Texas, Play 068",,,,,,,,,1,10,'+16,0,RM,P,INCOMPLETE,11,DUO YH OFF,GF,,SMASH,,,,,,,,,,,,,,,,
-67,"2510 UAB O vs North Texas, Play 069",,,,,,,,,2,10,'+16,0,RM,P,INCOMPLETE,11,TREY Y OFF,GN,,ANGLE T,,,,,,,,,,,,,,,,
-68,"2510 UAB O vs North Texas, Play 071",,,,,,,,,3,5,'+11,4,RM,R,,11,TRIPS,GN,,,IZ,,,,,,,,,,,,,,,
-69,"2510 UAB O vs North Texas, Play 072",,,,,,,,,4,1,'+7,1,M,R,,11,DUO Y OFF,DOT,,,QB SNEAK,,,,,,,,,,,,,,,
-70,"2510 UAB O vs North Texas, Play 073",,,,,,,,,1,6,'+6,6,LM,R,,11,TREY Y OFF,GN,,,SPL ZN SS,,,,,,,,,,,,,,,
-71,"2510 UAB O vs North Texas, Play 074",,,,,,,,,5,0,'+3,0,R,P,INCOMPLETE,11,DUO Y OFF,GN,,OPTION H,,,,,,,,,,,,,,,,
-72,"2510 UAB O vs North Texas, Play 075",,,,,,,,,0,10,'-47,0,L,P,INCOMPLETE,12,TWINS U STING,GN,,VERTS,,,,,,,,,,,,,,,,
-73,"2510 UAB O vs North Texas, Play 076",,,,,,,,,2,10,'-47,'-10,L,P,SACK,11,DUO,GF,Z BNC,MESH,,,,,,,,,,,,,,,,
-74,"2510 UAB O vs North Texas, Play 077",,,,,,,,,3,20,'-37,18,L,P,COMPLETE,11,TRIPS,GN,,CURLS,,,,,,,,,,,,,,,,
-75,"2510 UAB O vs North Texas, Play 078",,,,,,,,,4,2,'+45,10,R,R,,11,TRIPS,GN,,,IZ,,,,,,,,,,,,,,,
-76,"2510 UAB O vs North Texas, Play 079",,,,,,,,,1,10,'+35,11,R,P,COMPLETE,11,TREY Y OFF,GN,,HITCHES,,,,,,,,,,,,,,,,
-77,"2510 UAB O vs North Texas, Play 080",,,,,,,,,1,10,'+24,0,LM,P,THROWN AWAY,11,TREY Y OFF,GN,,THROWBACK,,,,,,,,,,,,,,,,
-78,"2510 UAB O vs North Texas, Play 081",,,,,,,,,2,10,'+24,13,LM,R,,11,TREY Y OFF,GN,,,IZ,,,,,,,,,,,,,,,
-79,"2510 UAB O vs North Texas, Play 082",,,,,,,,,1,10,'+11,0,L,P,INTERCEPTION,11,TREY Y OFF,GF,,OPTION Y,,,,,,,,,,,,,,,,
-80,"2510 UAB O vs North Texas, Play 083",,,,,,,,,0,10,'-40,3,R,P,COMPLETE,21,PRO Y OFF,GN,FOZ,NOW SCR,,,,,,,,,,,,,,,,
-81,"2510 UAB O vs North Texas, Play 084",,,,,,,,,2,7,'-43,2,L,R,,11,DUO Y OFF,GF,Y NR,,Y INSERT,,,,,,,,,,,,,,,
-82,"2510 UAB O vs North Texas, Play 085",,,,,,,,,3,5,'-45,7,RM,P,COMPLETE,11,NUMBERS,GEMP,,91,,,,,,,,,,,,,,,,
-83,"2510 UAB O vs North Texas, Play 086",,,,,,,,,1,10,'+48,0,L,P,HIT AS THREW,11,DUO Y OFF,GF,,OVER,,,,,,,,,,,,,,,,
-84,"2510 UAB O vs North Texas, Play 087",,,,,,,,,2,10,'+48,5,L,P,COMPLETE,11,DUO Y OFF,GF,,SPACING,,,,,,,,,,,,,,,,
-85,"2510 UAB O vs North Texas, Play 088",,,,,,,,,3,5,'+43,0,L,P,INTERCEPTION,11,DOUBLES,GN,H RETURN,OPTION H,,,,,,,,,,,,,,,,
-86,"2511 UAB O vs USF, Play 001",,,,,,,,,0,10,'-23,2,RM,R,,11,DUO Y OFF,GN,Z BNC,,IZ,,,,,,,,,,,,,,,
-87,"2511 UAB O vs USF, Play 002",,,,,,,,,2,8,'-25,5,R,P,COMPLETE,12,KING U OFF,GF,Z MTR,,,,,,,,,,,,,,,,,
-88,"2511 UAB O vs USF, Play 004",,,,,,,,,1,10,'-35,0,L,P,HIT AS THREW,12,ACE YU OFF,DOT,,COMEBACK X,,,,,,,,,,,,,,,,
-89,"2511 UAB O vs USF, Play 005",,,,,,,,,1,10,'+50,'-4,L,P,SACK,11,TRIPS,GF,,VERTS RD,,,,,,,,,,,,,,,,
-90,"2511 UAB O vs USF, Play 006",,,,,,,,,2,14,'-46,0,L,P,INTERCEPTION,12,KING U OFF,GN,,GLANCE,,,,,,,,,,,,,,,,
-91,"2511 UAB O vs USF, Play 007",,,,,,,,,0,10,'+24,2,L,R,,11,DUO Y OFF,GF,,,Y INSERT,,,,,,,,,,,,,,,
-92,"2511 UAB O vs USF, Play 008",,,,,,,,,2,8,'+22,0,L,P,RUN,12,KING U OFF,DOT,,DOUBLE PASS,,,,,,,,,,,,,,,,
-93,"2511 UAB O vs USF, Play 009",,,,,,,,,3,8,'+22,9,R,P,COMPLETE,11,TRIPS,GN,H IN,CURLS,,,,,,,,,,,,,,,,
-94,"2511 UAB O vs USF, Play 010",,,,,,,,,1,10,'+13,3,L,R,,21,PRO Y OFF,GS,,,ZONE READ ARC,,,,,,,,,,,,,,,
-95,"2511 UAB O vs USF, Play 011",,,,,,,,,2,7,'+10,'-2,L,R,,21,PRO Y OFF,GS,,,POWER O RD LD,,,,,,,,,,,,,,,
-96,"2511 UAB O vs USF, Play 012",,,,,,,,,3,9,'+12,0,R,P,INCOMPLETE,12,EMPTY 3x2 U STING,GEMP,TOX,UNDER T,,,,,,,,,,,,,,,,
-97,"2511 UAB O vs USF, Play 013",,,,,,,,,0,10,'-15,9,L,R,,12,KING U OFF,DOT,,,OZ,,,,,,,,,,,,,,,
-98,"2511 UAB O vs USF, Play 015",,,,,,,,,2,6,'-19,16,M,R,,11,TRIPS,GF,,,INSIDE ZN SS,,,,,,,,,,,,,,,
-99,"2511 UAB O vs USF, Play 016",,,,,,,,,1,10,'-35,1,L,R,,12,ACE YU OFF,DOT,,,IZ,,,,,,,,,,,,,,,
-100,"2511 UAB O vs USF, Play 017",,,,,,,,,2,9,'-36,24,L,P,COMPLETE,12,KING U OFF,GF,,NOW SCR,,,,,,,,,,,,,,,,
-101,"2511 UAB O vs USF, Play 018",,,,,,,,,1,10,'+40,6,R,R,,11,DUO Y OFF,GF,,,ZONE READ ARC,,,,,,,,,,,,,,,
-102,"2511 UAB O vs USF, Play 019",,,,,,,,,1,9,'+9,3,L,R,,21,PRO TWINS,PSTL FR,,,IZ,,,,,,,,,,,,,,,
-103,"2511 UAB O vs USF, Play 020",,,,,,,,,2,6,'+6,6,LM,R,,12,KING U OFF FIB,GF,,,IZ,,,,,,,,,,,,,,,
-104,"2511 UAB O vs USF, Play 021",,,,,,,,,0,10,'-29,2,R,R,,11,DUO Y OFF,GN,X MTR,,IZ,,,,,,,,,,,,,,,
-105,"2511 UAB O vs USF, Play 022",,,,,,,,,2,8,'-31,7,R,R,,21,PRO TWINS,PSTL NR,,,IZ,,,,,,,,,,,,,,,
-106,"2511 UAB O vs USF, Play 023",,,,,,,,,3,1,'-38,3,R,R,,22,EMPTY 3x2 Z STING BUNCH,DEMP,,,QB SNEAK,,,,,,,,,,,,,,,
-107,"2511 UAB O vs USF, Play 024",,,,,,,,,1,10,'-41,1,R,R,,21,PRO Y OFF,GS,,,CTR CY,,,,,,,,,,,,,,,
-108,"2511 UAB O vs USF, Play 025",,,,,,,,,2,9,'-42,1,R,R,,12,TRIPS,GF,U OUT,,OZ,,,,,,,,,,,,,,,
-109,"2511 UAB O vs USF, Play 026",,,,,,,,,3,8,'-43,11,R,P,COMPLETE,20,SLOT,GS,T RELOAD/X IN,SPACING,,,,,,,,,,,,,,,,
-110,"2511 UAB O vs USF, Play 027",,,,,,,,,1,10,'+46,0,L,R,,12,ACE U OFF,GN,,,OZ,,,,,,,,,,,,,,,
-111,"2511 UAB O vs USF, Play 028",,,,,,,,,2,10,'+46,0,M,P,INCOMPLETE,11,DOUBLES,GF,Y OUT,POST WHEEL,,,,,,,,,,,,,,,,
-112,"2511 UAB O vs USF, Play 029",,,,,,,,,3,10,'+46,15,LM,P,COMPLETE,11,TRIPS OPEN,GF,HOY,OVER,,,,,,,,,,,,,,,,
-113,"2511 UAB O vs USF, Play 030",,,,,,,,,1,10,'+31,'-2,L,R,,12,ACE YU OFF,DOT,,,IZ,,,,,,,,,,,,,,,
-114,"2511 UAB O vs USF, Play 031",,,,,,,,,2,12,'+33,0,L,P,THROWN AWAY,21,PRO Y OFF,GN,Y NR/TOX,MESH,,,,,,,,,,,,,,,,
-115,"2511 UAB O vs USF, Play 035",,,,,,,,,3,27,'+48,0,L,P,BATTED PASS,21,PRO Y OFF,GS,,SWING F,,,,,,,,,,,,,,,,
-116,"2511 UAB O vs USF, Play 036",,,,,,,,,0,10,'-25,2,R,R,,11,TREY Y OFF,GN,,,ZONE READ ARC,,,,,,,,,,,,,,,
-117,"2511 UAB O vs USF, Play 037",,,,,,,,,2,8,'-27,'-1,R,R,,21,PRO Y OFF,GS,,,IZ,,,,,,,,,,,,,,,
-118,"2511 UAB O vs USF, Play 038",,,,,,,,,3,9,'-26,0,RM,P,INCOMPLETE,11,TRIPS BUNCH,GN,,OPTION H,,,,,,,,,,,,,,,,
-119,"2511 UAB O vs USF, Play 039",,,,,,,,,0,10,'-25,19,R,P,COMPLETE,11,TRIPS,GN,,LEVELS,,,,,,,,,,,,,,,,
-120,"2511 UAB O vs USF, Play 040",,,,,,,,,1,10,'-44,0,M,P,INCOMPLETE,11,TREY Y OFF,GF,,HITCH FADE,,,,,,,,,,,,,,,,
-121,"2511 UAB O vs USF, Play 041",,,,,,,,,2,10,'-44,5,M,P,COMPLETE,11,TREY Y OFF,GF,,CURLS,,,,,,,,,,,,,,,,
-122,"2511 UAB O vs USF, Play 042",,,,,,,,,2,15,'-39,0,M,P,INCOMPLETE,11,TREY Y OFF,GF,,FLOOD,,,,,,,,,,,,,,,,
-123,"2511 UAB O vs USF, Play 043",,,,,,,,,3,15,'-39,0,M,P,INCOMPLETE,11,DOUBLES,GN,,OVER,,,,,,,,,,,,,,,,
-124,"2511 UAB O vs USF, Play 044",,,,,,,,,1,10,'+46,'-2,M,P,COMPLETE,11,DOUBLES,GN,H RETURN,HI-LO,,,,,,,,,,,,,,,,
-125,"2511 UAB O vs USF, Play 045",,,,,,,,,2,12,'+48,14,L,P,COMPLETE,11,TRIPS OPEN,GF,,CURLS,,,,,,,,,,,,,,,,
-126,"2511 UAB O vs USF, Play 046",,,,,,,,,1,10,'+34,'-7,R,P,SACK,11,TRIPS,GF,,CURLS,,,,,,,,,,,,,,,,
-127,"2511 UAB O vs USF, Play 047",,,,,,,,,1,25,'+49,0,R,P,INCOMPLETE,11,TREY Y OFF,GF,,SPACING,,,,,,,,,,,,,,,,
-128,"2511 UAB O vs USF, Play 048",,,,,,,,,2,25,'+49,0,R,P,INTERCEPTION,11,TRIPS OPEN FIB,GN,,HAIL MARY,,,,,,,,,,,,,,,,
-129,"2511 UAB O vs USF, Play 049",,,,,,,,,0,10,'-25,2,L,R,,12,KING U OFF,GN,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-130,"2511 UAB O vs USF, Play 050",,,,,,,,,2,8,'-27,21,LM,P,COMPLETE,11,NUMBERS,GF,T RELOAD,POST WHEEL,,,,,,,,,,,,,,,,
-131,"2511 UAB O vs USF, Play 051",,,,,,,,,1,10,'-48,2,R,R,,11,NUMBERS,GEMP,,,Q Y INSERT,,,,,,,,,,,,,,,
-132,"2511 UAB O vs USF, Play 052",,,,,,,,,1,5,'+47,0,R,R,,11,TRIPS,GF,,,INSIDE ZN SS,,,,,,,,,,,,,,,
-133,"2511 UAB O vs USF, Play 053",,,,,,,,,2,5,'+47,11,M,P,COMPLETE,12,TWINS U STING,GN,,HITCH,,,,,,,,,,,,,,,,
-134,"2511 UAB O vs USF, Play 054",,,,,,,,,1,10,'+36,0,L,P,INCOMPLETE,12,ACE YU OFF,PSTL,,OVERS,,,,,,,,,,,,,,,,
-135,"2511 UAB O vs USF, Play 055",,,,,,,,,2,10,'+36,6,L,P,RUN,11,TREY Y OFF,GN,,DIGS,,,,,,,,,,,,,,,,
-136,"2511 UAB O vs USF, Play 056",,,,,,,,,3,4,'+30,23,L,P,COMPLETE,12,KING U OFF,GN,,GLANCE,,,,,,,,,,,,,,,,
-137,"2511 UAB O vs USF, Play 057",,,,,,,,,1,7,'+7,0,L,P,INTERCEPTION,21,PRO Y OFF,GN,F REVERSE,OVERS,,,,,,,,,,,,,,,,
-138,"2511 UAB O vs USF, Play 058",,,,,,,,,0,10,'-25,5,R,R,,12,ACE YU OFF,DOT,,,OZ,,,,,,,,,,,,,,,
-139,"2511 UAB O vs USF, Play 059",,,,,,,,,2,5,'-30,4,R,P,COMPLETE,21,TRIPS BUNCH,GN,Z MTR,TUNNEL SCR,,,,,,,,,,,,,,,,
-140,"2511 UAB O vs USF, Play 060",,,,,,,,,3,1,'-34,12,L,R,,22,EMPTY 3x2 TF STING FIB,DEMP,T MTR,,JET SWEEP,,,,,,,,,,,,,,,
-141,"2511 UAB O vs USF, Play 061",,,,,,,,,1,10,'-46,5,L,P,COMPLETE,12,TWINS U STING,GF,,HITCHES,,,,,,,,,,,,,,,,
-142,"2511 UAB O vs USF, Play 062",,,,,,,,,2,5,'+49,0,R,P,INCOMPLETE,11,TREY Y OFF,GF,,HITCH FADE,,,,,,,,,,,,,,,,
-143,"2511 UAB O vs USF, Play 063",,,,,,,,,3,5,'+49,'-1,R,R,,12,TWINS U STING,GN,,,IZ,,,,,,,,,,,,,,,
-144,"2511 UAB O vs USF, Play 064",,,,,,,,,4,6,'+50,'-5,C,P,SACK,11,TREY Y OFF,GF,Y MO,SPACING,,,,,,,,,,,,,,,,
-145,"2511 UAB O vs USF, Play 065",,,,,,,,,0,10,'-25,0,R,P,INCOMPLETE,11,TREY Y OFF,GN,,OVERS,,,,,,,,,,,,,,,,
-146,"2511 UAB O vs USF, Play 066",,,,,,,,,2,10,'-25,'-1,R,R,,12,KING U OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-147,"2511 UAB O vs USF, Play 067",,,,,,,,,3,11,'-24,0,R,P,INCOMPLETE,11,NUMBERS,GEMP,,NOW SCR,,,,,,,,,,,,,,,,
-148,"2511 UAB O vs USF, Play 068",,,,,,,,,0,10,'-25,0,R,P,INCOMPLETE,30,DUO FR OFF,PSTL,,POST WHEEL,,,,,,,,,,,,,,,,
-149,"2511 UAB O vs USF, Play 069",,,,,,,,,2,10,'-25,13,R,P,COMPLETE,11,TREY Y OFF,GF,Z OUT,DEEP SPOT,,,,,,,,,,,,,,,,
-150,"2511 UAB O vs USF, Play 070",,,,,,,,,1,10,'-38,13,L,P,COMPLETE,11,TREY Y OFF BUNCH,GN,,HITCH,,,,,,,,,,,,,,,,
-151,"2511 UAB O vs USF, Play 071",,,,,,,,,1,10,'+49,0,LM,P,INCOMPLETE,12,KING U OFF,PSTL,U MO,VERT Z,,,,,,,,,,,,,,,,
-152,"2511 UAB O vs USF, Play 072",,,,,,,,,1,10,'+34,15,LM,P,COMPLETE,11,TRIPS,GN,,LEVELS,,,,,,,,,,,,,,,,
-153,"2511 UAB O vs USF, Play 073",,,,,,,,,1,10,'+19,7,L,R,,11,TRIPS,GN,,,OZ,,,,,,,,,,,,,,,
-154,"2511 UAB O vs USF, Play 074",,,,,,,,,2,3,'+12,9,R,R,,11,TREY Y OFF,GN,Z MTR,,SPL ZN SS,,,,,,,,,,,,,,,
-155,"2511 UAB O vs USF, Play 075",,,,,,,,,1,3,'+3,0,RM,R,,11,TREY Y OFF BUNCH,GN,,,IZ,,,,,,,,,,,,,,,
-156,"2511 UAB O vs USF, Play 076",,,,,,,,,2,3,'+3,3,M,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-157,"2511 UAB O vs USF, Play 077",,,,,,,,,5,0,'+3,3,R,R,,13,ACE U OFF B HIP,GF,,,Q FOLLOW,,,,,,,,,,,,,,,
-158,"2511 UAB O vs USF, Play 078",,,,,,,,,0,10,'-25,5,R,R,,11,DUO Y OFF,GN,,,CTR OY,,,,,,,,,,,,,,,
-159,"2511 UAB O vs USF, Play 079",,,,,,,,,2,5,'-30,18,LM,P,COMPLETE,11,TRIPS OPEN,GF,,FLOOD,,,,,,,,,,,,,,,,
-160,"2511 UAB O vs USF, Play 080",,,,,,,,,1,10,'-48,0,R,R,,11,DUO Y OFF,PSTL,X MTR,,IZ,,,,,,,,,,,,,,,
-161,"2511 UAB O vs USF, Play 081",,,,,,,,,2,10,'-48,8,R,P,RUN,11,TRIPS,GF,,OVER,,,,,,,,,,,,,,,,
-162,"2511 UAB O vs USF, Play 082",,,,,,,,,3,2,'+44,3,R,R,,23TT,UNBAL TO B HIP,I NR,,,TOSS SWEEP,,,,,,,,,,,,,,,
-163,"2511 UAB O vs USF, Play 083",,,,,,,,,1,10,'+41,2,M,P,COMPLETE,21,PRO Y OFF,GS,,SWING F,,,,,,,,,,,,,,,,
-164,"2511 UAB O vs USF, Play 084",,,,,,,,,2,8,'+39,0,L,P,INCOMPLETE,21,TREY Y OFF,GN,,VERTS RD,,,,,,,,,,,,,,,,
-165,"2511 UAB O vs USF, Play 085",,,,,,,,,3,8,'+39,14,L,P,COMPLETE,11,TREY Y OFF,GF,,CURL FLAT,,,,,,,,,,,,,,,,
-166,"2511 UAB O vs USF, Play 086",,,,,,,,,1,10,'+25,16,RM,P,COMPLETE,21,PRO TWINS,PSTL NR,,FLOOD,,,,,,,,,,,,,,,,
-167,"2511 UAB O vs USF, Play 087",,,,,,,,,1,9,'+9,0,L,P,BATTED PASS,21,PRO TWINS,PSTL FR,,SLIPPER F,,,,,,,,,,,,,,,,
-168,"2511 UAB O vs USF, Play 088",,,,,,,,,2,9,'+9,6,L,R,,12,KING U OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-169,"2511 UAB O vs USF, Play 089",,,,,,,,,3,3,'+3,1,L,R,,13,ACE U OFF B HIP,GF,,,Q FOLLOW,,,,,,,,,,,,,,,
-170,"2511 UAB O vs USF, Play 090",,,,,,,,,4,2,'+2,1,L,P,COMPLETE,11,DUO Y OFF,GF,Y MTR,SPACING,,,,,,,,,,,,,,,,
-171,"2511 UAB O vs USF, Play 091",,,,,,,,,0,10,'-25,3,R,R,,11,TREY Y OFF,GF,Y NR,,IZ,,,,,,,,,,,,,,,
-172,"2511 UAB O vs USF, Play 092",,,,,,,,,2,7,'-28,4,M,R,,11,DUO Y OFF,PSTL,X MTR,,IZ,,,,,,,,,,,,,,,
-173,"2511 UAB O vs USF, Play 093",,,,,,,,,3,3,'-32,2,M,R,,11,TREY Y OFF,GN,,,ZONE READ ARC,,,,,,,,,,,,,,,
-174,"2511 UAB O vs USF, Play 094",,,,,,,,,4,1,'-34,7,R,R,,11,DUO Y OFF,PSTL,X MTR,,IZ,,,,,,,,,,,,,,,
-175,"2511 UAB O vs USF, Play 095",,,,,,,,,1,10,'-41,0,RM,P,INCOMPLETE,11,DUO Y OFF,GF,,OVER,,,,,,,,,,,,,,,,
-176,"2512 UAB O @ Tulsa, Play 001",,,,,,,,,0,10,'-24,17,M,P,COMPLETE,11,TREY Y OFF,GN,,HITCH,,,,,,,,,,,,,,,,
-177,"2512 UAB O @ Tulsa, Play 002",,,,,,,,,1,10,'-41,5,M,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-178,"2512 UAB O @ Tulsa, Play 003",,,,,,,,,2,5,'-46,1,RM,R,,12,TWINS U STING,GN,,,CTR OY,,,,,,,,,,,,,,,
-179,"2512 UAB O @ Tulsa, Play 004",,,,,,,,,3,4,'-47,0,R,P,THROWN AWAY,11,DUO Y OFF,GN,Z MTR,SPACING,,,,,,,,,,,,,,,,
-180,"2512 UAB O @ Tulsa, Play 005",,,,,,,,,0,10,'+44,4,M,R,,12,ACE YU OFF,DOT,,,SPL ZN,,,,,,,,,,,,,,,
-181,"2512 UAB O @ Tulsa, Play 006",,,,,,,,,2,6,'+40,4,M,R,COMPLETE,12,TWINS U STING,GN,Z MTR,,JET SWEEP,,,,,,,,,,,,,,,
-182,"2512 UAB O @ Tulsa, Play 007",,,,,,,,,3,2,'+36,16,L,R,,11,TREY Y OFF BUNCH,GN,T BUZZ,,IZ,,,,,,,,,,,,,,,
-183,"2512 UAB O @ Tulsa, Play 008",,,,,,,,,1,10,'+20,2,L,R,,21,PRO TWINS,PSTL FR,T BACK,,IZ,,,,,,,,,,,,,,,
-184,"2512 UAB O @ Tulsa, Play 009",,,,,,,,,2,8,'+18,18,L,P,COMPLETE,11,TREY ENDOVER,GN,,GLANCE,,,,,,,,,,,,,,,,
-185,"2512 UAB O @ Tulsa, Play 010",,,,,,,,,0,10,'-22,3,LM,R,,11,DUO Y OFF,GN,,,Y INSERT,,,,,,,,,,,,,,,
-186,"2512 UAB O @ Tulsa, Play 011",,,,,,,,,2,7,'-25,5,R,P,COMPLETE,11,DOUBLES,GF,TOZ,SPOT,,,,,,,,,,,,,,,,
-187,"2512 UAB O @ Tulsa, Play 012",,,,,,,,,3,2,'-30,3,L,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-188,"2512 UAB O @ Tulsa, Play 013",,,,,,,,,1,10,'-33,'-3,M,R,,12,TREY U STING,PSTL,,,OZ,,,,,,,,,,,,,,,
-189,"2512 UAB O @ Tulsa, Play 014",,,,,,,,,2,13,'-30,0,R,P,INTERCEPTION,11,NUMBERS,GN,,SLANTS,,,,,,,,,,,,,,,,
-190,"2512 UAB O @ Tulsa, Play 015",,,,,,,,,0,10,'-22,1,R,R,,12,ACE U OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-191,"2512 UAB O @ Tulsa, Play 016",,,,,,,,,2,9,'-23,3,R,R,,12,KING U OFF,GF,,,U INSERT,,,,,,,,,,,,,,,
-192,"2512 UAB O @ Tulsa, Play 017",,,,,,,,,3,6,'-26,6,R,P,RUN,11,EMPTY 3x2,GEMP,,SPACING,,,,,,,,,,,,,,,,
-193,"2512 UAB O @ Tulsa, Play 018",,,,,,,,,1,10,'-32,4,L,P,COMPLETE,11,DUO Y OFF,PSTL,Z MTR,HITCHES,,,,,,,,,,,,,,,,
-194,"2512 UAB O @ Tulsa, Play 019",,,,,,,,,2,6,'-36,4,L,R,,21,PRO Y OFF TWINS ENDOVER,GS,,,ZONE READ ARC,,,,,,,,,,,,,,,
-195,"2512 UAB O @ Tulsa, Play 020",,,,,,,,,3,2,'-40,1,LM,R,,22,EMPTY 3x2 TF STING,DEMP,,,QB SNEAK,,,,,,,,,,,,,,,
-196,"2512 UAB O @ Tulsa, Play 021",,,,,,,,,4,1,'-41,'-2,L,R,,22,EMPTY 3x2 TF STING,DEMP,T MTR,,JET SWEEP,,,,,,,,,,,,,,,
-197,"2512 UAB O @ Tulsa, Play 022",,,,,,,,,0,10,'-25,0,EM,R,,12,TREY U STING,GN,,,SPL ZN SS,,,,,,,,,,,,,,,
-198,"2512 UAB O @ Tulsa, Play 023",,,,,,,,,2,10,'-25,10,M,R,,12,TREY U HIP ENDOVER,GN,,,CTR OY,,,,,,,,,,,,,,,
-199,"2512 UAB O @ Tulsa, Play 024",,,,,,,,,1,10,'-35,1,M,R,,21,TREY Y OFF BUNCH,PSTL,,,IZ,,,,,,,,,,,,,,,
-200,"2512 UAB O @ Tulsa, Play 025",,,,,,,,,2,9,'-36,8,L,P,COMPLETE,11,EMPTY 3x2 Y OFF BUNCH,GEMP,Y MO,CURL FLAT,,,,,,,,,,,,,,,,
-201,"2512 UAB O @ Tulsa, Play 026",,,,,,,,,3,1,'-44,0,L,P,INCOMPLETE,11,TRIPS,GN,,HITCHES,,,,,,,,,,,,,,,,
-202,"2512 UAB O @ Tulsa, Play 027",,,,,,,,,4,1,'-44,7,L,R,,23TT,UNBAL TO B HIP,I NR,,,TOSS SWEEP,,,,,,,,,,,,,,,
-203,"2512 UAB O @ Tulsa, Play 028",,,,,,,,,1,10,'+49,4,L,P,RUN,11,EMPTY 3x2,GEMP,,SPACING,,,,,,,,,,,,,,,,
-204,"2512 UAB O @ Tulsa, Play 029",,,,,,,,,2,6,'+45,7,L,R,,11,DUO Y OFF,GN,H BNC,,CTR OY,,,,,,,,,,,,,,,
-205,"2512 UAB O @ Tulsa, Play 030",,,,,,,,,1,10,'+38,17,L,P,COMPLETE,11,TREY Y OFF,GN,,HITCH,,,,,,,,,,,,,,,,
-206,"2512 UAB O @ Tulsa, Play 031",,,,,,,,,1,10,'+21,18,M,R,,11,TREY ENDOVER,GN,,,IZ,,,,,,,,,,,,,,,
-207,"2512 UAB O @ Tulsa, Play 032",,,,,,,,,1,3,'+3,0,R,R,,21,NUMBERS,GN,,,ZONE READ,,,,,,,,,,,,,,,
-208,"2512 UAB O @ Tulsa, Play 033",,,,,,,,,2,3,'+3,'-2,M,R,,11,TREY Y OFF,GN,SHIFT,,ZONE READ,,,,,,,,,,,,,,,
-209,"2512 UAB O @ Tulsa, Play 034",,,,,,,,,3,5,'+5,'-8,L,P,SACK,11,DUO,GN,,SPOT,,,,,,,,,,,,,,,,
-210,"2512 UAB O @ Tulsa, Play 035",,,,,,,,,0,10,'-25,8,L,R,,11,TRIPS,GN,,,IZ,,,,,,,,,,,,,,,
-211,"2512 UAB O @ Tulsa, Play 036",,,,,,,,,2,2,'-33,0,L,R,,11,DUO Y OFF,GN,Y NR,,CTR CY,,,,,,,,,,,,,,,
-212,"2512 UAB O @ Tulsa, Play 037",,,,,,,,,0,10,'-26,8,L,R,,11,DOUBLES,GF,,,IZ,,,,,,,,,,,,,,,
-213,"2512 UAB O @ Tulsa, Play 038",,,,,,,,,2,2,'-34,23,L,R,,11,DUO Y OFF,PSTL,X MTR,,IZ,,,,,,,,,,,,,,,
-214,"2512 UAB O @ Tulsa, Play 039",,,,,,,,,1,10,'+43,2,L,R,,11,DUO Y OFF,GN,,,CTR CY,,,,,,,,,,,,,,,
-215,"2512 UAB O @ Tulsa, Play 040",,,,,,,,,2,8,'+41,9,M,R,,11,TRIPS,GN,,,IZ,,,,,,,,,,,,,,,
-216,"2512 UAB O @ Tulsa, Play 041",,,,,,,,,1,10,'+32,4,M,P,COMPLETE,12,KING U OFF,DOT,,DEEP SPOT,,,,,,,,,,,,,,,,
-217,"2512 UAB O @ Tulsa, Play 042",,,,,,,,,2,6,'+28,0,R,P,INCOMPLETE,12,TWINS U STING,GN,T RELOAD,BUBBLE SCR,,,,,,,,,,,,,,,,
-218,"2512 UAB O @ Tulsa, Play 043",,,,,,,,,3,6,'+28,19,R,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-219,"2512 UAB O @ Tulsa, Play 044",,,,,,,,,1,9,'+9,0,L,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-220,"2512 UAB O @ Tulsa, Play 045",,,,,,,,,2,9,'+9,1,L,R,,12,KING U OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-221,"2512 UAB O @ Tulsa, Play 046",,,,,,,,,3,8,'+8,8,LM,P,COMPLETE,11,TRIPS BUNCH,GN,,OPTION H,,,,,,,,,,,,,,,,
-222,"2512 UAB O @ Tulsa, Play 047",,,,,,,,,0,10,'+35,5,R,P,COMPLETE,12,KING U OFF FIB,GF,,HITCHES,,,,,,,,,,,,,,,,
-223,"2512 UAB O @ Tulsa, Play 048",,,,,,,,,2,5,'+30,3,R,R,,12,ACE YU OFF,GN,,,U INSERT,,,,,,,,,,,,,,,
-224,"2512 UAB O @ Tulsa, Play 049",,,,,,,,,3,2,'+27,'-4,RM,P,SACK,12,KING U OFF FIB,GF,,HITCH,,,,,,,,,,,,,,,,
-225,"2512 UAB O @ Tulsa, Play 050",,,,,,,,,0,10,'-29,4,M,R,,11,DUO Y OFF,GF,,,POWER O LD,,,,,,,,,,,,,,,
-226,"2512 UAB O @ Tulsa, Play 051",,,,,,,,,2,6,'-33,3,RM,R,,11,TRIPS,GF,,,PIN PULL,,,,,,,,,,,,,,,
-227,"2512 UAB O @ Tulsa, Play 052",,,,,,,,,3,3,'-36,1,R,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-228,"2512 UAB O @ Tulsa, Play 053",,,,,,,,,0,10,'-25,7,R,R,,11,TREY Y OFF,GN,,,IZ,,,,,,,,,,,,,,,
-229,"2512 UAB O @ Tulsa, Play 055",,,,,,,,,2,8,'-27,5,RM,P,RUN,11,DUO Y OFF,GF,,SW VERTS RD,,,,,,,,,,,,,,,,
-230,"2512 UAB O @ Tulsa, Play 056",,,,,,,,,3,3,'-32,0,M,P,COMPLETE,02,EMPTY 3x2 U STING BUNCH,GEMP,,SPACING,,,,,,,,,,,,,,,,
-231,"2512 UAB O @ Tulsa, Play 057",,,,,,,,,0,10,'+31,4,L,R,,12,TREY U STING,GN,,,IZ,,,,,,,,,,,,,,,
-232,"2512 UAB O @ Tulsa, Play 058",,,,,,,,,2,6,'+27,2,LM,R,,12,TREY U HIP ENDOVER,GN,,,CTR OY,,,,,,,,,,,,,,,
-233,"2512 UAB O @ Tulsa, Play 059",,,,,,,,,3,4,'+25,5,L,P,COMPLETE,11,TREY Y OFF,GF,,OPTION H,,,,,,,,,,,,,,,,
-234,"2512 UAB O @ Tulsa, Play 060",,,,,,,,,1,10,'+20,20,M,R,,12,ACE U OFF,GF,Z MTR,,IZ,,,,,,,,,,,,,,,
-235,"2512 UAB O @ Tulsa, Play 061",,,,,,,,,0,10,'-10,1,L,R,,12,TREY U STING FIB,DOT,,,IZ,,,,,,,,,,,,,,,
-236,"2512 UAB O @ Tulsa, Play 062",,,,,,,,,2,9,'-11,'-1,L,R,,11,TREY Y OFF,GN,,,POWER O LD,,,,,,,,,,,,,,,
-237,"2512 UAB O @ Tulsa, Play 063",,,,,,,,,3,10,'-10,14,L,P,COMPLETE,11,TREY Y OFF,GF,,POST OUT,,,,,,,,,,,,,,,,
-238,"2512 UAB O @ Tulsa, Play 064",,,,,,,,,1,10,'-24,6,R,R,,12,TREY U STING,DOT,,,IZ,,,,,,,,,,,,,,,
-239,"2512 UAB O @ Tulsa, Play 065",,,,,,,,,2,4,'-30,0,L,R,,12,KING U OFF,DOT,,,IZ,,,,,,,,,,,,,,,
-240,"2512 UAB O @ Tulsa, Play 066",,,,,,,,,3,4,'-30,57,L,P,COMPLETE,11,EMPTY 3x2,GEMP,,VERTS RD,,,,,,,,,,,,,,,,
-241,"2512 UAB O @ Tulsa, Play 067",,,,,,,,,1,10,'+13,2,L,R,,12,KING U OFF,DOT,,,IZ,,,,,,,,,,,,,,,
-242,"2512 UAB O @ Tulsa, Play 068",,,,,,,,,2,8,'+11,6,L,R,,12,KING U OFF,GN,Z MTR,,IZ,,,,,,,,,,,,,,,
-243,"2512 UAB O @ Tulsa, Play 069",,,,,,,,,3,2,'+5,2,L,R,,23TT,UNBAL TO B HIP,I NR,,,TOSS SWEEP,,,,,,,,,,,,,,,
-244,"2512 UAB O @ Tulsa, Play 070",,,,,,,,,1,3,'+3,3,L,R,,23,ACE B STING,I,,,POWER G LD,,,,,,,,,,,,,,,
-245,"2512 UAB O @ Tulsa, Play 071",,,,,,,,,0,10,'-21,14,R,R,,22,ACE,I,,,POWER G LD,,,,,,,,,,,,,,,
-246,"2512 UAB O @ Tulsa, Play 072",,,,,,,,,1,10,'-35,5,L,R,,13,KING B STING FIB,DOT,,,IZ,,,,,,,,,,,,,,,
-247,"2601 UAB O @ Illinois, Play 001",,,,BENCH,,,,,0,10,'-25,13,R,R,,11,TO DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-248,"2601 UAB O @ Illinois, Play 002",,,,SOLID,,,,,1,10,'-38,4,R,R,,11,TREY Y OFF,GN,,,IZ,,,,,,,,,,,,,,,
-249,"2601 UAB O @ Illinois, Play 003",,,,BENCH,,,,,2,6,'-42,8,M,R,,11,DUO Y OFF,GF,SHIFT,,SPL ZN,,,,,,,,,,,,,,,
-250,"2601 UAB O @ Illinois, Play 004",,,,OKIE,,,,,1,10,50,0,RM,P,THROWN AWAY,11,TREY Y OFF,GN,CK W ME,SMASH R FLAT,,,,,,,,,,,,,,,,
-251,"2601 UAB O @ Illinois, Play 005",,,,JOKER,,,,,2,10,50,9,RM,R,,12,KING U OFF,DOT,,,IZ,,,,,,,,,,,,,,,
-252,"2601 UAB O @ Illinois, Play 006",,,,SOLID,,,,,3,1,41,4,M,R,,31,ACE F OFF R STING,DOT,,,QB SNEAK,,,,,,,,,,,,,,,
-253,"2601 UAB O @ Illinois, Play 007",,,,OKIE,,,,,1,10,37,4,M,R,,12,UNBAL TO ACE U OFF,GN,Z ORB,,SPL ZN,,,,,,,,,,,,,,,
-254,"2601 UAB O @ Illinois, Play 008",,,,OKIE,,,,,2,6,33,1,RM,R,,11,DOUBLES,GF,,,IZ RD,,,,,,,,,,,,,,,
-255,"2601 UAB O @ Illinois, Play 009",,,,OKIE,,,,,3,5,32,2,M,R,,11,TRIPS,GF,BUZZ,,OZ,,,,,,,,,,,,,,,
-256,"2601 UAB O @ Illinois, Play 010",,,,WIDE,,,,,3,13,'+40,'-10,L,P,SACK,11,TRIPS OPEN V BUNCH,GN,,LEVELS,,,,,,,,,,,,,,,,
-257,"2601 UAB O @ Illinois, Play 011",,,,EVEN,,,,,0,10,'-25,2,L,R,,11,DUO Y OFF,PSTL,SHIFT/Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-258,"2601 UAB O @ Illinois, Play 012",,,,,,,,,2,8,'-26,11,L,P,COMPLETE,11,NUMBERS,GF,SHIFT,HITCHES,,,,,,,,,,,,,,,,
-259,"2601 UAB O @ Illinois, Play 013",,,,STACK,,,,,1,10,'-38,5,L,R,,21,PRO TWINS,GS,,,SPL ZN,,,,,,,,,,,,,,,
-260,"2601 UAB O @ Illinois, Play 014",,,,OKIE,,,,,2,5,'-43,1,R,P,RUN,11,TREY Y OFF BUNCH,GF,T RELOAD,SPACING,,,,,,,,,,,,,,,,
-261,"2601 UAB O @ Illinois, Play 015",,,,WIDE,,,,,3,4,'-44,8,R,P,COMPLETE,10,TRIPS OPEN,GF,T RELOAD,SLANTS,,,,,,,,,,,,,,,,
-262,"2601 UAB O @ Illinois, Play 016",,,,SOLID,,,,,1,10,'+48,3,M,R,,12,KING U OFF,GF,Z MTR,,CTR OT,,,,,,,,,,,,,,,
-263,"2601 UAB O @ Illinois, Play 017",,,,OKIE,,,,,2,7,'+45,0,L,P,INCOMPLETE,11,TREY Y OFF,GN,SHIFT,GLANCE,,,,,,,,,,,,,,,,
-264,"2601 UAB O @ Illinois, Play 018",,,,BENCH,,,,,3,7,'+45,42,L,P,COMPLETE,11,TRIPS OPEN,GF,,VERTS RD,,,,,,,,,,,,,,,,
-265,"2601 UAB O @ Illinois, Play 019",,,,BEAR,,,,,1,3,'+3,'-1,L,R,,11,TREY Y OFF BUNCH,GN,,,IZ,,,,,,,,,,,,,,,
-266,"2601 UAB O @ Illinois, Play 021",,,,JACK,,,,,2,9,'+9,0,L,P,INCOMPLETE,12,KING U OFF,PSTL,U MO,FLOOD,,,,,,,,,,,,,,,,
-267,"2601 UAB O @ Illinois, Play 022",,,,STACK,,,,,3,9,'+9,1,L,P,RUN,11,TRIPS OPEN V BUNCH,GF,,SPACING DEEP,,,,,,,,,,,,,,,,
-268,"2601 UAB O @ Illinois, Play 023",,,,BENCH,,,,,0,10,'-25,4,L,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-269,"2601 UAB O @ Illinois, Play 024",,,,OKIE,,,,,2,6,'-29,7,R,R,,12,KING U OFF,GF,,,IZ,,,,,,,,,,,,,,,
-270,"2601 UAB O @ Illinois, Play 025",,,,OKIE,,,,,1,10,'-36,'-3,R,R,,11,DUO Y OFF,GF,Z MTR,,CTR OY,,,,,,,,,,,,,,,
-271,"2601 UAB O @ Illinois, Play 026",,,,,,,,,2,13,'-33,7,M,R,,11,NUMBERS,GF,,,Y INSERT,,,,,,,,,,,,,,,
-272,"2601 UAB O @ Illinois, Play 027",,,,,,,,,3,6,'-40,6,M,R,,11,NUMBERS,GF,,,Y INSERT,,,,,,,,,,,,,,,
-273,"2601 UAB O @ Illinois, Play 028",,,,BENCH,,,,,1,10,'-46,0,RM,P,THROWN AWAY,11,TRIPS OPEN,GF,Y OUT,Z UNDER,,,,,,,,,,,,,,,,
-274,"2601 UAB O @ Illinois, Play 029",,,,OKIE,,,,,1,20,'-36,1,RM,R,,11,DUO Y OFF,GF,,,SPL ZN,,,,,,,,,,,,,,,
-275,"2601 UAB O @ Illinois, Play 030",,,,,,,,,2,19,'-37,7,L,R,,11,NUMBERS,GF,,,Y INSERT,,,,,,,,,,,,,,,
-276,"2601 UAB O @ Illinois, Play 031",,,,OKIE,,,,,3,12,'-44,7,L,P,RUN,11,TREY Y OFF,GF,,MESH,,,,,,,,,,,,,,,,
-277,"2601 UAB O @ Illinois, Play 033",,,,OKIE,,,,,0,10,'+31,17,M,P,COMPLETE,21,PRO TWINS,GS,F SWING,SCR N' GO,,,,,,,,,,,,,,,,
-278,"2601 UAB O @ Illinois, Play 034",,,,JOKER,,,,,1,10,'+14,7,L,R,,12,TWINS U STING,GN,,,IZ,,,,,,,,,,,,,,,
-279,"2601 UAB O @ Illinois, Play 037",,,,EVEN,,,,,1,9,'+9,4,M,R,,12,TO TREY U STING,GF,,,SPL ZN,,,,,,,,,,,,,,,
-280,"2601 UAB O @ Illinois, Play 038",,,,BEAR,,,,,2,5,'+5,1,LM,R,,12,TO ACE U OFF,DOT,,,SPL ZN,,,,,,,,,,,,,,,
-281,"2601 UAB O @ Illinois, Play 039",,,,STACK,,,,,3,4,'+4,0,R,P,INCOMPLETE,11,DUO,GF,,91,,,,,,,,,,,,,,,,
-282,"2601 UAB O @ Illinois, Play 040",,,,EVEN,,,,,0,10,'+50,0,LM,P,INCOMPLETE,11,TREY Y OFF,GN,,VERTS RD,,,,,,,,,,,,,,,,
-283,"2601 UAB O @ Illinois, Play 041",,,,OKIE,,,,,2,10,'+50,2,LM,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-284,"2601 UAB O @ Illinois, Play 042",,,,BENCH,,,,,3,8,'+48,7,R,P,COMPLETE,11,TRIPS OPEN,GN,T RELOAD,SPACING,,,,,,,,,,,,,,,,
-285,"2601 UAB O @ Illinois, Play 043",,,,BEAR,,,,,4,1,'+41,3,R,R,,31,ACE F OFF R STING,DOT,R MTR,,JET SWEEP,,,,,,,,,,,,,,,
-286,"2601 UAB O @ Illinois, Play 044",,,,,,,,,1,10,'+38,8,L,R,,11,NUMBERS,GF,,,Y INSERT,,,,,,,,,,,,,,,
-287,"2601 UAB O @ Illinois, Play 045",,,,,,,,,2,2,'+30,6,L,R,,11,NUMBERS,GF,,,Y INSERT,,,,,,,,,,,,,,,
-288,"2601 UAB O @ Illinois, Play 046",,,,JACK,,,,,1,10,'+24,0,L,P,INCOMPLETE,11,TRIPS OPEN,GN,,OVERS,,,,,,,,,,,,,,,,
-289,"2601 UAB O @ Illinois, Play 047",,,,JOKER,,,,,2,10,'+24,0,LM,P,INCOMPLETE,11,TRIPS OPEN,GF,,VERTS RD,,,,,,,,,,,,,,,,
-290,"2601 UAB O @ Illinois, Play 048",,,,OKIE,,,,,3,10,'+24,14,LM,P,RUN,11,DOUBLES,GN,Z BNC,SPACING,,,,,,,,,,,,,,,,
-291,"2601 UAB O @ Illinois, Play 049",,,,STACK,,,,,1,10,'+10,10,L,P,COMPLETE,11,TRIPS OPEN,GN,,227,,,,,,,,,,,,,,,,
-292,"2601 UAB O @ Illinois, Play 050",,,,JACK,,,,,0,10,'-25,13,R,P,COMPLETE,21,PRO TWINS,GS,F SWING,HITCHES,,,,,,,,,,,,,,,,
-293,"2601 UAB O @ Illinois, Play 051",,,,JACK,,,,,1,10,'-38,3,LM,R,,11,DUO Y OFF,PSTL,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-294,"2601 UAB O @ Illinois, Play 052",,,,JOKER,,,,,2,7,'-41,5,LM,R,,12,TREY U STING,PSTL,,,OZ,,,,,,,,,,,,,,,
-295,"2601 UAB O @ Illinois, Play 053",,,,SOLID,,,,,3,2,'-46,1,L,R,,12,TREY Y OFF BUNCH FIB,DOT,,,QB SNEAK,,,,,,,,,,,,,,,
-296,"2601 UAB O @ Illinois, Play 054",,,,BEAR,,,,,4,1,'-47,6,L,R,,12,TREY Y OFF BUNCH FIB,DOT,,,DIVE,,,,,,,,,,,,,,,
-297,"2601 UAB O @ Illinois, Play 055",,,,SOLID,,,,,1,10,'+47,2,L,R,,12,TWINS U HIP,GF,,,SPL ZN,,,,,,,,,,,,,,,
-298,"2601 UAB O @ Illinois, Play 056",,,,OKIE,,,,,2,8,'+45,24,L,R,,11,SLOT,GS,SHIFT,,REVERSE,,,,,,,,,,,,,,,
-299,"2601 UAB O @ Illinois, Play 057",,,,BENCH,,,,,1,10,'+21,0,R,P,INCOMPLETE,11,DOUBLES,GN,,SLUGGO,,,,,,,,,,,,,,,,
-300,"2601 UAB O @ Illinois, Play 058",,,,JACK,,,,,2,10,'+21,'-1,R,R,,12,UNBAL TO ACE U OFF,GN,Z ORB,,SPL ZN,,,,,,,,,,,,,,,
-301,"2601 UAB O @ Illinois, Play 059",,,,OKIE,,,,,3,11,'+22,5,R,P,RUN,11,TRIPS OPEN V BUNCH,GN,,SCISSORS,,,,,,,,,,,,,,,,
-302,"2601 UAB O @ Illinois, Play 060",,,,OKIE,,,,,0,10,'-25,0,L,P,INCOMPLETE,11,DUO Y OFF,PSTL,Z MTR,POST WHEEL,,,,,,,,,,,,,,,,
-303,"2601 UAB O @ Illinois, Play 061",,,,JACK,,,,,1,15,'-20,0,L,R,INCOMPLETE,11,TRIPS,GN,,,,,,,,,,,,,,,,,,
-304,"2601 UAB O @ Illinois, Play 062",,,,,,,,,2,15,'-20,4,L,P,COMPLETE,11,NUMBERS,GF,,VERTS RD,,,,,,,,,,,,,,,,
-305,"2601 UAB O @ Illinois, Play 063",,,,WIDE,,,,,3,11,'-24,12,R,P,COMPLETE,11,TRIPS OPEN,GN,,CURLS,,,,,,,,,,,,,,,,
-306,"2601 UAB O @ Illinois, Play 064",,,,EVEN,,,,,1,10,'-36,5,L,P,COMPLETE,12,TREY Y OFF,GF,,VERTS RD,,,,,,,,,,,,,,,,
-307,"2601 UAB O @ Illinois, Play 065",,,,OKIE,,,,,2,5,'-41,0,M,P,HIT AS THREW,11,DOUBLES,GN,X RETURN,OVER,,,,,,,,,,,,,,,,
-308,"2601 UAB O @ Illinois, Play 066",,,,SOLID,,,,,3,5,'-41,15,R,P,COMPLETE,11,TRIPS OPEN,GF,,SCISSORS,,,,,,,,,,,,,,,,
-309,"2601 UAB O @ Illinois, Play 067",,,,JACK,,,,,1,10,'+44,0,L,P,INCOMPLETE,11,TREY Y OFF,GF,,POST DIG,,,,,,,,,,,,,,,,
-310,"2601 UAB O @ Illinois, Play 068",,,,OKIE,,,,,2,10,'+44,8,L,P,COMPLETE,21,PRO Y OFF,GS,Y MO,POST WHEEL,,,,,,,,,,,,,,,,
-311,"2601 UAB O @ Illinois, Play 069",,,,BEAR,,,,,3,2,'+36,2,L,R,,12,KING U OFF FIB,GN,Z MTR,,SPL ZN,,,,,,,,,,,,,,,
-312,"2601 UAB O @ Illinois, Play 070",,,,JACK,,,,,1,10,'+34,8,L,P,RUN,12,ACE YU OFF,PSTL,,POST OVER,,,,,,,,,,,,,,,,
-313,"2601 UAB O @ Illinois, Play 071",,,,OKIE,,,,,2,2,'+26,10,LM,R,,11,TREY Y OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-314,"2601 UAB O @ Illinois, Play 072",,,,,,,,,2,12,'+36,0,L,P,INCOMPLETE,11,NUMBERS,GF,,POST WHEEL,,,,,,,,,,,,,,,,
-315,"2601 UAB O @ Illinois, Play 073",,,,WIDE,,,,,3,12,'+36,5,LM,P,COMPLETE,11,TREY Y OFF,GF,,CURLS,,,,,,,,,,,,,,,,
-316,"2601 UAB O @ Illinois, Play 074",,,,BENCH,,,,,4,7,'+31,0,L,P,INTERCEPTION,11,TREY Y OFF,GF,,MESH,,,,,,,,,,,,,,,,
-317,"2601 UAB O @ Illinois, Play 075",,,,STACK,,,,,0,10,'-25,5,R,P,COMPLETE,11,TREY Y OFF FIB,GN,,HITCHES,,,,,,,,,,,,,,,,
-318,"2601 UAB O @ Illinois, Play 076",,,,EVEN,,,,,2,5,'-30,4,R,P,COMPLETE,11,DUO YH OFF,GN,Y NR,SPACING,,,,,,,,,,,,,,,,
-319,"2601 UAB O @ Illinois, Play 077",,,,SOLID,,,,,3,1,'-34,0,R,R,,11,DUO Y OFF,GN,Z MTR,,IZ,,,,,,,,,,,,,,,
-320,"2601 UAB O @ Illinois, Play 078",,,,JOKER,,,,,4,1,0,3,RM,R,,12,KING U OFF,GN,,,SPL ZN,,,,,,,,,,,,,,,
-321,"2601 UAB O @ Illinois, Play 079",,,,OKIE,,,,,1,10,'-37,3,R,P,RUN,12,ACE YU OFF,GF,SHIFT,SPACING,,,,,,,,,,,,,,,,
-322,"2601 UAB O @ Illinois, Play 080",,,,OKIE,,,,,2,7,'-40,4,L,R,,11,TREY Y OFF,PSTL,,,OZ,,,,,,,,,,,,,,,
-323,"2601 UAB O @ Illinois, Play 081",,,,OKIE,,,,,3,3,'-44,15,M,P,COMPLETE,11,DUO Y OFF,GN,,CURLS,,,,,,,,,,,,,,,,
-324,"2601 UAB O @ Illinois, Play 082",,,,OKIE,,,,,1,10,'+41,14,R,P,COMPLETE,11,TREY Y OFF,GN,,TUNNEL SCR,,,,,,,,,,,,,,,,
-325,"2601 UAB O @ Illinois, Play 083",,,,EVEN,,,,,1,10,'+27,24,R,P,COMPLETE,11,TREY Y OFF,GN,,GLANCE,,,,,,,,,,,,,,,,
-326,"2601 UAB O @ Illinois, Play 084",,,,BENCH,,,,,1,3,'+3,'-1,R,R,,11,TREY Y OFF BUNCH FIB,GN,,,IZ,,,,,,,,,,,,,,,
-327,"2601 UAB O @ Illinois, Play 085",,,,BENCH,,,,,2,4,'+4,'-1,R,R,,11,TREY Y OFF BUNCH,GN,,,IZ,,,,,,,,,,,,,,,
-328,"2601 UAB O @ Illinois, Play 086",,,,JOKER,,,,,3,5,'+5,5,LM,P,RUN,11,TREY Y OFF BUNCH,GN,,SPACING,,,,,,,,,,,,,,,,
+﻿#,Name,Comments 1,Quarter,Down,Distance,Field Position,P/10,SY/GL,Red Area,Drive #,Drive Play #,Gain,R/P,Hash,Personnel,Backfield,Formation,Form Var,Motion,Starting Form,FIB,Endover,Form Adj Reduce,Y Location,Pass Concept,Pass Result,Run Concept,Run Strength,Play Type,Proctection,Front,Front Type,Stunt,Pressure Type,Coverage,2M/4M,BC/REC,QB,RB,TE,WR,Tempo,pff_OFFPERSONNELBASIC,pff_RUNPASS,pff_DRIVEPLAY,pff_HASHDEF,pff_PREVIOUSGAINLOSS,pff_GAINLOSS,pff_SCREEN,pff_QUICKGAME,pff_RUNCONCEPT3,pff_RUNCONCEPTPRIMARY,pff_PENALTY,pff_TOUCHDOWN,pff_TRICKLOOK,pff_TRICKPLAY,pff_TEMPO,pff_2MINUTE,pff_GARBAGETIME,pff_BALLCARRIER,pff_QB,pff_RBS,pff_WRS,pff_TES,pff_FRONTTYPE,pff_OFFFORMATIONGROUP,pff_RUNPASSOPTION,pff_PREVIOUSRUNPASS,pff_PASSRECEIVERTARGET,pff_BLITZDOG,pff_PASSCOVERAGEBASIC
+1,"2510 UAB O vs North Texas, Play 001",,1,0,10,'-26,P,,,1,1,5,R,R,21,GN,TRIPS BUNCH,,Z MTR,,,,X,ON,,,IZ,WK,ZN,,BENCH,4 DWN,,,,0,ALBI 03,ALBI 07,03; 11,85,00; 06,0,21,R,,R,45,5,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03; 11,00; 06,85,WIDE OVER,1x3,1,,,0,COVER 6
+2,"2510 UAB O vs North Texas, Play 002",,1,2,5,'-31,2,,,1,2,8,P,R,11,GEMP,NUMBERS,,,,,,,OPEN,NOW SCR,COMPLETE,,,SCR,,,,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,1,11,P,,R,5,8,1,0,,,,,1,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,3x4,0,R,ALBI 04,0,COVER 4
+3,"2510 UAB O vs North Texas, Play 003",,1,1,10,'-39,1,,,1,3,15,R,M,11,GF,TREY Y OFF,,,,,,,OFF,,,Y INSERT,STR,ZN,,BENCH,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,1,11,R,,C,8,15,0,,,INSIDE ZONE,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,3x1,1,P,,0,COVER 6
+4,"2510 UAB O vs North Texas, Play 004",,1,1,10,'+46,1,,,1,4,0,P,R,11,GN,TRIPS,,,,,,,ON,FLOOD,INTERCEPTION,,,DB,FS RT,OFF EVEN,4 DWN,,STREAK,,0,,ALBI 15,4,85,00; 06; 12,1,11,P,,R,15,0,0,0,,,,,0,0,1,0,0,,ALBI 15,04,00; 06; 12,85,WIDE OVER,1x3,0,R,ALBI 12,1,COVER 3
+5,"2510 UAB O vs North Texas, Play 005",,1,0,10,'-22,P,,,2,1,0,R,L,12,GF,KING U OFF,,Z MTR,,,,,SLOT,,,IZ,STR,ZN,,BENCH,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 08,0,12,R,,L,63,0,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 08,17; 85,OVER,3x1,1,,,0,COVER 1
+6,"2510 UAB O vs North Texas, Play 006",,1,0,10,'-20,P,,,3,1,9,R,M,11,GF,DUO Y OFF,,SHIFT,EMPTY 3x2 V BUNCH,,,,OFF,,,Y INSERT,STR,ZN,,EVEN,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,C,60,9,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE OVER,2x2,1,,,0,COVER 4
+7,"2510 UAB O vs North Texas, Play 007",,1,2,1,'-29,2,,,3,2,4,R,R,11,PSTL,TREY Y OFF BUNCH,,Z MTR,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,1,11,R,,R,9,4,0,,,MAN,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,1x3,0,R,,0,COVER 3
+8,"2510 UAB O vs North Texas, Play 009",,1,1,15,'-28,1,,,3,4,0,P,R,11,GF,DUO,STK,Z BNC,,,,X,ON,SPACING,INCOMPLETE,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,3,85,00; 06; 18,0,11,P,,R,,0,0,1,,,,,0,0,0,0,0,,ALBI 07,03,00; 06; 18,85,WIDE UNDER,2x2,0,,ALBI 00,0,COVER 4
+9,"2510 UAB O vs North Texas, Play 010",,1,2,15,'-28,2,,,3,5,6,P,R,11,GN,TREY Y OFF,,,,X,,,OFF,HITCHES,COMPLETE,,,GAP,GAP,,3 DWN,,,,0,ALBI 00,ALBI 07,3,85,00; 06; 18,0,11,P,,R,,6,0,1,,COUNTER,,,0,0,0,0,0,ALBI 00,ALBI 07,03,00; 06; 18,85,ODD,3x1,1,P,ALBI 00,1,COVER 4
+10,"2510 UAB O vs North Texas, Play 011",,1,3,9,'-34,3,,,3,6,7,P,R,11,GF,TREY Y OFF,STK,Z IN,,,,,OFF,DAGGER,COMPLETE,,,DB,MAN,,3 DWN,,,,0,ALBI 18,ALBI 07,3,85,00; 06; 18,0,11,P,,R,6,7,0,0,,,,,0,0,0,0,0,ALBI 18,ALBI 07,03,00; 06; 18,85,ODD,1x3,0,P,ALBI 18,0,COVER 2 MAN
+11,"2510 UAB O vs North Texas, Play 012",,1,4,2,'-41,4,SY,,3,7,13,R,R,12,DOT,TREY Y OFF BUNCH,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,06; 18,0,12,R,,R,7,13,0,,,MAN,,,0,0,0,0,0,ALBI 04,ALBI 07,04,06; 18,17; 85,UNDER,1x3,0,P,,1,COVER 3
+12,"2510 UAB O vs North Texas, Play 013",,2,1,10,'+46,1,,,3,8,1,R,M,12,PSTL,TWINS U STING,,,,,,,WING SLOT,,,SPL ZN,STR,ZN,,,5 DWN,,,,0,ALBI 07,ALBI 07,4,17; 85,08; 18,0,12,R,,C,13,1,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 07,04,08; 18,17; 85,WIDE UNDER,2x2,0,R,,1,COVER 1
+13,"2510 UAB O vs North Texas, Play 014",,2,2,9,'+45,2,,,3,9,0,P,R,11,GN,TREY Y OFF FIB,,,,X,,,OFF,CURLS,INCOMPLETE,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,4,17,00; 06; 08,0,11,P,,R,1,0,0,0,,,,,0,0,0,0,0,,ALBI 07,04,00; 06; 08,17,WIDE OVER,3x1,0,R,ALBI 00,0,COVER 4
+14,"2510 UAB O vs North Texas, Play 015",,2,3,9,'+45,3,,,3,10,10,P,R,11,GF,TREY Y OFF,,T RELOAD,,,,,OFF,CURLS,COMPLETE,,,DB,HS,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17,00; 06; 12,0,11,P,,R,,10,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 12,17,WIDE OVER,1x3,0,P,ALBI 00,0,COVER 4
+15,"2510 UAB O vs North Texas, Play 016",,2,1,10,'+35,1,,,3,11,7,P,L,21,GS,PRO Y OFF,,,,,,,OFF,POST WHEEL,COMPLETE,,,NKD,ZONE,,4 DWN,,,,0,ALBI 11,ALBI 15,03; 11,17,06; 18,0,21,P,,L,10,7,0,0,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 15,03; 11,06; 18,17,OVER,1x2,1,P,ALBI 11,1,COVER 2
+16,"2510 UAB O vs North Texas, Play 018",,2,2,8,'+33,2,,,3,13,0,P,L,11,GN,TRIPS OPEN,Y AT 1,,,,,,OPEN,229,INCOMPLETE,,,RPO,ZONE,,4 DWN,,,,0,,ALBI 07,3,17,00; 06; 18,0,11,P,,L,,0,0,0,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 07,03,00; 06; 18,17,EVEN,3x1,1,,ALBI 06,0,COVER 3
+17,"2510 UAB O vs North Texas, Play 019",,2,3,8,'+33,3,,,3,14,6,P,L,11,GF,TRIPS OPEN,,,,,,,OPEN,CURLS,COMPLETE,,,DB,32,,5 DWN,,,,0,ALBI 18,ALBI 07,3,17,00; 06; 18,0,11,P,,L,,6,0,0,,,,,0,0,0,0,0,ALBI 18,ALBI 07,03,00; 06; 18,17,ODD,3x1,0,P,ALBI 18,0,COVER 1
+18,"2510 UAB O vs North Texas, Play 020",,2,4,2,'+27,4,SY,,3,15,'-3,R,L,12,GN,TWINS U STING,,,,,,X,WING SLOT,,,IZ,WK,ZN,,,5 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,06; 18,0,12,R,,L,6,'-3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,06; 18,17; 85,WIDE UNDER,2x2,1,P,,1,COVER 1
+19,"2510 UAB O vs North Texas, Play 021",,2,0,10,'-25,P,,,4,1,0,R,L,21,GN,DUO Y OFF,,X MTR,,,,X,OFF,,COMPLETE,JET SWEEP,STR,JET,,,4 DWN,,,,0,ALBI 11,ALBI 07,03; 11,85,06; 18,0,21,P,,L,74,0,1,0,,,,,0,0,0,0,0,ALBI 11,ALBI 07,03; 11,06; 18,85,UNDER,2x2,0,,ALBI 11,1,COVER 3
+20,"2510 UAB O vs North Texas, Play 022",,2,2,10,'-25,2,,,4,2,16,P,R,11,GEMP,EMPTY 3x2,,TOX,TRIPS,,,,OPEN,CURLS,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 18,ALBI 07,3,85,00; 06; 18,0,11,P,,R,0,16,0,0,,,,,0,0,0,0,0,ALBI 18,ALBI 07,03,00; 06; 18,85,WIDE UNDER,2x3,0,P,ALBI 18,0,COVER 2
+21,"2510 UAB O vs North Texas, Play 023",,2,1,10,'-41,1,,,4,3,0,P,R,11,GN,DUO Y OFF,SNUG,Z MTR,,,,,OFF,SPACING,INCOMPLETE,,,QK,32,,4 DWN,,,,0,,ALBI 07,3,85,00; 06; 08,0,11,P,,R,16,0,0,1,,,,,0,0,0,0,0,,ALBI 07,03,00; 06; 08,85,WIDE OVER,2x2,0,P,ALBI 00,0,COVER 4
+22,"2510 UAB O vs North Texas, Play 024",,2,2,10,'-41,2,,,4,4,3,R,R,12,PSTL,TWINS U STING,,X MTR,,,,X,WING SLOT,,,OZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,06; 18,0,12,R,,R,,3,0,,,OUTSIDE ZONE,,,0,1,0,0,0,ALBI 03,ALBI 07,03,06; 18,17; 85,EVEN,3x1,0,P,,0,COVER 4
+23,"2510 UAB O vs North Texas, Play 025",,2,3,7,'-44,3,,,4,5,8,P,R,11,GS (RABBIT),SLOT,STK,H RELOAD,,,,X,OPEN,H ANGLE,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 17,ALBI 07,3,17,00; 06; 18,0,11,P,,R,3,8,0,0,,,,,0,0,0,0,0,ALBI 17,ALBI 07,03,00; 06; 18,17,EVEN,1x2,0,R,ALBI 17,0,COVER 1
+24,"2510 UAB O vs North Texas, Play 026",,2,1,10,'+48,1,,,4,6,3,P,R,11,GN,TREY Y OFF,,Y RETURN,,X,,,OFF,DBL SCR,COMPLETE,,,SCR,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 18,0,11,P,,R,8,3,1,0,,,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,17,WIDE OVER,3x1,0,P,ALBI 04,1,COVER 3
+25,"2510 UAB O vs North Texas, Play 027",,2,2,7,'+45,2,,,4,7,9,R,L,11,PSTL,DUO Y OFF,SNUG,Z MTR,,,,X,OFF,,,SPL ZN,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 18,0,11,R,,L,3,9,0,,,MAN,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,17,WIDE OVER,2x2,1,P,,0,COVER 3
+26,"2510 UAB O vs North Texas, Play 028",,2,1,10,'+36,1,,,4,8,'-1,R,LM,11,PSTL,TREY Y OFF,,Y MO,,X,,,OFF,,,OZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 18,0,11,R,,C,9,'-1,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,17,WIDE UNDER,1x3,0,R,,0,COVER 1
+27,"2510 UAB O vs North Texas, Play 029",,2,2,11,'+37,2,,,4,9,5,R,L,12,DOT,ACE U OFF,,,,,,,PRO,,,OZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,L,'-1,5,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE UNDER,2x2,0,R,,0,COVER 3 CLOUD
+28,"2510 UAB O vs North Texas, Play 030",,2,3,6,'+32,3,,,4,10,32,P,M,10,GN,DOUBLES,,S BNC,,,,,,OVER,COMPLETE,,,DB,HS,,4 DWN,,,,0,ALBI 06,ALBI 07,4,,00; 06; 08; 18,0,10,P,,C,5,32,0,0,,,,ALBI 06,0,0,0,0,0,ALBI 06,ALBI 07,04,00; 06; 08; 18,,WIDE UNDER,2x2,0,R,ALBI 06,0,COVER 2
+29,"2510 UAB O vs North Texas, Play 031",,2,0,10,'-25,P,,,5,1,4,R,L,11,GF,TREY Y OFF,,Y NR,,,,,OFF,,,SPL ZN,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,L,72,4,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,3x1,1,,,0,COVER 4
+30,"2510 UAB O vs North Texas, Play 032",,2,2,6,'-29,2,,,5,2,11,P,RM,11,GN,TREY Y OFF,,Z MTR,,X,,,OFF,MESH,COMPLETE,,,DB,HS,,4 DWN,,,,0,ALBI 06,ALBI 07,4,85,00; 06; 08,0,11,P,,C,4,11,0,0,,,,,0,0,0,0,0,ALBI 06,ALBI 07,04,00; 06; 08,85,WIDE OVER,3x1,0,R,ALBI 06,0,COVER 3 CLOUD
+31,"2510 UAB O vs North Texas, Play 033",,2,1,10,'-40,1,,,5,3,1,R,RM,12,PSTL,KING U OFF,,,,,,,SLOT,,,OZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,08; 18,1,12,R,,C,11,1,0,,,OUTSIDE ZONE,,,0,0,1,0,0,ALBI 04,ALBI 07,04,08; 18,17; 85,WIDE UNDER,1x3,0,P,,0,COVER 1
+32,"2510 UAB O vs North Texas, Play 034",,2,2,9,'-41,2,,,5,4,'-2,R,RM,11,GF,DUO Y OFF,,Y MO,,,,,OFF,,,OZ,STR,ZN,,,4 DWN,,,,2,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,C,1,'-2,0,,,OUTSIDE ZONE,,,0,0,0,2,0,ALBI 04,ALBI 07,04,00; 06; 18,85,ODD,2x2,1,R,,0,COVER 4
+33,"2510 UAB O vs North Texas, Play 035",,2,3,11,'-39,3,,,5,5,36,P,R,11,GN,TRIPS BUNCH,,,,,,,ON,VERTS RD,COMPLETE,,,DB,FS RT,,3 DWN,,,,2,ALBI 06,ALBI 07,4,85,00; 06; 18,0,11,P,,R,'-2,36,0,0,,,,,0,0,0,2,0,ALBI 06,ALBI 07,04,00; 06; 18,85,ODD,1x3,0,R,ALBI 06,1,COVER 1
+34,"2510 UAB O vs North Texas, Play 036",,2,1,10,'+25,1,,RA,5,6,5,R,L,11,GF,TREY Y OFF,STK,H MTR,,,,X,OFF,,,SPL ZN,STR,ZN,,,3 DWN,,,,2,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,L,36,5,0,,,INSIDE ZONE,,,0,0,0,2,0,ALBI 04,ALBI 07,04,00; 06; 18,85,ODD,3x1,0,P,,0,COVER 1
+35,"2510 UAB O vs North Texas, Play 037",,2,2,5,'+20,2,,RA,5,7,0,P,R,11,GN,TRIPS,,,,,,,ON,HITCH FADE,INCOMPLETE,,,DB,MAN,,4 DWN,,,,2,,ALBI 07,4,85,00; 06; 18,1,11,P,,R,5,0,0,0,,,,,0,0,1,2,0,,ALBI 07,04,00; 06; 18,85,ODD,1x3,0,R,ALBI 00,0,COVER 1
+36,"2510 UAB O vs North Texas, Play 038",,2,3,5,'+20,3,,RA,5,8,3,P,R,11,GF,TRIPS OPEN V BUNCH,Y AT 1,Y IN,,,,X,OPEN,OPTION H,COMPLETE,,,DB,MAN,,4 DWN,,,,2,ALBI 03,ALBI 07,3,85,00; 06; 18,0,11,P,,R,,3,0,0,,,,,0,0,0,2,0,ALBI 03,ALBI 07,03,00; 06; 18,85,WIDE UNDER,1x3,0,P,ALBI 03,0,COVER 3
+37,"2510 UAB O vs North Texas, Play 039",,2,4,2,'+17,4,SY,RA,5,9,0,P,R,11,GN,TREY Y OFF BUNCH,,,,,,X,OFF,MESH,HIT AS THREW,,,DB,SLD LT,,5 DWN,,,,2,,ALBI 07,3,85,00; 06; 18,1,11,P,,R,3,0,0,0,,,,,0,0,1,2,0,,ALBI 07,03,00; 06; 18,85,UNDER,1x3,0,P,,1,COVER 3
+38,"2510 UAB O vs North Texas, Play 040",,2,0,10,'-44,P,,,6,1,0,P,RM,11,GF,TREY Y OFF,,,,,,,OFF,VERTS RD,INCOMPLETE,,,DB,MAN,,3 DWN,,,,2,,ALBI 07,4,17,00; 06; 18,0,11,P,,C,,0,0,0,,,,,0,0,0,2,0,,ALBI 07,04,00; 06; 18,17,ODD,1x3,0,P,ALBI 00,0,COVER 2 MAN
+39,"2510 UAB O vs North Texas, Play 041",,2,2,10,'-44,2,,,6,2,'-8,P,RM,11,GN,DUO Y OFF,,,,,,,OFF,HI-LO,SACK,,,DB,MAN,,3 DWN,,,,2,ALBI 07,ALBI 07,4,17,00; 06; 18,0,11,P,,C,,'-8,0,0,,,,,0,0,0,2,0,ALBI 07,ALBI 07,04,00; 06; 18,17,ODD,2x2,0,P,,0,COVER 2 MAN
+40,"2510 UAB O vs North Texas, Play 042",,2,3,18,'-36,3,,,6,3,29,R,M,11,GN,TREY Y OFF,,Y NR,,,,,OFF,,,IZ,WK,ZN,,,3 DWN,,,,2,ALBI 04,ALBI 07,4,17,00; 06; 18,0,11,R,,C,'-8,29,0,,,INSIDE ZONE,,,0,0,0,2,0,ALBI 04,ALBI 07,04,00; 06; 18,17,ODD,1x3,0,P,,0,PREVENT
+41,"2510 UAB O vs North Texas, Play 043",,3,0,10,'-25,P,,,7,1,'-3,P,L,11,GEMP,EMPTY 3x2 BUNCH FIB,,,,X,,,OPEN,NOW SCR,COMPLETE,,,SCR,MAN,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,P,,L,69,'-3,1,0,,,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE OVER,2x3,0,,ALBI 04,0,COVER 4
+42,"2510 UAB O vs North Texas, Play 044",,3,2,13,'-22,2,,,7,2,15,P,L,11,GF,TREY Y OFF,STK,Z IN,,,,,OFF,SPACING,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 06,ALBI 07,4,85,00; 06; 18,0,11,P,,L,'-3,15,0,0,,,,,0,0,0,0,0,ALBI 06,ALBI 07,04,00; 06; 18,85,WIDE UNDER,3x1,0,P,ALBI 06,0,COVER 3
+43,"2510 UAB O vs North Texas, Play 045",,3,1,10,'-37,1,,,7,3,58,R,R,11,GF,TREY Y OFF,,Y NR,,,,,OFF,,,Y INSERT,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,1,11,R,,R,15,58,0,,,INSIDE ZONE,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,1x3,0,P,,0,COVER 3 CLOUD
+44,"2510 UAB O vs North Texas, Play 046",,3,1,5,'+5,1,GL,RA,7,4,1,R,L,11,GN,TREY Y OFF BUNCH,,,,,,X,OFF,,,IZ,WK,ZN,,,5 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,L,58,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,WIDE UNDER,3x1,0,R,,1,COVER 1
+45,"2510 UAB O vs North Texas, Play 047",,3,2,4,'+4,2,GL,RA,7,5,3,R,M,11T,GF,UNBAL NUMBERS TKL OFF,,,,,,,,,,SPL ZN,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 15,3,,00; 06; 18,0,10 (*),R,,C,1,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 15,03,00; 06; 18,,BEAR,2x3,0,R,,0,COVER 0
+46,"2510 UAB O vs North Texas, Play 048",,3,3,1,'+1,3,GL,RA,7,6,1,R,M,12,DOT,ACE U OFF,,,,,,X,PRO,,,QB SNEAK,,S,,,7 DWN,,,,0,ALBI 15,ALBI 15,3,17; 85,08; 18,0,12,R,,C,3,1,0,,,SNEAK,,ALBI 15,0,0,0,0,0,ALBI 15,ALBI 15,03,08; 18,17; 85,EVEN,2x2,0,R,,0,COVER 0
+47,"2510 UAB O vs North Texas, Play 049",,3,5,0,'+3,5,GL,RA,,,3,P,R,11,GF,TREY Y OFF,,,,,,,OFF,VERTS RD,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 06,ALBI 07,4,85,00; 06; 18,0,11,P,,R,1,3,0,0,,,,,0,0,0,0,0,ALBI 06,ALBI 07,04,00; 06; 18,85,BEAR,1x3,0,R,ALBI 06,1,RED ZONE
+48,"2510 UAB O vs North Texas, Play 050",,3,0,10,'-25,P,,,8,1,3,R,L,12,DOT,ACE U OFF,,,,,,,PRO,,,POWER G,STR,GAP,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 08,0,12,R,,L,68,3,0,,,PULL LEAD,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 08,17; 85,WIDE UNDER,2x2,0,,,0,COVER 4
+49,"2510 UAB O vs North Texas, Play 051",,3,2,7,'-28,2,,,8,2,6,P,L,12,GN,DUO Y OFF,,,Z MTR,,,X,OFF,SPACING,COMPLETE,,,QK,MAN,,4 DWN,,,,0,ALBI 17,ALBI 07,11,17; 85,00; 08,1,12,P,,L,3,6,0,1,,,,,0,0,1,0,0,ALBI 17,ALBI 07,11,00; 08,17; 85,UNDER,2x2,0,R,ALBI 17,1,COVER 3
+50,"2510 UAB O vs North Texas, Play 052",,3,3,1,'-34,3,SY,,8,3,2,R,L,12,DOT,ACE U OFF,,,,,,X,PRO,,,QB SNEAK,,S,,,4 DWN,,,,0,ALBI 07,ALBI 07,11,17; 85,08; 18,0,12,R,,L,6,2,0,,,SNEAK,,,0,0,0,0,0,ALBI 07,ALBI 07,11,08; 18,17; 85,EVEN,2x2,0,P,,0,COVER 4
+51,"2510 UAB O vs North Texas, Play 053",,3,1,10,'-36,1,,,8,4,21,P,L,12,DOT,ACE YU OFF,,,,,,,OFF,VERTS RD,COMPLETE,,,PA,SLD RT,,4 DWN,,,,0,ALBI 18,ALBI 07,11,17; 85,00; 18,0,12,P,,L,2,21,0,0,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 18,ALBI 07,11,00; 18,17; 85,WIDE OVER,2x2,0,R,ALBI 18,0,COVER 3
+52,"2510 UAB O vs North Texas, Play 054",,3,1,10,'+43,1,,,8,5,0,P,L,11,GN,TREY Y OFF BUNCH,,,,,,X,OFF,FLOOD,INCOMPLETE,,,PA,GAP,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,0,11,P,,L,21,0,0,0,,POWER,TXNO D00 DPI,,0,0,0,0,0,,ALBI 07,11,00; 06; 12,17,WIDE OVER,3x1,0,P,ALBI 00,0,COVER 3 CLOUD
+53,"2510 UAB O vs North Texas, Play 055",,3,1,10,'+28,1,,,8,6,0,P,L,11,GN,TREY Y OFF,,,,X,,,OFF,GLANCE,INCOMPLETE,,,RPO,GAP,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 08,0,11,P,,L,,0,0,1,,COUNTER,,,0,0,0,0,0,,ALBI 07,11,00; 06; 08,17,WIDE OVER,1x3,1,P,ALBI 00,0,COVER 1
+54,"2510 UAB O vs North Texas, Play 056",,3,2,10,'+28,2,,,8,7,0,P,L,11,GEMP,EMPTY 3x2,H DEEP,TOZ,TRIPS,,,,OPEN,OPTION Y,INCOMPLETE,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,0,11,P,,L,,0,0,0,,,,,0,0,0,0,0,,ALBI 07,11,00; 06; 12,17,EVEN,3x2,0,P,ALBI 17,1,COVER 0
+55,"2510 UAB O vs North Texas, Play 057",,3,3,10,'+28,3,,,8,8,0,P,L,11,GF,TREY Y OFF,STK,,,,,,OFF,SPACING,INCOMPLETE,,,DB,MAN,,3 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,0,11,P,,L,,0,0,0,,,,,0,0,0,0,0,,ALBI 07,11,00; 06; 12,17,ODD,3x1,0,P,ALBI 00,0,COVER 1
+56,"2510 UAB O vs North Texas, Play 058",,3,0,10,'-25,P,,,9,1,'-1,R,R,11,GN,TREY Y OFF,,,,,,,OFF,,,CTR OY,WK,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,R,75,'-1,0,,,COUNTER,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,UNDER,1x3,1,,,0,COVER 3
+57,"2510 UAB O vs North Texas, Play 059",,3,2,11,'-24,2,,,9,2,16,P,R,11,GN,DUO Y OFF,SNUG,Z MTR,,,,,OFF,SPACING,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 00,ALBI 07,4,85,00; 06; 08,0,11,P,,R,'-1,16,0,1,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 08,85,UNDER,2x2,0,R,ALBI 00,0,COVER 1
+58,"2510 UAB O vs North Texas, Play 060",,3,1,10,'-40,1,,,9,3,4,R,R,20,GS,SLOT,,SHIFT,NUMBERS,,,,,,,REVERSE,STR,TRICK,,,3 DWN,,,,0,ALBI 12,ALBI 15,03; 11,,06; 12; 18,0,20,R,,R,16,4,0,,,TRICK,,,0,1,0,0,0,ALBI 12,ALBI 15,03; 11,06; 12; 18,,UNDER,1x2,0,P,,0,COVER 4
+59,"2510 UAB O vs North Texas, Play 061",,3,2,6,'-44,2,,,9,4,2,R,L,11,PSTL,DUO Y OFF,SNUG,Z MTR,,,,,OFF,,,SPL ZN,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 06; 18,0,11,R,,L,4,2,0,,,MAN,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06; 18,85,WIDE UNDER,2x2,0,R,,1,COVER 0
+60,"2510 UAB O vs North Texas, Play 062",,3,3,4,'-46,3,,,9,5,0,P,RM,11,GF,TRIPS OPEN V BUNCH,Y AT 1,Y IN,,,,,OPEN,OPTION H,INCOMPLETE,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,3,85,00; 06; 18,1,11,P,,R,2,0,0,0,,,,,0,0,1,0,0,,ALBI 07,03,00; 06; 18,85,WIDE UNDER,1x3,0,R,ALBI 18,0,COVER 3
+61,"2510 UAB O vs North Texas, Play 063",,3,4,4,'-46,4,,,9,6,8,P,RM,11,GF,TREY Y OFF,,,,,,,OFF,CURLS,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 00,ALBI 07,3,85,00; 06; 18,0,11,P,,R,,8,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,03,00; 06; 18,85,WIDE OVER,1x3,0,P,ALBI 00,0,COVER 6
+62,"2510 UAB O vs North Texas, Play 064",,3,1,10,'+46,1,,,9,7,13,P,L,11,GF,TRIPS OPEN V BUNCH,Y AT 3,,,,,,OPEN,DRIVE,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 18,ALBI 07,3,85,00; 06; 18,0,11,P,,L,8,13,0,0,,,,,0,0,0,0,0,ALBI 18,ALBI 07,03,00; 06; 18,85,WIDE UNDER,3x1,0,P,ALBI 18,1,COVER 3
+63,"2510 UAB O vs North Texas, Play 065",,4,1,10,'+33,1,,,9,8,0,P,L,21,GS,PRO Y OFF,,,,,,,OFF,POST WHEEL,INCOMPLETE,,,RPO,ZONE,,4 DWN,,,,0,,ALBI 07,03; 11,17,06; 18,0,21,P,,L,13,0,0,0,,INSIDE ZONE,(D) IDP,,0,0,0,0,0,,ALBI 07,03; 11,06; 18,17,WIDE OVER,1x2,1,P,ALBI 18,0,COVER 4
+64,"2510 UAB O vs North Texas, Play 066",,4,2,10,'+33,2,,,9,9,2,R,L,12,GN,TREY U STING,,,,,,,PRO,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,L,,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,ODD,3x1,0,P,,0,COVER 1
+65,"2510 UAB O vs North Texas, Play 067",,4,3,8,'+31,3,,,9,10,15,P,L,11,GN,TRIPS BUNCH,,,,,,X,ON,FLOOD,COMPLETE,,,DB,MAN,,3 DWN,,,,0,ALBI 06,ALBI 07,3,17,00; 06; 12,0,11,P,,L,2,15,0,0,,,,,0,0,0,0,0,ALBI 06,ALBI 07,03,00; 06; 12,17,ODD,3x1,0,R,ALBI 06,0,COVER 3
+66,"2510 UAB O vs North Texas, Play 068",,4,1,10,'+16,1,,RA,9,11,0,P,RM,11,GF,DUO YH OFF,,,,,,X,OFF,SMASH,INCOMPLETE,,,DB,MAN,,3 DWN,,,,0,,ALBI 07,3,17,00; 06; 12,1,11,P,,R,15,0,0,0,,,,,0,0,1,0,0,,ALBI 07,03,00; 06; 12,17,ODD,2x2,0,P,ALBI 12,1,COVER 4
+67,"2510 UAB O vs North Texas, Play 069",,4,2,10,'+16,2,,RA,9,12,0,P,RM,11,GN,TREY Y OFF,,,,,,,OFF,ANGLE T,INCOMPLETE,,,DB,MAN,,3 DWN,,,,0,,ALBI 07,3,17,00; 06; 08,0,11,P,,C,,0,0,0,,,,,0,0,0,0,0,,ALBI 07,03,00; 06; 08,17,ODD,3x1,0,P,ALBI 00,0,COVER 1
+68,"2510 UAB O vs North Texas, Play 071",,4,3,5,'+11,3,,RA,9,14,4,R,RM,11,GN,TRIPS,,,,,,,ON,,,IZ,WK,ZN,,,3 DWN,,,,0,ALBI 03,ALBI 07,3,17,00; 06; 12,0,11,R,,C,,4,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06; 12,17,ODD,1x3,1,,,0,COVER 1
+69,"2510 UAB O vs North Texas, Play 072",,4,4,1,'+7,4,SY,RA,9,15,1,R,M,11,DOT,DUO Y OFF,,,,,,X,OFF,,,QB SNEAK,,S,,,5 DWN,,,,0,ALBI 07,ALBI 07,4,17,00; 06; 12,0,11,R,,C,4,1,0,,,SNEAK,,,0,0,0,0,0,ALBI 07,ALBI 07,04,00; 06; 12,17,WIDE OVER,2x2,0,R,,1,COVER 0
+70,"2510 UAB O vs North Texas, Play 073",,4,1,6,'+6,1,,RA,9,16,6,R,LM,11,GN,TREY Y OFF,,,,,,,OFF,,,SPL ZN SS,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 15,3,17,00; 06; 12,0,11,R,,L,1,6,0,,,INSIDE ZONE,,ALBI 03,0,0,0,0,0,ALBI 03,ALBI 15,03,00; 06; 12,17,WIDE OVER,3x1,0,R,,1,COVER 0
+71,"2510 UAB O vs North Texas, Play 074",,4,5,0,'+3,5,GL,RA,,,0,P,R,11,GN,DUO Y OFF,,,,,,,OFF,OPTION H,INCOMPLETE,,,DB,FS RT,,4 DWN,,,,0,,ALBI 07,3,17,00; 06; 12,0,11,P,,R,6,0,0,0,,,,,0,0,0,0,0,,ALBI 07,03,00; 06; 12,17,WIDE UNDER,2x2,0,R,ALBI 12,1,COVER 0
+72,"2510 UAB O vs North Texas, Play 075",,4,0,10,'-47,P,,,10,1,0,P,L,12,GN,TWINS U STING,,,,,,,WING SLOT,VERTS,INCOMPLETE,,,DB,FS LT,,4 DWN,,,,0,,ALBI 07,11,17; 85,00; 06,0,12,P,,L,9,0,0,0,,,,,0,0,0,0,0,,ALBI 07,11,00; 06,17; 85,UNDER,2x2,0,,ALBI 00,0,COVER 4
+73,"2510 UAB O vs North Texas, Play 076",,4,2,10,'-47,2,,,10,2,'-10,P,L,11,GF,DUO,,Z BNC,,,,X,ON,MESH,SACK,,,DB,MAN,,3 DWN,,,,0,ALBI 07,ALBI 07,11,85,00; 06; 12,0,11,P,,L,,'-10,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,11,00; 06; 12,85,ODD,2x2,0,P,,1,COVER 4
+74,"2510 UAB O vs North Texas, Play 077",,4,3,20,'-37,3,,,10,3,18,P,L,11,GN,TRIPS,,,,,,,ON,CURLS,COMPLETE,,,DB,MAN,,3 DWN,,,,0,ALBI 06,ALBI 07,4,85,00; 06; 12,0,11,P,,L,'-10,18,0,0,,,,,0,0,0,0,0,ALBI 06,ALBI 07,04,00; 06; 12,85,ODD,3x1,0,P,ALBI 06,0,COVER 2 MAN
+75,"2510 UAB O vs North Texas, Play 078",,4,4,2,'+45,4,SY,,10,4,10,R,R,11,GN,TRIPS,,,,,,,ON,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 12,0,11,R,,R,18,10,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 12,85,WIDE OVER,1x3,1,P,,0,COVER 2
+76,"2510 UAB O vs North Texas, Play 079",,4,1,10,'+35,1,,,10,5,11,P,R,11,GN,TREY Y OFF,,,,,,,OFF,HITCHES,COMPLETE,,,RPO,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,4,85,00; 06; 12,0,11,P,,R,10,11,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 12,85,WIDE UNDER,1x3,1,R,ALBI 00,0,COVER 3 CLOUD
+77,"2510 UAB O vs North Texas, Play 080",,4,1,10,'+24,1,,RA,10,6,0,P,LM,11,GN,TREY Y OFF,,,,,,,OFF,THROWBACK,THROWN AWAY,,,NKD,GAP,,4 DWN,,,,0,,ALBI 07,4,85,00; 06; 12,1,11,P,,L,11,0,0,0,,POWER,,,0,0,1,0,0,,ALBI 07,04,00; 06; 12,85,WIDE UNDER,3x1,0,P,,1,COVER 4
+78,"2510 UAB O vs North Texas, Play 081",,4,2,10,'+24,2,,RA,10,7,13,R,LM,11,GN,TREY Y OFF,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,85,00; 06; 12,0,11,R,,L,,13,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 06; 12,85,WIDE OVER,1x3,1,P,,0,COVER 4
+79,"2510 UAB O vs North Texas, Play 082",,4,1,10,'+11,1,,RA,10,8,0,P,L,11,GF,TREY Y OFF,,,,,,,OFF,OPTION Y,INTERCEPTION,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,11,85,00; 06; 12,0,11,P,,L,13,0,0,1,,,,,0,0,0,0,0,,ALBI 07,11,00; 06; 12,85,WIDE UNDER,3x1,0,R,ALBI 85,0,COVER 4
+80,"2510 UAB O vs North Texas, Play 083",,4,0,10,'-40,P,,,11,1,3,P,R,21,GN,PRO Y OFF,,FOZ,,,,,OFF,NOW SCR,COMPLETE,,,SCR,GAP,,3 DWN,,,,0,ALBI 11,ALBI 07,03; 11,17,00; 06,0,21,P,,R,39,3,1,0,,POWER,,,0,0,0,0,1,ALBI 11,ALBI 07,03; 11,00; 06,17,ODD,1x3,0,,ALBI 11,0,COVER 4
+81,"2510 UAB O vs North Texas, Play 084",,4,2,7,'-43,2,,,11,2,2,R,L,11,GF,DUO Y OFF,,Y NR,,,,,OFF,,,Y INSERT,STR,ZN,,,3 DWN,,,,0,ALBI 03,ALBI 07,3,17,00; 06; 12,0,11,R,,L,3,2,0,,,INSIDE ZONE,,,0,0,0,0,1,ALBI 03,ALBI 07,03,00; 06; 12,17,ODD,2x2,1,P,,0,COVER 2 MAN
+82,"2510 UAB O vs North Texas, Play 085",,4,3,5,'-45,3,,,11,3,7,P,RM,11,GEMP,NUMBERS,,,,,,,OFF,91,COMPLETE,,,DB,,,3 DWN,,,,0,ALBI 00,ALBI 07,11,17,00; 06; 12,0,11,P,,R,2,7,0,0,,,,,0,0,0,0,1,ALBI 00,ALBI 07,11,00; 06; 12,17,OVER,5x2,0,R,ALBI 00,0,COVER 3 SEAM
+83,"2510 UAB O vs North Texas, Play 086",,4,1,10,'+48,1,,,11,4,0,P,L,11,GF,DUO Y OFF,,,,,,,OFF,OVER,HIT AS THREW,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,1,11,P,,L,7,0,0,0,,,,,0,0,1,0,1,,ALBI 07,11,00; 06; 12,17,WIDE UNDER,2x2,0,P,,0,COVER 4
+84,"2510 UAB O vs North Texas, Play 087",,4,2,10,'+48,2,,,11,5,5,P,L,11,GF,DUO Y OFF,,,,,,,OFF,SPACING,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 06; 12,0,11,P,,L,,5,0,0,,,,,0,0,0,0,1,ALBI 11,ALBI 07,11,00; 06; 12,17,WIDE UNDER,2x2,0,P,ALBI 11,0,COVER 1
+85,"2510 UAB O vs North Texas, Play 088",,4,3,5,'+43,3,,,11,6,0,P,L,11,GN,DOUBLES,STK,H RETURN,,,,,OPEN,OPTION H,INTERCEPTION,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,0,11,P,,L,5,0,0,0,,,,,0,0,0,0,1,,ALBI 07,11,00; 06; 12,17,EVEN,2x2,0,P,ALBI 12,0,COVER 6
+86,"2511 UAB O vs USF, Play 001",,1,0,10,'-23,P,,,1,1,2,R,RM,11,GN,DUO Y OFF,SNUG,Z BNC,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 08,0,11,R,,R,65,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 08,85,WIDE OVER,2x2,1,,,0,COVER 3 SEAM
+87,"2511 UAB O vs USF, Play 002",,1,2,8,'-25,2,,,1,2,5,P,R,12,GF,KING U OFF,,Z MTR,,,,X,SLOT,,COMPLETE,,,RPO,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17; 85,00; 08,1,12,P,,R,2,5,0,1,,INSIDE ZONE,,,0,0,1,0,0,ALBI 00,ALBI 07,04,00; 08,17; 85,WIDE OVER,1x3,1,R,ALBI 00,0,COVER 3
+88,"2511 UAB O vs USF, Play 004",,1,1,10,'-35,1,,,1,4,0,P,L,12,DOT,ACE YU OFF,,,,,,,OFF,COMEBACK X,HIT AS THREW,,,PA,FS RT,,4 DWN,,,,0,,ALBI 07,11,17; 85,00; 12,0,12,P,,L,,0,0,0,,MAN,FLSO D04 RPS,,0,0,0,0,0,,ALBI 07,11,00; 12,17; 85,WIDE OVER,2x2,0,,,0,COVER 3 SEAM
+89,"2511 UAB O vs USF, Play 005",,1,1,10,'+50,1,,,1,5,'-4,P,L,11,GF,TRIPS,,,,,,,ON,VERTS RD,SACK,,,PA,MAN,,4 DWN,,,,0,ALBI 07,ALBI 07,11,85,00; 06; 12,0,11,P,,L,,'-4,0,0,,UNDEFINED,,,0,0,0,0,0,ALBI 07,ALBI 07,11,00; 06; 12,85,OVER,3x1,0,P,,0,COVER 3 SEAM
+90,"2511 UAB O vs USF, Play 006",,1,2,14,'-46,2,,,1,6,0,P,L,12,GN,KING U OFF,,,,,,,SLOT,GLANCE,INTERCEPTION,,,RPO,ZONE,,4 DWN,,,,0,,ALBI 07,4,17; 85,00; 08,0,12,P,,L,'-4,0,0,1,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 07,04,00; 08,17; 85,WIDE UNDER,3x1,1,P,ALBI 08,0,COVER 6
+91,"2511 UAB O vs USF, Play 007",,1,0,10,'+24,P,,RA,2,1,2,R,L,11,GF,DUO Y OFF,,,,,,,OFF,,,Y INSERT,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 08,0,11,R,,L,62,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 08,17,WIDE UNDER,2x2,1,,,0,COVER 1
+92,"2511 UAB O vs USF, Play 008",,1,2,8,'+22,2,,RA,2,2,0,P,L,12,DOT,KING U OFF,STK,,,,,X,SLOT,DOUBLE PASS,RUN,,,TRICK,FS LT,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17; 85,00; 06,0,12,P,,L,2,0,0,0,,,,,1,1,0,0,0,ALBI 00,ALBI 07,04,00; 06,17; 85,UNDER,3x1,0,R,,0,COVER 3
+93,"2511 UAB O vs USF, Play 009",,1,3,8,'+22,3,,RA,2,3,9,P,R,11,GN,TRIPS,STK,H IN,,,,,ON,CURLS,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 12,ALBI 07,4,17,00; 06; 12,0,11,P,,R,0,9,0,0,,,,,0,0,0,0,0,ALBI 12,ALBI 07,04,00; 06; 12,17,WIDE OVER,1x3,0,P,ALBI 12,0,COVER 3
+94,"2511 UAB O vs USF, Play 010",,1,1,10,'+13,1,,RA,2,4,3,R,L,21,GS,PRO Y OFF,,,,,,,OFF,,,ZONE READ ARC,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,03; 04,17,00; 06,0,21,R,,L,9,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,03; 04,00; 06,17,OVER,2x1,0,P,,0,COVER 3 SEAM
+95,"2511 UAB O vs USF, Play 011",,1,2,7,'+10,2,,RA,2,5,'-2,R,L,21,GS,PRO Y OFF,,,,,,,OFF,,,POWER O RD LD,STR,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,03; 04,17,00; 06,1,21,R,,L,3,'-2,0,,,POWER,,,0,0,1,0,0,ALBI 04,ALBI 07,03; 04,00; 06,17,OVER,2x1,0,R,,0,RED ZONE
+96,"2511 UAB O vs USF, Play 012",,1,3,9,'+12,3,,RA,2,6,0,P,R,12,GEMP,EMPTY 3x2 U STING,,TOX,TWINS,,,,WING SLOT,UNDER T,INCOMPLETE,,,DB,FS RT,,4 DWN,,,,0,,ALBI 07,11,17; 85,00; 06,0,12,P,,R,'-2,0,0,0,,,,,0,0,0,0,0,,ALBI 07,11,00; 06,17; 85,ODD,2x3,0,R,ALBI 11,1,COVER 0
+97,"2511 UAB O vs USF, Play 013",,1,0,10,'-15,P,,,3,1,9,R,L,12,DOT,KING U OFF,STK,,,,,X,SLOT,,,OZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,L,28,9,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,WIDE UNDER,3x1,0,,,0,COVER 3 SEAM
+98,"2511 UAB O vs USF, Play 015",,1,2,6,'-19,2,,,3,3,16,R,M,11,GF,TRIPS,,,,,,,ON,,,INSIDE ZN SS,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 06; 12,0,11,R,,C,,16,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06; 12,85,WIDE OVER,1x3,1,,,1,COVER 3 CLOUD
+99,"2511 UAB O vs USF, Play 016",,1,1,10,'-35,1,,,3,4,1,R,L,12,DOT,ACE YU OFF,,,,,,,OFF,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,L,16,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,WIDE OVER,2x2,0,R,,0,COVER 3 SEAM
+100,"2511 UAB O vs USF, Play 017",,1,2,9,'-36,2,,,3,5,24,P,L,12,GF,KING U OFF,STK,,,,,X,SLOT,NOW SCR,COMPLETE,,,RPO,GAP,,4 DWN,,,,0,ALBI 00,ALBI 07,3,17; 85,00; 06,0,12,P,,L,1,24,1,0,,COUNTER,,,0,0,0,0,0,ALBI 00,ALBI 07,03,00; 06,17; 85,WIDE UNDER,3x1,1,R,ALBI 00,1,COVER 3
+101,"2511 UAB O vs USF, Play 018",,1,1,10,'+40,1,,,3,6,6,R,R,11,GF,DUO Y OFF,,,,,,,OFF,,,ZONE READ ARC,STR,ZN,,,4 DWN,,,,0,ALBI 07,ALBI 07,3,17,00; 06; 12,0,11,R,,R,24,6,0,,,INSIDE ZONE,FLSO D05 UNRd; FLSO D05 UNSd,,0,0,0,0,0,ALBI 07,ALBI 07,03,00; 06; 12,17,ONE INTERIOR,2x2,0,P,,0,COVER 1
+102,"2511 UAB O vs USF, Play 019",,1,1,9,'+9,1,,RA,3,7,3,R,L,21,PSTL FR,PRO TWINS,,,,,,,ON,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 15,03; 04,17,00; 06,0,21,R,,L,6,3,0,,,MAN,,,0,0,0,0,0,ALBI 04,ALBI 15,03; 04,00; 06,17,OVER,2x1,1,R,,0,RED ZONE
+103,"2511 UAB O vs USF, Play 020",,1,2,6,'+6,2,,RA,3,8,6,R,LM,12,GF,KING U OFF FIB,,,,X,,,SLOT,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 15,3,17; 85,00; 06,0,12,R,,C,3,6,0,,,INSIDE ZONE,,ALBI 03,0,0,0,0,0,ALBI 03,ALBI 15,03,00; 06,17; 85,UNDER,1x3,1,R,,0,RED ZONE
+104,"2511 UAB O vs USF, Play 021",,2,0,10,'-29,P,,,4,1,2,R,R,11,GN,DUO Y OFF,,X MTR,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 12,0,11,R,,R,38,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 12,85,UNDER,2x2,0,,,0,COVER 4
+105,"2511 UAB O vs USF, Play 022",,2,2,8,'-31,2,,,4,2,7,R,R,21,PSTL NR,PRO TWINS,,,,,,,ON,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,03; 04,85,00; 06,0,21,R,,R,2,7,0,,,MAN,,,0,0,0,0,0,ALBI 04,ALBI 07,03; 04,00; 06,85,WIDE OVER,1x2,1,R,,0,COVER 2
+106,"2511 UAB O vs USF, Play 023",,2,3,1,'-38,3,SY,,4,3,3,R,R,22,DEMP,EMPTY 3x2 Z STING BUNCH,,,,,,X,ON,,,QB SNEAK,,S,,,4 DWN,,,,0,ALBI 07,ALBI 07,03; 04,17; 85,6,0,22,R,,R,7,3,0,,,SNEAK,,,0,0,0,0,0,ALBI 07,ALBI 07,03; 04,06,17; 85,ODD,2x3,0,R,,0,COVER 3
+107,"2511 UAB O vs USF, Play 024",,2,1,10,'-41,1,,,4,4,1,R,R,21,GS,PRO Y OFF,,,,,,,OFF,,,CTR CY,WK,GAP,,,4 DWN,,,,0,ALBI 03,ALBI 07,03; 11,17,00; 06,0,21,R,,R,3,1,0,,,COUNTER,,,0,0,0,0,0,ALBI 03,ALBI 07,03; 11,00; 06,17,WIDE OVER,1x2,1,R,,0,COVER 3 SEAM
+108,"2511 UAB O vs USF, Play 025",,2,2,9,'-42,2,,,4,5,1,R,R,12,GF,TRIPS,,U OUT,,,,,ON/OPEN,,,OZ,STR,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 06,0,12,R,,R,1,1,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 06,17; 85,WIDE OVER,1x3,1,R,,0,COVER 1
+109,"2511 UAB O vs USF, Play 026",,2,3,8,'-43,3,,,4,6,11,P,R,20,GS,SLOT,STK,T RELOAD/X IN,,,,,,SPACING,COMPLETE,,,DB,MAN,,3 DWN,,,,0,ALBI 11,ALBI 07,04; 11,,00; 06; 08,0,20,P,,R,1,11,0,0,,,,,0,0,0,0,0,ALBI 11,ALBI 07,04; 11,00; 06; 08,,ODD,1x2,0,R,ALBI 11,1,COVER 4
+110,"2511 UAB O vs USF, Play 027",,2,1,10,'+46,1,,,4,7,0,R,L,12,GN,ACE U OFF,,,,,,,PRO,,,OZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,L,11,0,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE OVER,2x2,0,P,,0,COVER 3 SEAM
+111,"2511 UAB O vs USF, Play 028",,2,2,10,'+46,2,,,4,8,0,P,M,11,GF,DOUBLES,,Y OUT,,,,,OPEN,POST WHEEL,INCOMPLETE,,,DB,HS,,4 DWN,,,,0,,ALBI 07,4,17,00; 06; 12,0,11,P,,C,0,0,0,0,,,,,0,0,0,0,0,,ALBI 07,04,00; 06; 12,17,WIDE UNDER,2x2,0,R,ALBI 06,0,COVER 1
+112,"2511 UAB O vs USF, Play 029",,2,3,10,'+46,3,,,4,9,15,P,LM,11,GF,TRIPS OPEN,Y AT 2,HOY,,,,,OPEN,OVER,COMPLETE,,,DB,MAN,,6 DWN,,,,0,ALBI 00,ALBI 07,4,17,00; 06; 12,0,11,P,,L,,15,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 12,17,EVEN,3x1,0,P,ALBI 00,1,COVER 1
+113,"2511 UAB O vs USF, Play 030",,2,1,10,'+31,1,,,4,10,'-2,R,L,12,DOT,ACE YU OFF,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,L,15,'-2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,WIDE OVER,2x2,0,P,,0,COVER 3 SEAM
+114,"2511 UAB O vs USF, Play 031",,2,2,12,'+33,2,,,4,11,0,P,L,21,GN,PRO Y OFF,SNUG,Y NR/TOX,,,,,OFF,MESH,THROWN AWAY,,,DB,FS LT,,4 DWN,,,,0,,ALBI 07,03; 11,85,00; 06,0,21,P,,L,'-2,0,0,0,,,,,0,0,0,0,0,,ALBI 07,03; 11,00; 06,85,UNDER,2x2,0,R,,0,COVER 3
+115,"2511 UAB O vs USF, Play 035",,2,3,27,'+48,3,,,4,15,0,P,L,21,GS,PRO Y OFF,,,,,,,OFF,SWING F,BATTED PASS,,,RPO,GAP,,3 DWN,,,,0,,ALBI 07,03; 11,17,00; 06,0,21,P,,L,,0,0,0,,COUNTER,,,0,0,0,0,0,,ALBI 07,03; 11,00; 06,17,ODD,2x1,1,,,1,COVER 3
+116,"2511 UAB O vs USF, Play 036",,2,0,10,'-25,P,,,5,1,2,R,R,11,GN,TREY Y OFF,,,,,,,OFF,,,ZONE READ ARC,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 12,0,11,R,,R,75,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 12,17,WIDE OVER,1x3,0,,,0,COVER 1
+117,"2511 UAB O vs USF, Play 037",,2,2,8,'-27,2,,,5,2,'-1,R,R,21,GS,PRO Y OFF,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 15,03; 11,17,00; 06,0,21,R,,R,2,'-1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 15,03; 11,00; 06,17,OVER,1x2,0,R,,0,COVER 3 SEAM
+118,"2511 UAB O vs USF, Play 038",,2,3,9,'-26,3,,,5,3,0,P,RM,11,GN,TRIPS BUNCH,,,,,,X,ON,OPTION H,INCOMPLETE,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,3,17,00; 06; 12,0,11,P,,C,'-1,0,0,0,,,,,0,0,0,0,0,,ALBI 07,03,00; 06; 12,17,WIDE OVER,1x3,0,R,ALBI 06,0,COVER 3
+119,"2511 UAB O vs USF, Play 039",,2,0,10,'-25,P,,,6,1,19,P,R,11,GN,TRIPS,STK,,,,,,ON,LEVELS,COMPLETE,,,DB,MAN,,4 DWN,,,,2,ALBI 06,ALBI 07,11,17,00; 06; 12,0,11,P,,R,75,19,0,0,,,,,0,0,0,2,0,ALBI 06,ALBI 07,11,00; 06; 12,17,OVER,1x3,0,,ALBI 06,0,COVER 4
+120,"2511 UAB O vs USF, Play 040",,2,1,10,'-44,1,,,6,2,0,P,M,11,GF,TREY Y OFF,,,,,,,OFF,HITCH FADE,INCOMPLETE,,,DB,MAN,,4 DWN,,,,2,,ALBI 07,11,17,00; 08; 12,0,11,P,,C,19,0,0,0,,,,,0,0,0,2,0,,ALBI 07,11,00; 08; 12,17,ODD,1x3,0,P,ALBI 00,0,COVER 1
+121,"2511 UAB O vs USF, Play 041",,2,2,10,'-44,2,,,6,3,5,P,M,11,GF,TREY Y OFF,,,,,,,OFF,CURLS,COMPLETE,,,DB,MAN,,4 DWN,,,,2,ALBI 12,ALBI 07,3,17,00; 06; 12,0,11,P,,C,,5,0,0,,,ALBI 17 IDP,,0,0,0,2,0,ALBI 12,ALBI 07,03,00; 06; 12,17,WIDE OVER,3x1,0,P,ALBI 12,1,COVER 3 SEAM
+122,"2511 UAB O vs USF, Play 042",,2,2,15,'-39,2,,,6,4,0,P,M,11,GF,TREY Y OFF,,,,,,,OFF,FLOOD,INCOMPLETE,,,DB,MAN,,4 DWN,,,,2,,ALBI 07,3,17,00; 06; 12,0,11,P,,C,5,0,0,0,,,,,0,0,0,2,0,,ALBI 07,03,00; 06; 12,17,ODD,3x1,0,P,ALBI 03,0,COVER 3
+123,"2511 UAB O vs USF, Play 043",,2,3,15,'-39,3,,,6,5,0,P,M,11,GN,DOUBLES,,,,,,,OPEN,OVER,INCOMPLETE,,,DB,MAN,,3 DWN,,,,2,,ALBI 07,3,17,00; 06; 12,0,11,P,,C,,0,0,0,,,FLSO D04 ILHd,,0,0,0,2,0,,ALBI 07,03,00; 06; 12,17,ODD,2x2,0,P,ALBI 17,0,COVER 4
+124,"2511 UAB O vs USF, Play 044",,2,1,10,'+46,1,,,6,6,'-2,P,M,11,GN,DOUBLES,,H RETURN,,,,,OPEN,HI-LO,COMPLETE,,,DB,MAN,,4 DWN,,,,2,ALBI 04,ALBI 07,4,17,00; 08; 12,0,11,P,,C,,'-2,0,0,,,,,0,0,0,2,0,ALBI 04,ALBI 07,04,00; 08; 12,17,WIDE UNDER,2x2,0,P,ALBI 04,1,COVER 2
+125,"2511 UAB O vs USF, Play 045",,2,2,12,'+48,2,,,6,7,14,P,L,11,GF,TRIPS OPEN,,,,,,,OPEN,CURLS,COMPLETE,,,DB,MAN,,3 DWN,,,,2,ALBI 08,ALBI 07,4,17,00; 06; 08,0,11,P,,L,'-2,14,0,0,,,,,0,0,0,2,0,ALBI 08,ALBI 07,04,00; 06; 08,17,ODD,3x1,0,P,ALBI 08,1,COVER 4
+126,"2511 UAB O vs USF, Play 046",,2,1,10,'+34,1,,,6,8,'-7,P,R,11,GF,TRIPS,,,,,,,ON,CURLS,SACK,,,DB,MAN,,4 DWN,,,,2,ALBI 07,ALBI 07,4,17,00; 06; 12,0,11,P,,R,14,'-7,0,0,,,ALBI 72 ILH,,0,0,0,2,0,ALBI 07,ALBI 07,04,00; 06; 12,17,ONE INTERIOR,1x3,0,P,,1,COVER 1
+127,"2511 UAB O vs USF, Play 047",,2,1,25,'+49,1,,,6,9,0,P,R,11,GF,TREY Y OFF,,,,,,,OFF,SPACING,INCOMPLETE,,,DB,MAN,,3 DWN,,,,2,,ALBI 07,4,17,00; 06; 12,0,11,P,,R,'-7,0,0,0,,,,,0,0,0,2,0,,ALBI 07,04,00; 06; 12,17,ODD,1x3,0,P,ALBI 00,0,COVER 2
+128,"2511 UAB O vs USF, Play 048",,2,2,25,'+49,2,,,6,10,0,P,R,11,GN,TRIPS OPEN FIB,,,,X,,,OPEN,HAIL MARY,INTERCEPTION,,,DB,MAN,,3 DWN,,,,2,,ALBI 07,4,17,00; 06; 12,0,11,P,,R,,0,0,0,,,,,0,0,0,2,0,,ALBI 07,04,00; 06; 12,17,ODD,3x1,0,P,ALBI 17,0,PREVENT
+129,"2511 UAB O vs USF, Play 049",,3,0,10,'-25,P,,,7,1,2,R,L,12,GN,KING U OFF,,Z MTR,,,,X,SLOT,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,L,69,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE UNDER,3x1,1,,,0,COVER 3
+130,"2511 UAB O vs USF, Play 050",,3,2,8,'-27,2,,,7,2,21,P,LM,11,GF,NUMBERS,,T RELOAD,,,,,OFF,POST WHEEL,COMPLETE,,,NKD,,,3 DWN,,,,0,ALBI 85,ALBI 15,11,85,00; 06; 08,0,11,P,,C,2,21,0,0,,INSIDE ZONE,,,0,0,0,0,0,ALBI 85,ALBI 15,11,00; 06; 08,85,EVEN,2x4,1,R,ALBI 85,0,COVER 3
+131,"2511 UAB O vs USF, Play 051",,3,1,10,'-48,1,,,7,3,2,R,R,11,GEMP,NUMBERS,,,,,,,OFF,,,Q Y INSERT,,ZN,,,,,,,0,ALBI 15,ALBI 15,11,85,00; 06; 08,1,11,R,,R,21,2,0,,,DRAW,FLSO D08 DOF; (D) FLSO D99 ILS,,1,1,1,0,0,ALBI 15,ALBI 15,11,00; 06; 08,85,ONE INTERIOR,5x2,1,P,,0,COVER 3 SEAM
+132,"2511 UAB O vs USF, Play 052",,3,1,5,'+47,1,,,7,4,0,R,R,11,GF,TRIPS,,,,,,,ON,,,INSIDE ZN SS,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,85,00; 06; 12,0,11,R,,R,2,0,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 06; 12,85,WIDE OVER,1x3,1,R,,0,COVER 1
+133,"2511 UAB O vs USF, Play 053",,3,2,5,'+47,2,,,7,5,11,P,M,12,GN,TWINS U STING,,,,,,,WING SLOT,HITCH,COMPLETE,,,QK,GAP,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17; 85,00; 06,0,12,P,,C,0,11,0,1,,PULL LEAD,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 08,17; 85,WIDE OVER,2x2,1,R,ALBI 00,1,COVER 4
+134,"2511 UAB O vs USF, Play 054",,3,1,10,'+36,1,,,7,6,0,P,L,12,PSTL,ACE YU OFF,,,,,,,OFF,OVERS,INCOMPLETE,,,PA,FS RT,,4 DWN,,,,0,,ALBI 07,4,17; 85,00; 12,0,12,P,,L,11,0,0,0,,OUTSIDE ZONE,,,0,0,0,0,0,,ALBI 07,04,00; 12,17; 85,WIDE OVER,2x2,0,P,ALBI 12,1,COVER 3
+135,"2511 UAB O vs USF, Play 055",,3,2,10,'+36,2,,,7,7,6,P,L,11,GN,TREY Y OFF,,,,,,,OFF,DIGS,RUN,,,PA,GAP,,4 DWN,,,,0,ALBI 07,ALBI 07,4,17,00; 06; 12,0,11,P,,L,,6,0,0,,PULL LEAD,,,0,0,0,0,0,ALBI 07,ALBI 07,04,00; 06; 12,17,WIDE OVER,3x1,0,P,,1,COVER 3 CLOUD
+136,"2511 UAB O vs USF, Play 056",,3,3,4,'+30,3,,,7,8,23,P,L,12,GN,KING U OFF,,,,,,,SLOT,GLANCE,COMPLETE,,,RPO,ZONE,,5 DWN,,,,0,ALBI 00,ALBI 07,4,17; 85,00; 08,0,12,P,,L,6,23,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 08,17; 85,UNDER,3x1,1,P,ALBI 00,1,COVER 3 CLOUD
+137,"2511 UAB O vs USF, Play 057",,3,1,7,'+7,1,,RA,7,9,0,P,L,21,GN,PRO Y OFF,,F REVERSE,,,,,OFF,OVERS,INTERCEPTION,,,PA,FS RT,,4 DWN,,,,0,,ALBI 07,03; 11,17,00; 06,0,21,P,,L,23,0,0,0,,UNDEFINED,,,0,0,0,0,0,,ALBI 07,03; 11,00; 06,17,UNDER,2x2,0,P,ALBI 06,0,RED ZONE
+138,"2511 UAB O vs USF, Play 058",,3,0,10,'-25,P,,,8,1,5,R,R,12,DOT,ACE YU OFF,,,,,,,OFF,,,OZ,,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 12,0,12,R,,R,65,5,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 12,17; 85,WIDE OVER,2x2,0,,,0,COVER 3 SEAM
+139,"2511 UAB O vs USF, Play 059",,3,2,5,'-30,2,,,8,2,4,P,R,21,GN,TRIPS BUNCH,,Z MTR,,,,,ON,TUNNEL SCR,COMPLETE,,,SCR,SPO,,4 DWN,,,,0,ALBI 11,ALBI 07,03; 11,85,00; 06,1,21,P,,R,5,4,1,0,,TRICK,,,0,0,1,0,0,ALBI 11,ALBI 07,03; 11,00; 06,85,WIDE OVER,1x3,0,R,ALBI 11,0,COVER 3 CLOUD
+140,"2511 UAB O vs USF, Play 060",,3,3,1,'-34,3,SY,,8,3,12,R,L,22,DEMP,EMPTY 3x2 TF STING FIB,,T MTR,,X,,,ON,,,JET SWEEP,WK,JET,,,6 DWN,,,,0,ALBI 11,ALBI 07,04; 11,17; 85,6,0,22,R,,L,4,12,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,04; 11,06,17; 85,DOUBLE PLUG,2x3,0,P,,0,COVER 0
+141,"2511 UAB O vs USF, Play 061",,3,1,10,'-46,1,,,8,4,5,P,L,12,GF,TWINS U STING,,,,,,,WING SLOT,HITCHES,COMPLETE,,,RPO,SPO,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17; 85,00; 06,0,12,P,,L,12,5,0,1,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06,17; 85,OVER,2x2,1,R,ALBI 00,0,COVER 4
+142,"2511 UAB O vs USF, Play 062",,3,2,5,'+49,2,,,8,5,0,P,R,11,GF,TREY Y OFF,,,,,,,OFF,HITCH FADE,INCOMPLETE,,,DB,HS,,4 DWN,,,,0,,ALBI 07,4,17,00; 06; 12,0,11,P,,R,5,0,0,0,,,,,0,0,0,0,0,,ALBI 07,04,00; 06; 12,17,OVER,1x3,0,P,ALBI 00,0,COVER 3 SEAM
+143,"2511 UAB O vs USF, Play 063",,3,3,5,'+49,3,,,8,6,'-1,R,R,12,GN,TWINS U STING,,,,,,,WING SLOT,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,R,,'-1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE OVER,2x2,1,P,,0,COVER 1
+144,"2511 UAB O vs USF, Play 064",,3,4,6,'+50,4,,,8,7,'-5,P,C,11,GF,TREY Y OFF,STK,Y MO,,,,X,OFF,SPACING,SACK,,,DB,MAN,,4 DWN,,,,0,ALBI 07,ALBI 07,4,85,00; 06; 12,0,11,P,,C,'-1,'-5,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,04,00; 06; 12,85,WIDE OVER,3x1,0,R,,0,COVER 1
+145,"2511 UAB O vs USF, Play 065",,3,0,10,'-25,P,,,9,1,0,P,R,11,GN,TREY Y OFF,,,,,,,OFF,OVERS,INCOMPLETE,,,PA,GAP,,4 DWN,,,,0,,ALBI 07,11,17,00; 06; 12,0,11,P,,R,71,0,0,0,,POWER,,,0,0,0,0,0,,ALBI 07,11,00; 06; 12,17,WIDE OVER,1x3,0,,ALBI 00,0,COVER 3 SEAM
+146,"2511 UAB O vs USF, Play 066",,3,2,10,'-25,2,,,9,2,'-1,R,R,12,GN,KING U OFF,,,,,,,SLOT,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 08,0,12,R,,R,,'-1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 08,17; 85,WIDE UNDER,1x3,1,P,,0,COVER 3 SEAM
+147,"2511 UAB O vs USF, Play 067",,3,3,11,'-24,3,,,9,3,0,P,R,11,GEMP,NUMBERS,,,,,,,OPEN,NOW SCR,INCOMPLETE,,,DB,,,3 DWN,,,,0,,ALBI 15,11,17,00; 06; 08,1,11,P,,R,'-1,0,0,0,,,,,0,0,1,0,0,,ALBI 15,11,00; 06; 08,17,ODD,5x2,0,R,ALBI 06,0,COVER 3 SEAM
+148,"2511 UAB O vs USF, Play 068",,3,0,10,'-25,P,,,10,1,0,P,R,30,PSTL,DUO FR OFF,,,,,,,,POST WHEEL,INCOMPLETE,,,NKD,ZONE,,4 DWN,,,,0,,ALBI 15,03; 04; 11,,00; 06,0,30,P,,R,13,0,0,0,,MAN,(D) ALBI 68 IDP,,0,0,0,0,0,,ALBI 15,03; 04; 11,00; 06,,WIDE UNDER,2x2,0,P,ALBI 04,0,COVER 4
+149,"2511 UAB O vs USF, Play 069",,3,2,10,'-25,2,,,10,2,13,P,R,11,GF,TREY Y OFF,SNUG,Z OUT,,,,,OFF,DEEP SPOT,COMPLETE,,,DB,HS,,4 DWN,,,,0,ALBI 85,ALBI 07,3,85,00; 06; 12,0,11,P,,R,,13,0,0,,,,,0,0,0,0,0,ALBI 85,ALBI 07,03,00; 06; 12,85,WIDE OVER,1x3,0,P,ALBI 85,1,COVER 4
+150,"2511 UAB O vs USF, Play 070",,3,1,10,'-38,1,,,10,3,13,P,L,11,GN,TREY Y OFF BUNCH,,,,,,X,OFF,HITCH,COMPLETE,,,RPO,ZONE,,4 DWN,,,,0,ALBI 06,ALBI 07,3,85,00; 06; 12,0,11,P,,L,13,13,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 06,ALBI 07,03,00; 06; 12,85,WIDE OVER,3x1,1,P,ALBI 06,0,COVER 3
+151,"2511 UAB O vs USF, Play 071",,3,1,10,'+49,1,,,10,4,0,P,LM,12,PSTL,KING U OFF,STK,U MO,,,,X,SLOT,VERT Z,INCOMPLETE,,,PA,FS LT,,5 DWN,,,,0,,ALBI 07,3,17; 85,00; 12,0,12,P,,C,13,0,0,0,,OUTSIDE ZONE,FLSO D01 DPI,,0,0,0,0,0,,ALBI 07,03,00; 12,17; 85,UNDER,3x1,0,P,ALBI 12,0,COVER 1
+152,"2511 UAB O vs USF, Play 072",,3,1,10,'+34,1,,,10,5,15,P,LM,11,GN,TRIPS,,,,,,,ON,LEVELS,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 00,ALBI 07,11,17,00; 06; 08,0,11,P,,C,,15,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,11,00; 06; 08,17,WIDE OVER,3x1,0,P,ALBI 00,0,COVER 3 SEAM
+153,"2511 UAB O vs USF, Play 073",,3,1,10,'+19,1,,RA,10,6,7,R,L,11,GN,TRIPS,,,,,,,ON,,,OZ,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 06; 12,0,11,R,,L,15,7,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 06; 12,17,OVER,3x1,0,P,,1,COVER 1
+154,"2511 UAB O vs USF, Play 074",,4,2,3,'+12,2,,RA,10,7,9,R,R,11,GN,TREY Y OFF,,Z MTR,,,,X,OFF,,,SPL ZN SS,STR,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 06; 08,0,11,R,,R,7,9,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 06; 08,17,WIDE OVER,1x3,0,R,,0,COVER 3
+155,"2511 UAB O vs USF, Play 075",,4,1,3,'+3,1,GL,RA,10,8,0,R,RM,11,GN,TREY Y OFF BUNCH,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 06; 08,1,11,R,,C,9,0,0,,,INSIDE ZONE,,,0,0,1,0,0,ALBI 11,ALBI 07,11,00; 06; 08,17,OVER,1x3,0,R,,1,COVER 0
+156,"2511 UAB O vs USF, Play 076",,4,2,3,'+3,2,GL,RA,10,9,3,R,M,12,GF,KING U OFF,,,,,,,SLOT,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 08,0,12,R,,C,0,3,0,,,INSIDE ZONE,,ALBI 11,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 08,17; 85,WIDE UNDER,1x3,0,R,,0,RED ZONE
+157,"2511 UAB O vs USF, Play 077",,4,5,0,'+3,5,GL,RA,,,3,R,R,13,GF,ACE U OFF B HIP,,,,,,,,,,Q FOLLOW,WK,ZN,,,4 DWN,,,,0,ALBI 15,ALBI 15,4,17; 44; 85,6,0,13,R,,R,3,3,0,,,MAN,,,0,0,0,0,0,ALBI 15,ALBI 15,04,06,17; 44; 85,WIDE UNDER,1x2,0,R,,0,RED ZONE
+158,"2511 UAB O vs USF, Play 078",,4,0,10,'-25,P,,,11,1,5,R,R,11,GN,DUO Y OFF,,,,,,,OFF,,,CTR OY,WK,GAP,,,3 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 12,0,11,R,,R,75,5,0,,,COUNTER,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 12,85,ODD,2x2,1,,,0,COVER 4
+159,"2511 UAB O vs USF, Play 079",,4,2,5,'-30,2,,,11,2,18,P,LM,11,GF,TRIPS OPEN,,,,,,X,OPEN,FLOOD,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 00,ALBI 07,4,85,00; 06; 12,1,11,P,,L,5,18,0,0,,,,,0,0,1,0,0,ALBI 00,ALBI 07,04,00; 06; 12,85,WIDE OVER,3x1,0,R,ALBI 00,0,COVER 4
+160,"2511 UAB O vs USF, Play 080",,4,1,10,'-48,1,,,11,3,0,R,R,11,PSTL,DUO Y OFF,,X MTR,,,,X,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 12,1,11,R,,R,18,0,0,,,MAN,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 12,85,OVER,2x2,0,P,,0,COVER 1
+161,"2511 UAB O vs USF, Play 081",,4,2,10,'-48,2,,,11,4,8,P,R,11,GF,TRIPS,,,,,,,ON,OVER,RUN,,,DB,MAN,,3 DWN,,,,0,ALBI 07,ALBI 07,4,85,00; 06; 12,0,11,P,,R,0,8,0,0,,UNDEFINED,,,0,0,0,0,0,ALBI 07,ALBI 07,04,00; 06; 12,85,ONE INTERIOR,1x3,0,R,,1,COVER 1
+162,"2511 UAB O vs USF, Play 082",,4,3,2,'+44,3,SY,,11,5,3,R,R,23TT,I NR,UNBAL TO B HIP,,,,,,,,,,TOSS SWEEP,STR,ZN,,,5 DWN,,,,0,ALBI 04,ALBI 07,03; 04,85,,0,21 (**),R,,R,8,3,0,,,OUTSIDE ZONE,,,0,1,0,0,0,ALBI 04,ALBI 07,03; 04,,85,OVER,0x2,0,P,,1,COVER 0
+163,"2511 UAB O vs USF, Play 083",,4,1,10,'+41,1,,,11,6,2,P,M,21,GS,PRO Y OFF,,,,,,,OFF,SWING F,COMPLETE,,,RPO,GAP,,4 DWN,,,,0,ALBI 04,ALBI 07,03; 04,17,00; 06,0,21,P,,C,3,2,0,0,,PULL LEAD,,,0,0,0,0,0,ALBI 04,ALBI 07,03; 04,00; 06,17,WIDE OVER,2x1,1,R,ALBI 04,1,COVER 2
+164,"2511 UAB O vs USF, Play 084",,4,2,8,'+39,2,,,11,7,0,P,L,21,GN,TREY Y OFF,,,,,,,OFF,VERTS RD,INCOMPLETE,,,DB,FS RT,,4 DWN,,,,0,,ALBI 07,03; 04,17,00; 06,0,21,P,,L,2,0,0,0,,UNDEFINED,,,0,0,0,0,0,,ALBI 07,03; 04,00; 06,17,WIDE OVER,3x1,0,P,ALBI 03,1,COVER 2
+165,"2511 UAB O vs USF, Play 085",,4,3,8,'+39,3,,,11,8,14,P,L,11,GF,TREY Y OFF,STK,,,,,X,OFF,CURL FLAT,COMPLETE,,,DB,MAN,,3 DWN,,,,0,ALBI 00,ALBI 07,4,17,00; 06; 12,0,11,P,,L,,14,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 12,17,ODD,3x1,0,P,ALBI 00,1,COVER 4
+166,"2511 UAB O vs USF, Play 086",,4,1,10,'+25,1,,RA,11,9,16,P,RM,21,PSTL NR,PRO TWINS,,,,,,,ON,FLOOD,COMPLETE,,,NKD,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,03; 04,17,00; 06,0,21,P,,R,14,16,0,0,,MAN,,,0,0,0,0,0,ALBI 00,ALBI 07,03; 04,00; 06,17,OVER,1x2,1,P,ALBI 00,1,COVER 4
+167,"2511 UAB O vs USF, Play 087",,4,1,9,'+9,1,,RA,11,10,0,P,L,21,PSTL FR,PRO TWINS,,,,,,,ON,SLIPPER F,BATTED PASS,,,RPO,ZONE,,4 DWN,,,,0,,ALBI 07,03; 11,17,00; 06,0,21,P,,L,16,0,0,0,,MAN,,,0,0,0,0,0,,ALBI 07,03; 11,00; 06,17,OVER,2x1,1,P,,1,COVER 0
+168,"2511 UAB O vs USF, Play 088",,4,2,9,'+9,2,,RA,11,11,6,R,L,12,GN,KING U OFF,STK,,,,,,SLOT,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,L,,6,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,ODD,3x1,1,P,,1,RED ZONE
+169,"2511 UAB O vs USF, Play 089",,4,3,3,'+3,3,GL,RA,11,12,1,R,L,13,GF,ACE U OFF B HIP,,,,,,,,,,Q FOLLOW,WK,ZN,,,4 DWN,,,,0,ALBI 15,ALBI 15,4,17; 44; 85,6,0,13,R,,L,6,1,0,,,MAN,,,0,0,0,0,0,ALBI 15,ALBI 15,04,06,17; 44; 85,OVER,2x1,0,R,,1,COVER 0
+170,"2511 UAB O vs USF, Play 090",,4,4,2,'+2,4,GL,RA,11,13,1,P,L,11,GF,DUO Y OFF,STK,Y MTR,,,,X,OFF,SPACING,COMPLETE,,,QK,FS LT,,4 DWN,,,,0,ALBI 17,ALBI 07,4,17,00; 06; 08,0,11,P,,L,1,1,0,1,,,,,0,0,0,0,0,ALBI 17,ALBI 07,04,00; 06; 08,17,OVER,2x2,0,R,ALBI 17,1,COVER 0
+171,"2511 UAB O vs USF, Play 091",,4,0,10,'-25,P,,,12,1,3,R,R,11,GF,TREY Y OFF,,Y NR,,,,,OFF,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 30,ALBI 16,30,87,12; 13; 84,0,11,R,,R,75,3,0,,,INSIDE ZONE,,,0,0,0,0,1,ALBI 30,ALBI 16,30,12; 13; 84,87,OVER,1x3,0,,,0,COVER 3 SEAM
+172,"2511 UAB O vs USF, Play 092",,4,2,7,'-28,2,,,12,2,4,R,M,11,PSTL,DUO Y OFF,,X MTR,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 30,ALBI 16,30,87,12; 13; 84,1,11,R,,C,3,4,0,,,MAN,,,0,0,1,0,1,ALBI 30,ALBI 16,30,12; 13; 84,87,OVER,2x2,0,R,,0,COVER 3
+173,"2511 UAB O vs USF, Play 093",,4,3,3,'-32,3,,,12,3,2,R,M,11,GN,TREY Y OFF,,,,,,,OFF,,,ZONE READ ARC,WK,ZN,,,4 DWN,,,,0,ALBI 16,ALBI 16,30,87,12; 13; 84,0,11,R,,C,4,2,0,,,INSIDE ZONE,,,0,0,0,0,1,ALBI 16,ALBI 16,30,12; 13; 84,87,WIDE OVER,3x1,0,R,,0,COVER 3 SEAM
+174,"2511 UAB O vs USF, Play 094",,4,4,1,'-34,4,SY,,12,4,7,R,R,11,PSTL,DUO Y OFF,,X MTR,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 30,ALBI 16,30,87,13; 81; 84,0,11,R,,R,2,7,0,,,MAN,,,0,0,0,0,1,ALBI 30,ALBI 16,30,13; 81; 84,87,WIDE OVER,2x2,0,R,,0,COVER 3
+175,"2511 UAB O vs USF, Play 095",,4,1,10,'-41,1,,,12,5,0,P,RM,11,GF,DUO Y OFF,,,,,,,OFF,OVER,INCOMPLETE,,,DB,HS,,4 DWN,,,,0,,ALBI 16,30,87,13; 81; 84,0,11,P,,C,7,0,0,0,,,,,0,0,0,0,1,,ALBI 16,30,13; 81; 84,87,WIDE UNDER,2x2,0,R,ALBI 84,0,COVER 3 SEAM
+176,"2512 UAB O @ Tulsa, Play 001",,1,0,10,'-24,P,,,1,1,17,P,M,11,GN,TREY Y OFF,STK,,,,,,OFF,HITCH,COMPLETE,,,RPO,,,,,,,0,ALBI 17,ALBI 07,4,17,00; 06; 12,0,11,P,,C,0,17,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 17,ALBI 07,04,00; 06; 12,17,WIDE OVER,3x1,1,R,ALBI 17,1,COVER 2
+177,"2512 UAB O @ Tulsa, Play 002",,1,1,10,'-41,1,,,1,2,5,R,M,11,PSTL,DUO Y OFF,SNUG,Z MTR,,,,,OFF,,,SPL ZN,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 06; 12,1,11,R,,C,17,5,0,,,MAN,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 06; 12,17,WIDE UNDER,2x2,1,P,,0,COVER 3
+178,"2512 UAB O @ Tulsa, Play 003",,1,2,5,'-46,2,,,1,3,1,R,RM,12,GN,TWINS U STING,,,,,,,WING SLOT,,,CTR OY,WK,GAP,,,,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,1,12,R,,C,5,1,0,,,COUNTER,,,0,0,1,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE UNDER,2x2,1,R,,0,COVER 2
+179,"2512 UAB O @ Tulsa, Play 004",,1,3,4,'-47,3,,,1,4,0,P,R,11,GN,DUO Y OFF,SNUG,Z MTR,,,,,OFF,SPACING,THROWN AWAY,,,DB,MAN,,4 DWN,,,,0,,ALBI 07,4,85,00; 06; 18,0,11,P,,R,1,0,0,1,,,,,0,0,0,0,0,,ALBI 07,04,00; 06; 18,85,EVEN,2x2,0,R,,1,COVER 1
+180,"2512 UAB O @ Tulsa, Play 005",,1,0,10,'+44,P,,,2,1,4,R,M,12,DOT,ACE YU OFF,,,,,,,OFF,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,C,29,4,0,,,MAN,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,WIDE OVER,2x2,0,,,0,COVER 4
+181,"2512 UAB O @ Tulsa, Play 006",,1,2,6,'+40,2,,,2,2,4,R,M,12,GN,TWINS U STING,,Z MTR,,,,,WING SLOT,,COMPLETE,JET SWEEP,STR,JET,GAP,,4 DWN,,,,0,ALBI 05,ALBI 07,3,17; 85,00; 05,1,12,P,,C,4,4,1,0,,,,,0,0,1,0,0,ALBI 05,ALBI 07,03,00; 05,17; 85,WIDE OVER,2x2,0,R,ALBI 05,1,COVER 3
+182,"2512 UAB O @ Tulsa, Play 007",,1,3,2,'+36,3,,,2,3,16,R,L,11,GN,TREY Y OFF BUNCH,,T BUZZ,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 06; 18,0,11,R,,L,4,16,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06; 18,85,WIDE OVER,3x1,1,P,,0,COVER 3
+183,"2512 UAB O @ Tulsa, Play 008",,1,1,10,'+20,1,,RA,2,4,2,R,L,21,PSTL FR,PRO TWINS,,T BACK,,,,,ON,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,03; 11,85,00; 05,0,21,R,,L,16,2,0,,,MAN,,,0,0,0,0,0,ALBI 11,ALBI 07,03; 11,00; 05,85,WIDE OVER,2x1,1,R,,0,COVER 4
+184,"2512 UAB O @ Tulsa, Play 009",,1,2,8,'+18,2,,RA,2,5,18,P,L,11,GN,TREY ENDOVER,,,,,X,,ON,GLANCE,COMPLETE,,,ZN,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,3,85,00; 06; 18,0,11,P,,L,2,18,0,0,,INSIDE ZONE,,ALBI 00,0,0,0,0,0,ALBI 00,ALBI 07,03,00; 06; 18,85,WIDE UNDER,4x0,1,R,ALBI 00,1,COVER 6
+185,"2512 UAB O @ Tulsa, Play 010",,1,0,10,'-22,P,,,3,1,3,R,LM,11,GN,DUO Y OFF,,,,,,,OFF,,,Y INSERT,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 05; 12,0,11,R,,L,48,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 05; 12,17,WIDE OVER,2x2,1,,,0,COVER 4
+186,"2512 UAB O @ Tulsa, Play 011",,1,2,7,'-25,2,,,3,2,5,P,R,11,GF,DOUBLES,STK,TOZ,,,,,OPEN,SPOT,COMPLETE,,,DB,32,,4 DWN,,,,0,ALBI 17,ALBI 07,11,17,00; 05; 12,0,11,P,,R,3,5,0,0,,,,,0,0,0,0,0,ALBI 17,ALBI 07,11,00; 05; 12,17,WIDE UNDER,2x3,0,R,ALBI 17,1,COVER 3
+187,"2512 UAB O @ Tulsa, Play 012",,1,3,2,'-30,3,,,3,3,3,R,L,12,GF,KING U OFF,,,,,,,SLOT,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,L,5,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,WIDE UNDER,3x1,1,P,,1,COVER 3
+188,"2512 UAB O @ Tulsa, Play 013",,1,1,10,'-33,1,,,3,4,'-3,R,M,12,PSTL,TREY U STING,,,,,,,WING PRO,,,OZ,WK,ZN,,,5 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,C,3,'-3,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE UNDER,1x3,0,R,,0,COVER 4
+189,"2512 UAB O @ Tulsa, Play 014",,1,2,13,'-30,2,,,3,5,0,P,R,11,GN,NUMBERS,,,,,,,OFF,SLANTS,INTERCEPTION,,,RPO,,,3 DWN,,,,0,,ALBI 15,11,85,00; 05; 12,0,11,P,,R,'-3,0,0,0,,INSIDE ZONE,,,1,1,0,0,0,,ALBI 15,11,00; 05; 12,85,ODD,4x2,1,R,ALBI 00,0,COVER 4
+190,"2512 UAB O @ Tulsa, Play 015",,2,0,10,'-22,P,,,4,1,1,R,R,12,GN,ACE U OFF,,,,,,,PRO,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,R,'-4,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,WIDE UNDER,2x2,1,P,,1,COVER 1
+191,"2512 UAB O @ Tulsa, Play 016",,2,2,9,'-23,2,,,4,2,3,R,R,12,GF,KING U OFF,,,,,,,SLOT,,,U INSERT,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 08,0,12,R,,R,1,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 08,17; 85,WIDE UNDER,1x3,1,R,,0,COVER 1
+192,"2512 UAB O @ Tulsa, Play 017",,2,3,6,'-26,3,,,4,3,6,P,R,11,GEMP,EMPTY 3x2,,,,,,,OPEN,SPACING,RUN,,,DB,MAN,,3 DWN,,,,0,ALBI 07,ALBI 07,3,17,00; 06; 08,0,11,P,,R,3,6,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,03,00; 06; 08,17,ODD,2x3,0,R,,0,MISCELLANEOUS
+193,"2512 UAB O @ Tulsa, Play 018",,2,1,10,'-32,1,,,4,4,4,P,L,11,PSTL,DUO Y OFF,SNUG,Z MTR,,,,,OFF,HITCHES,COMPLETE,,,ZN,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,3,17,00; 06; 18,0,11,P,,L,6,4,0,1,,MAN,,,0,0,0,0,0,ALBI 00,ALBI 07,03,00; 06; 18,17,WIDE UNDER,2x2,1,P,ALBI 00,0,COVER 3
+194,"2512 UAB O @ Tulsa, Play 019",,2,2,6,'-36,2,,,4,5,4,R,L,21,GS,PRO Y OFF TWINS ENDOVER,,,,,X,,OFF,,,ZONE READ ARC,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 16,03; 04,17,00; 05,0,21,R,,L,4,4,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 16,03; 04,00; 05,17,WIDE OVER,2x1,0,P,,0,COVER 1
+195,"2512 UAB O @ Tulsa, Play 020",,2,3,2,'-40,3,SY,,4,6,1,R,LM,22,DEMP,EMPTY 3x2 TF STING,,,,,,,ON,,,QB SNEAK,,S,,,4 DWN,,,,0,ALBI 07,ALBI 07,04; 11,17; 85,6,0,22,R,,L,4,1,0,,,SNEAK,,,0,0,0,0,0,ALBI 07,ALBI 07,04; 11,06,17; 85,WIDE UNDER,3x2,0,R,,0,COVER 4
+196,"2512 UAB O @ Tulsa, Play 021",,2,4,1,'-41,4,SY,,4,7,'-2,R,L,22,DEMP,EMPTY 3x2 TF STING,,T MTR,,,,,ON,,,JET SWEEP,STR,JET,,,4 DWN,,,,0,ALBI 11,ALBI 07,04; 11,17; 85,6,0,22,R,,L,1,'-2,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,04; 11,06,17; 85,WIDE UNDER,3x2,0,R,,0,COVER 4
+197,"2512 UAB O @ Tulsa, Play 022",,2,0,10,'-25,P,,,5,1,0,R,RM,12,GN,TREY U STING,,,,,,,WING PRO,,,SPL ZN SS,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,C,67,0,0,,,TRAP,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE OVER,1x3,0,,,0,COVER 3
+198,"2512 UAB O @ Tulsa, Play 023",,2,2,10,'-25,2,,,5,2,10,R,M,12,GN,TREY U HIP ENDOVER,,,,,X,,WING SLOT,,,CTR OY,WK,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,C,0,10,0,,,COUNTER,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,WIDE UNDER,0x4,1,R,,0,COVER 1
+199,"2512 UAB O @ Tulsa, Play 024",,2,1,10,'-35,1,,,5,3,1,R,M,21,PSTL,TREY Y OFF BUNCH,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,03; 11,85,00; 05,0,21,R,,C,10,1,0,,,MAN,,,0,0,0,0,0,ALBI 03,ALBI 07,03; 11,00; 05,85,WIDE UNDER,1x3,0,R,,0,COVER 4
+200,"2512 UAB O @ Tulsa, Play 025",,2,2,9,'-36,2,,,5,4,8,P,L,11,GEMP,EMPTY 3x2 Y OFF BUNCH,,Y MO,,,,,OFF,CURL FLAT,COMPLETE,,,QK,FS LT,,4 DWN,,,,0,ALBI 85,ALBI 07,3,85,00; 06; 18,0,11,P,,L,1,8,0,0,,,,,0,0,0,0,0,ALBI 85,ALBI 07,03,00; 06; 18,85,WIDE UNDER,3x2,0,R,ALBI 85,0,COVER 4
+201,"2512 UAB O @ Tulsa, Play 026",,2,3,1,'-44,3,SY,,5,5,0,P,L,11,GN,TRIPS,,,,,,,ON,HITCHES,INCOMPLETE,,,RPO,ZONE,,4 DWN,,,,0,,ALBI 07,3,85,00; 06; 18,0,11,P,,L,8,0,0,1,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 07,03,00; 06; 18,85,ODD,3x1,1,P,ALBI 06,1,COVER 4
+202,"2512 UAB O @ Tulsa, Play 027",,2,4,1,'-44,4,SY,,5,6,7,R,L,23TT,I NR,UNBAL TO B HIP,,,,,,,,,,TOSS SWEEP,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,03; 04,85,,0,21 (**),R,,L,,7,0,,,INSIDE ZONE,,,0,1,0,0,0,ALBI 04,ALBI 07,03; 04,,85,WIDE OVER,0x2,0,P,,0,COVER 2
+203,"2512 UAB O @ Tulsa, Play 028",,2,1,10,'+49,1,,,5,7,4,P,L,11,GEMP,EMPTY 3x2,,,,,,,OPEN,SPACING,RUN,,,DB,MAN,,4 DWN,,,,0,ALBI 07,ALBI 07,11,17,00; 05; 18,0,11,P,,L,7,4,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,11,00; 05; 18,17,WIDE UNDER,3x2,0,R,,0,COVER 4
+204,"2512 UAB O @ Tulsa, Play 029",,2,2,6,'+45,2,,,5,8,7,R,L,11,GN,DUO Y OFF,,H BNC,,,,,OFF,,,CTR OY,WK,GAP,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 05; 18,0,11,R,,L,4,7,0,,,COUNTER,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 05; 18,17,WIDE UNDER,2x2,1,P,,0,COVER 6
+205,"2512 UAB O @ Tulsa, Play 030",,2,1,10,'+38,1,,,5,9,17,P,L,11,GN,TREY Y OFF,STK,,,,,,OFF,HITCH,COMPLETE,,,RPO,ZONE,,4 DWN,,,,0,ALBI 17,ALBI 07,11,17,00; 05; 18,0,11,P,,L,7,17,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 17,ALBI 07,11,00; 05; 18,17,WIDE UNDER,3x1,1,R,ALBI 17,0,COVER 6
+206,"2512 UAB O @ Tulsa, Play 031",,2,1,10,'+21,1,,RA,5,10,18,R,M,11,GN,TREY ENDOVER,,,,,X,,ON,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 05; 18,0,11,R,,C,17,18,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 05; 18,17,WIDE UNDER,0x4,1,P,,1,COVER 6
+207,"2512 UAB O @ Tulsa, Play 032",,2,1,3,'+3,1,GL,RA,5,11,0,R,R,21,GN,NUMBERS,,,,,,,OFF,,,ZONE READ,WK,ZN,,,3 DWN,,,,0,ALBI 15,ALBI 15,03; 04,17,00; 05,0,21,R,,R,18,0,0,,,INSIDE ZONE,,,1,1,0,0,0,ALBI 15,ALBI 15,03; 04,00; 05,17,ODD,4x2,1,R,,0,RED ZONE
+208,"2512 UAB O @ Tulsa, Play 033",,2,2,3,'+3,2,GL,RA,5,12,'-2,R,M,11,GN,TREY Y OFF,,SHIFT,NUMBERS,,,,OFF,,,ZONE READ,WK,ZN,,,3 DWN,,,,0,ALBI 15,ALBI 15,3,17,00; 05; 18,0,11,R,,C,0,'-2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 15,ALBI 15,03,00; 05; 18,17,BEAR,1x3,0,R,,1,COVER 0
+209,"2512 UAB O @ Tulsa, Play 034",,2,3,5,'+5,3,GL,RA,5,13,'-8,P,L,11,GN,DUO,STK/SNUG,,,,,,ON,SPOT,SACK,,,DB,MAN,,4 DWN,,,,0,ALBI 07,ALBI 07,11,17,00; 06; 18,0,11,P,,L,'-2,'-8,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,11,00; 06; 18,17,ONE INTERIOR,2x2,0,R,,1,RED ZONE
+210,"2512 UAB O @ Tulsa, Play 035",,2,0,10,'-25,P,,,6,1,8,R,L,11,GN,TRIPS,,,,,,,ON,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,L,73,8,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,EVEN,3x1,1,,,0,COVER 2 MAN
+211,"2512 UAB O @ Tulsa, Play 036",,2,2,2,'-33,2,,,6,2,0,R,L,11,GN,DUO Y OFF,,Y NR,,,,,OFF,,,CTR CY,WK,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 06; 18,0,11,R,,L,8,0,0,,,COUNTER,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06; 18,85,EVEN,2x2,1,R,,0,COVER 2 MAN
+212,"2512 UAB O @ Tulsa, Play 037",,3,0,10,'-26,P,,,7,1,8,R,L,11,GF,DOUBLES,,,,,,,OPEN,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 05; 12,0,11,R,,L,39,8,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 05; 12,85,EVEN,2x2,1,,,0,COVER 2
+213,"2512 UAB O @ Tulsa, Play 038",,3,2,2,'-34,2,,,7,2,23,R,L,11,PSTL,DUO Y OFF,,X MTR,,,,X,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 05; 12,1,11,R,,L,8,23,0,,,MAN,,,0,0,1,0,0,ALBI 03,ALBI 07,03,00; 05; 12,85,WIDE UNDER,2x2,0,R,,0,COVER 3
+214,"2512 UAB O @ Tulsa, Play 039",,3,1,10,'+43,1,,,7,3,2,R,L,11,GN,DUO Y OFF,,,,,,,OFF,,,CTR CY,WK,GAP,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 05; 12,0,11,R,,L,23,2,0,,,COUNTER,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 05; 12,85,WIDE OVER,2x2,1,R,,1,COVER 3
+215,"2512 UAB O @ Tulsa, Play 040",,3,2,8,'+41,2,,,7,4,9,R,M,11,GN,TRIPS,,,,,,,ON,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,85,00; 05; 12,0,11,R,,C,2,9,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05; 12,85,WIDE OVER,3x1,1,R,,0,COVER 6
+216,"2512 UAB O @ Tulsa, Play 041",,3,1,10,'+32,1,,,7,5,4,P,M,12,DOT,KING U OFF,STK,,,,,X,SLOT,DEEP SPOT,COMPLETE,,,PA,FS LT,,4 DWN,,,,0,ALBI 17,ALBI 07,4,17; 85,00; 06,0,12,P,,L,9,4,0,0,,MAN,,,0,0,0,0,0,ALBI 17,ALBI 07,04,00; 06,17; 85,WIDE UNDER,3x1,0,R,ALBI 17,0,COVER 4
+217,"2512 UAB O @ Tulsa, Play 042",,3,2,6,'+28,2,,,7,6,0,P,R,12,GN,TWINS U STING,,T RELOAD,,,,,WING SLOT,BUBBLE SCR,INCOMPLETE,,,SCR,ZONE,,4 DWN,,,,0,,ALBI 07,4,17; 85,00; 06,0,12,P,,R,4,0,1,0,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 07,04,00; 06,17; 85,EVEN,2x2,1,P,ALBI 00,1,COVER 3
+218,"2512 UAB O @ Tulsa, Play 043",,3,3,6,'+28,3,,,7,7,19,R,R,12,GF,KING U OFF,,,,,,,SLOT,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 05,0,12,R,,R,,19,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05,17; 85,WIDE UNDER,1x3,1,P,,0,COVER 1
+219,"2512 UAB O @ Tulsa, Play 044",,3,1,9,'+9,1,,RA,7,8,0,R,L,12,GF,KING U OFF,,,,,,,SLOT,,,IZ,STR,ZN,,,5 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,L,19,0,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,BEAR,3x1,1,R,,1,COVER 0
+220,"2512 UAB O @ Tulsa, Play 045",,3,2,9,'+9,2,,RA,7,9,1,R,L,12,GN,KING U OFF,,,,,,,SLOT,,,SPL ZN,WK,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,L,0,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,WIDE UNDER,3x1,1,R,,0,COVER 2
+221,"2512 UAB O @ Tulsa, Play 046",,3,3,8,'+8,3,,RA,7,10,8,P,LM,11,GN,TRIPS BUNCH,,,,,,,ON,OPTION H,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 06,ALBI 07,3,17,00; 06; 18,0,11,P,,L,1,8,0,0,,,,ALBI 06,0,0,0,0,0,ALBI 06,ALBI 07,03,00; 06; 18,17,EVEN,3x1,0,R,ALBI 06,1,COVER 1
+222,"2512 UAB O @ Tulsa, Play 047",,3,0,10,'+35,P,,,8,1,5,P,R,12,GF,KING U OFF FIB,,,,X,,,SLOT,HITCHES,COMPLETE,,,RPO,ZONE,,4 DWN,,,,0,ALBI 00,ALBI 07,11,17; 85,00; 08,0,12,P,,R,,5,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 00,ALBI 07,11,00; 08,17; 85,WIDE OVER,3x1,1,P,ALBI 00,0,COVER 6
+223,"2512 UAB O @ Tulsa, Play 048",,3,2,5,'+30,2,,,8,2,3,R,R,12,GN,ACE YU OFF,,,,,,,OFF,,,U INSERT,WK,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 08,0,12,R,,R,5,3,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 08,17; 85,WIDE UNDER,2x2,1,P,,0,COVER 2 MAN
+224,"2512 UAB O @ Tulsa, Play 049",,3,3,2,'+27,3,SY,,8,3,'-4,P,RM,12,GF,KING U OFF FIB,,,,X,,,SLOT,HITCH,SACK,,,RPO,ZONE,,4 DWN,,,,0,ALBI 07,ALBI 07,11,17; 85,00; 08,0,12,P,,C,3,'-4,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 07,11,00; 08,17; 85,WIDE UNDER,3x1,1,R,,1,COVER 6
+225,"2512 UAB O @ Tulsa, Play 050",,3,0,10,'-29,P,,,9,1,4,R,M,11,GF,DUO Y OFF,,,,,,,OFF,,,POWER O LD,STR,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 05; 12,0,11,R,,C,46,4,0,,,COUNTER,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05; 12,17,WIDE OVER,2x2,1,,,0,COVER 3
+226,"2512 UAB O @ Tulsa, Play 051",,3,2,6,'-33,2,,,9,2,3,R,RM,11,GF,TRIPS,,,,,,,ON,,,PIN PULL,STR,GAP,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17,00; 05; 06,0,11,R,,C,4,3,0,,,PULL LEAD,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05; 06,17,WIDE OVER,1x3,1,R,,0,COVER 1
+227,"2512 UAB O @ Tulsa, Play 052",,3,3,3,'-36,3,,,9,3,1,R,R,12,GF,KING U OFF,,,,,,,OFF,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 08,0,12,R,,R,3,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 08,17; 85,WIDE UNDER,1x3,1,R,,1,COVER 0
+228,"2512 UAB O @ Tulsa, Play 053",,4,0,10,'-25,P,,,10,1,7,R,R,11,GN,TREY Y OFF,,,,,,,OFF,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,85,00; 05; 12,0,11,R,,R,73,7,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 05; 12,85,WIDE UNDER,1x3,1,,,0,COVER 4
+229,"2512 UAB O @ Tulsa, Play 055",,4,2,8,'-27,2,,,10,3,5,P,RM,11,GF,DUO Y OFF,,,,,,,OFF,SW VERTS RD,RUN,,,DB,32,,4 DWN,,,,0,ALBI 07,ALBI 07,3,85,00; 05; 12,0,11,P,,C,,5,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 07,03,00; 05; 12,85,WIDE OVER,2x2,0,,,0,COVER 4
+230,"2512 UAB O @ Tulsa, Play 056",,4,3,3,'-32,3,,,10,4,0,P,M,02,GEMP,EMPTY 3x2 U STING BUNCH,,,,,,X,WING SLOT,SPACING,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 08,ALBI 07,,17; 85,00; 06; 08,0,02,P,,C,5,0,0,1,,,,,0,0,0,0,0,ALBI 08,ALBI 07,,00; 06; 08,17; 85,WIDE OVER,2x3,0,P,ALBI 08,0,COVER 4
+231,"2512 UAB O @ Tulsa, Play 057",,4,0,10,'+31,P,,,11,1,4,R,L,12,GN,TREY U STING,,,,,,,WING PRO,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 05,0,12,R,,L,35,4,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 05,17; 85,WIDE UNDER,3x1,0,,,0,COVER 2 MAN
+232,"2512 UAB O @ Tulsa, Play 058",,4,2,6,'+27,2,,,11,2,2,R,LM,12,GN,TREY U HIP ENDOVER,,,,,X,,WING SLOT,,,CTR OY,WK,GAP,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 06,0,12,R,,L,4,2,0,,,COUNTER,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06,17; 85,WIDE UNDER,4x0,1,R,,0,COVER 4
+233,"2512 UAB O @ Tulsa, Play 059",,4,3,4,'+25,3,,RA,11,3,5,P,L,11,GF,TREY Y OFF,STK,,,,,,OFF,OPTION H,COMPLETE,,,DB,32,,4 DWN,,,,0,ALBI 00,ALBI 07,4,85,00; 06; 12,0,11,P,,L,2,5,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 06; 12,85,WIDE UNDER,3x1,0,R,ALBI 00,0,COVER 4
+234,"2512 UAB O @ Tulsa, Play 060",,4,1,10,'+20,1,,RA,11,4,20,R,M,12,GF,ACE U OFF,,Z MTR,,,,,PRO,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 06,0,12,R,,C,5,20,0,,,INSIDE ZONE,,ALBI 04,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 06,17; 85,WIDE UNDER,2x2,0,P,,0,COVER 4
+235,"2512 UAB O @ Tulsa, Play 061",,4,0,10,'-10,P,,,12,1,1,R,L,12,DOT,TREY U STING FIB,,,,X,,,WING PRO,,,IZ,,ZN,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17; 85,00; 05,0,12,R,,L,50,1,0,,,MAN,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 05,17; 85,WIDE OVER,1x3,0,,,0,COVER 4
+236,"2512 UAB O @ Tulsa, Play 062",,4,2,9,'-11,2,,,12,2,'-1,R,L,11,GN,TREY Y OFF,,,,,,,OFF,,,POWER O LD,STR,GAP,,,4 DWN,,,,0,ALBI 11,ALBI 07,11,17,00; 05; 12,0,11,R,,L,1,'-1,0,,,COUNTER,,,0,0,0,0,0,ALBI 11,ALBI 07,11,00; 05; 12,17,WIDE UNDER,3x1,1,R,,1,COVER 4
+237,"2512 UAB O @ Tulsa, Play 063",,4,3,10,'-10,3,,,12,3,14,P,L,11,GF,TREY Y OFF,STK,,,,,X,OFF,POST OUT,COMPLETE,,,DB,32,,4 DWN,,,,0,ALBI 00,ALBI 07,4,17,00; 05; 06,0,11,P,,L,'-1,14,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 07,04,00; 05; 06,17,EVEN,3x1,0,R,ALBI 00,0,COVER 2 MAN
+238,"2512 UAB O @ Tulsa, Play 064",,4,1,10,'-24,1,,,12,4,6,R,R,12,DOT,TREY U STING,,,,,,,WING PRO,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 05,0,12,R,,R,14,6,0,,,MAN,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05,17; 85,WIDE OVER,1x3,0,P,,0,COVER 4
+239,"2512 UAB O @ Tulsa, Play 065",,4,2,4,'-30,2,,,12,5,0,R,L,12,DOT,KING U OFF,,,,,,,SLOT,,,IZ,,ZN,,,4 DWN,,,,0,ALBI 04,ALBI 07,4,17; 85,00; 05,0,12,R,,L,6,0,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 04,ALBI 07,04,00; 05,17; 85,UNDER,3x1,0,R,,0,COVER 6
+240,"2512 UAB O @ Tulsa, Play 066",,4,3,4,'-30,3,,,12,6,57,P,L,11,GEMP,EMPTY 3x2,,,,,,,OPEN,VERTS RD,COMPLETE,,,DB,MAN,,4 DWN,,,,0,ALBI 05,ALBI 07,3,85,00; 05; 06,0,11,P,,L,0,57,0,0,,,,,0,0,0,0,0,ALBI 05,ALBI 07,03,00; 05; 06,85,WIDE UNDER,3x2,0,R,ALBI 05,0,COVER 4
+241,"2512 UAB O @ Tulsa, Play 067",,4,1,10,'+13,1,,RA,12,7,2,R,L,12,DOT,KING U OFF,,,,,,,SLOT,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,00; 06,0,12,R,,L,57,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,00; 06,17; 85,WIDE UNDER,3x1,0,P,,0,COVER 4
+242,"2512 UAB O @ Tulsa, Play 068",,4,2,8,'+11,2,,RA,12,8,6,R,L,12,GN,KING U OFF,,Z MTR,,,,,SLOT,,,IZ,WK,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 85,05; 06,0,12,R,,L,2,6,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 07,03,05; 06,17; 85,WIDE UNDER,3x1,0,R,,0,COVER 4
+243,"2512 UAB O @ Tulsa, Play 069",,4,3,2,'+5,3,SY,RA,12,9,2,R,L,23TT,I NR,UNBAL TO B HIP,,,,,,,,,,TOSS SWEEP,STR,ZN,,,6 DWN,,,,0,ALBI 04,ALBI 07,03; 04,85,,0,21 (**),R,,L,6,2,0,,,OUTSIDE ZONE,,,0,1,0,0,0,ALBI 04,ALBI 07,03; 04,,85,WIDE UNDER,0x2,0,R,,0,COVER 0
+244,"2512 UAB O @ Tulsa, Play 070",,4,1,3,'+3,1,GL,RA,12,10,3,R,L,23,I,ACE B STING,,,,,,,,,,POWER G LD,STR,GAP,,,5 DWN,,,,0,ALBI 04,ALBI 07,03; 04,17; 44; 85,,0,23,R,,L,2,3,0,,,PULL LEAD,,ALBI 04,0,0,0,0,0,ALBI 04,ALBI 07,03; 04,,17; 44; 85,ONE INTERIOR,2x1,0,R,,0,RED ZONE
+245,"2512 UAB O @ Tulsa, Play 071",,4,0,10,'-21,P,,,13,1,14,R,R,22,I,ACE,,,,,,,,,,POWER G LD,STR,GAP,,,4 DWN,,,,4,ALBI 04,ALBI 07,03; 04,17; 85,6,0,22,R,,R,,14,0,,,PULL LEAD,,,0,0,0,4,0,ALBI 04,ALBI 07,03; 04,06,17; 85,WIDE UNDER,1x2,0,P,,0,COVER 6
+246,"2512 UAB O @ Tulsa, Play 072",,4,1,10,'-35,1,,,13,2,5,R,L,13,DOT,KING B STING FIB,,,,X,,,,,,IZ,STR,ZN,,,4 DWN,,,,0,ALBI 03,ALBI 07,3,17; 44; 85,6,0,13,R,,L,14,5,0,,,MAN,,,0,0,0,0,0,ALBI 03,ALBI 07,03,06,17; 44; 85,WIDE OVER,1x3,0,R,,0,COVER 2
+247,"2601 UAB O @ Illinois, Play 001",,1,0,10,'-25,P,,,1,1,13,R,R,11,PSTL,TO DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH FIB,X,,,OFF,,,SPL ZN,,ZN,,BENCH,4 MAN,,,,,,,,,,,11,R,,R,72,13,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,WIDE OVER,2x3,0,,,0,COVER 1
+248,"2601 UAB O @ Illinois, Play 002",,1,1,10,'-38,1,,,1,2,4,R,R,11,GN,TREY Y OFF,,,,,,,OFF,,,IZ,,ZN,,SOLID,5 MAN,,,,,,,,,,,11,R,,R,13,4,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,ODD,1x3,0,R,,1,COVER 2
+249,"2601 UAB O @ Illinois, Play 003",,1,2,6,'-42,2,,,1,3,8,R,M,11,GF,DUO Y OFF,,SHIFT,NUMBERS,,,,OFF,,,SPL ZN,,ZN,,BENCH,4 MAN,,,,,,,,,,,11,R,,C,4,8,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,WIDE UNDER,2x2,0,R,,0,COVER 4
+250,"2601 UAB O @ Illinois, Play 004",,1,1,10,50,1,,,1,4,0,P,RM,11,GN,TREY Y OFF,,CK W ME,,,,,OFF,SMASH R FLAT,THROWN AWAY,,,BOOT,GAP,OKIE,3 MAN,,,,,,,,,,,11,P,,C,8,0,0,0,,COUNTER,,,0,0,0,0,0,,ALBI 05,03,00; 01; 08,85,ODD,1x3,1,R,,0,COVER 1
+251,"2601 UAB O @ Illinois, Play 005",,1,2,10,50,2,,,1,5,9,R,RM,12,DOT,KING U OFF,,,,,,,SLOT,,,IZ,,ZN,,JOKER,4 MAN,,,,,,,,,,,12,R,,C,,9,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 03,ALBI 05,03,00; 09,44; 85,ODD,1x3,0,P,,0,COVER 1
+252,"2601 UAB O @ Illinois, Play 006",,1,3,1,41,3,,,1,6,4,R,M,31,DOT,ACE F OFF R STING,,,,,,,ON,,,QB SNEAK,,SNEAK,,SOLID,5 MAN,,,,,,,,,,,31,R,,C,9,4,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 05,ALBI 05,02; 03; 07,84,44,ODD,2x2,0,R,,0,COVER 4
+253,"2601 UAB O @ Illinois, Play 007",,1,1,10,37,1,,,1,7,4,R,M,12,GN,UNBAL TO ACE U OFF,,Z ORB,,,,,PRO,,,SPL ZN,,ZN,,OKIE,3 MAN,,,,,,,,,,,12,R,,C,4,4,0,,,NO VIDEO,,,0,0,0,0,0,ALBI 07,ALBI 05,07,00; 09,44; 85,ODD,2x3,0,R,,0,COVER 3
+254,"2601 UAB O @ Illinois, Play 008",,1,2,6,33,2,,,1,8,1,R,RM,11,GF,DOUBLES,,,,,,,OPEN,,,IZ RD,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,C,4,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 05,07,00; 01; 08,44,ODD,2x2,1,R,,1,COVER 1
+255,"2601 UAB O @ Illinois, Play 009",,1,3,5,32,3,,,1,9,2,R,M,11,GF,TRIPS,,BUZZ,,,,,ON,,,OZ,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,C,1,2,0,,,OUTSIDE ZONE,ALBI 44 OH,,0,0,0,0,0,ALBI 03,ALBI 05,03,00; 01; 08,44,ODD,3x1,1,R,,1,COVER 1
+256,"2601 UAB O @ Illinois, Play 010",,1,3,13,'+40,3,,,1,10,'-10,P,L,11,GN,TRIPS OPEN V BUNCH,Y FLEX,,,,,,OPEN,LEVELS,SACK,,,DB,32R,WIDE,4 MAN,,,,,,,,,,,11,P,,L,2,'-10,0,0,,,,,0,0,0,0,0,ALBI 05,ALBI 05,03,00; 01; 08,44,EVEN,3x1,0,R,,0,COVER 3
+257,"2601 UAB O @ Illinois, Play 011",,1,0,10,'-25,P,,,2,1,2,R,L,11,PSTL,DUO Y OFF,SNUG,SHIFT/Z MTR,TREY Y OFF BUNCH,,,,OFF,,,SPL ZN,,ZN,,EVEN,4 MAN,,,,,,,,,,,11,R,,L,72,2,0,,,MAN,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,WIDE UNDER,2x2,1,,,0,COVER 4
+258,"2601 UAB O @ Illinois, Play 012",,1,2,8,'-26,2,,,2,2,11,P,L,11,GF,NUMBERS,,SHIFT,NUMBERS,,,,OFF,HITCHES,COMPLETE,,,RPO,OTHER,,OTHER,,,,,,,,,,,11,P,,L,2,11,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 00,ALBI 05,02,00; 01; 08,85,EVEN,4x2,1,R,ALBI 00,0,COVER 3
+259,"2601 UAB O @ Illinois, Play 013",,1,1,10,'-38,1,,,2,3,5,R,L,21,GS,PRO TWINS,ENDOVER,,,,X,,ON,,,SPL ZN,,ZN,,STACK,3 MAN,,,,,,,,,,,21,R,,L,11,5,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 05,03; 07,04; 09,85,ODD,3x0,0,P,,0,COVER 3
+260,"2601 UAB O @ Illinois, Play 014",,1,2,5,'-43,2,,,2,4,1,P,R,11,GF,TREY Y OFF BUNCH,,T RELOAD,EMPTY 3x2 BUNCH,,,,OFF,SPACING,RUN,,,DB,HALF SL,OKIE,3 MAN,,,,,,,,,,,11,P,,R,5,1,0,1,,,,,0,0,0,0,0,ALBI 05,ALBI 05,02,00; 01; 08,85,ODD,1x3,0,R,,0,COVER 1
+261,"2601 UAB O @ Illinois, Play 015",,1,3,4,'-44,3,,,2,5,8,P,R,10,GF,TRIPS OPEN,,T RELOAD,EMPTY 3x2,,,,OPEN,SLANTS,COMPLETE,,,DB,MAN,WIDE,4 MAN,,,,,,,,,,,10,P,,R,1,8,0,1,,,,,0,0,0,0,0,ALBI 04,ALBI 05,02,01; 04; 08; 09,,EVEN,1x3,0,P,ALBI 04,0,COVER 1
+262,"2601 UAB O @ Illinois, Play 016",,1,1,10,'+48,1,,,2,6,3,R,M,12,GF,KING U OFF,,Z MTR,ACE U OFF,,,,SLOT,,,CTR OT,,GAP,,SOLID,5 MAN,,,,,,,,,,,12,R,,C,8,3,0,,,COUNTER,,,0,0,0,0,0,ALBI 02,ALBI 05,02,01; 08,44; 85,ODD,3x1,1,P,,1,COVER 3
+263,"2601 UAB O @ Illinois, Play 017",,1,2,7,'+45,2,,,2,7,0,P,L,11,GN,TREY Y OFF,,SHIFT,NUMBERS,,,,OFF,GLANCE,INCOMPLETE,,,RPO,ZONE,OKIE,3 MAN,,,,,,,,,,,11,P,,L,3,0,0,0,,MAN,,,0,0,0,0,0,,ALBI 05,03,00; 01; 08,44,ODD,3x1,1,R,ALBI 08,1,COVER 1
+264,"2601 UAB O @ Illinois, Play 018",,1,3,7,'+45,3,,,2,8,42,P,L,11,GF,TRIPS OPEN,,,,,,,OPEN,VERTS RD,COMPLETE,,,DB,HALF SL,BENCH,4 MAN,,,,,,,,,,,11,P,,L,,42,0,0,,,,,0,0,0,0,0,ALBI 01,ALBI 05,03,00; 01; 08,44,WIDE OVER,3x1,0,P,ALBI 01,1,COVER 1
+265,"2601 UAB O @ Illinois, Play 019",,1,1,3,'+3,1,,RA,2,9,'-1,R,L,11,GN,TREY Y OFF BUNCH,,,,,,,OFF,,,IZ,,ZN,,BEAR,5 MAN,,,,,,,,,,,11,R,,L,42,'-1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03,00; 01; 08,44,WIDE OVER,3x1,0,P,,0,RED ZONE
+266,"2601 UAB O @ Illinois, Play 021",,1,2,9,'+9,2,,RA,2,11,0,P,L,12,PSTL,KING U OFF,STK,U MO,TWINS U STING,,,,SLOT,FLOOD,INCOMPLETE,,,BOOT,ZONE,JACK,4 MAN,,,,,,,,,,,12,P,,L,,0,0,0,,MAN,,,0,0,0,0,0,,ALBI 05,02,01; 08,44; 85,ODD,2x1,0,,ALBI 85,0,RED ZONE
+267,"2601 UAB O @ Illinois, Play 022",,1,3,9,'+9,3,,RA,2,12,1,P,L,11,GF,TRIPS OPEN V BUNCH,,,,,,,OPEN,SPACING DEEP,RUN,,,DB,HALF SL,STACK,3 MAN,,,,,,,,,,,11,P,,L,,1,0,0,,,,,0,0,0,0,0,ALBI 05,ALBI 05,02,01; 08; 09,19,ODD,3x1,0,P,,0,RED ZONE
+268,"2601 UAB O @ Illinois, Play 023",,1,0,10,'-25,P,,,3,1,4,R,L,11,PSTL,DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH,,,,OFF,,,SPL ZN,,ZN,,BENCH,4 MAN,,,,,,,,,,,11,R,,L,70,4,0,,,MAN,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,ONE INTERIOR,3x2,1,,,0,COVER 3
+269,"2601 UAB O @ Illinois, Play 024",,1,2,6,'-29,2,,,3,2,7,R,R,12,GF,KING U OFF,,,,,,,SLOT,,,IZ,,ZN,,OKIE,4 MAN,,,,,,,,,,,12,R,,R,4,7,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 02,ALBI 05,02,01; 08,44; 85,ODD,1x3,1,R,,1,COVER 1
+270,"2601 UAB O @ Illinois, Play 025",,1,1,10,'-36,1,,,3,3,'-3,R,R,11,GF,DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH FIB,X,,,OFF,,,CTR OY,,GAP,,OKIE,3 MAN,,,,,,,,,,,11,R,,R,7,'-3,0,,,COUNTER,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,44,ODD,2x2,1,R,,1,COVER 1
+271,"2601 UAB O @ Illinois, Play 026",,2,2,13,'-33,2,,,3,4,7,R,M,11,GF,NUMBERS,,,,,,,OFF,,,Y INSERT,,ZN,,,OTHER,,,,,,,,,,,11,R,,C,'-3,7,0,,,INSIDE ZONE,,,1,0,0,0,0,ALBI 03,ALBI 05,03,00; 01; 08,44,ONE INTERIOR,2x4,1,R,,0,COVER 3
+272,"2601 UAB O @ Illinois, Play 027",,2,3,6,'-40,3,,,3,5,6,R,M,11,GF,NUMBERS,,,,,,,OFF,,,Y INSERT,,ZN,,,3 MAN,,,,,,,,,,,11,R,,C,7,6,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03,00; 01; 08,44,ODD,2x4,1,R,,0,COVER 3
+273,"2601 UAB O @ Illinois, Play 028",,2,1,10,'-46,1,,,3,6,0,P,RM,11,GF,TRIPS OPEN,Y AT 2,Y OUT,TREY Y OFF,,,,OPEN,Z UNDER,THROWN AWAY,,,DB,MAN,BENCH,4 MAN,,,,,,,,,,,11,P,,C,6,0,0,0,,,ALBI 66 OH,,0,0,0,0,0,,ALBI 05,03,00; 01; 08,44,WIDE UNDER,1x3,0,R,,0,COVER 3
+274,"2601 UAB O @ Illinois, Play 029",,2,1,20,'-36,1,,,3,7,1,R,RM,11,GF,DUO Y OFF,,,,,,,OFF,,,SPL ZN,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,C,,1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03,00; 01; 08,85,ODD,2x2,1,P,,0,COVER 6
+275,"2601 UAB O @ Illinois, Play 030",,2,2,19,'-37,2,,,3,8,7,R,L,11,GF,NUMBERS,,,,,,,OFF,,,Y INSERT,,ZN,,,OTHER,,,,,,,,,,,11,R,,L,1,7,0,,,INSIDE ZONE,,,1,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,ONE INTERIOR,4x2,1,R,,0,COVER 3
+276,"2601 UAB O @ Illinois, Play 031",,2,3,12,'-44,3,,,3,9,7,P,L,11,GF,TREY Y OFF,,,,,,,OFF,MESH,RUN,,,DB,HALF SL,OKIE,3 MAN,,,,,,,,,,,11,P,,L,7,7,0,0,,,,,0,0,0,0,0,ALBI 05,ALBI 05,02,00; 01; 08,85,ODD,3x1,0,R,,0,COVER 3 CLOUD
+277,"2601 UAB O @ Illinois, Play 033",,2,0,10,'+31,P,,,4,1,17,P,M,21,GS,PRO TWINS,,R SWING,,,,,ON,SCR N' GO,COMPLETE,,,PA,FULL SL LT,OKIE,3 MAN,,,,,,,,,,,21,P,,C,42,17,0,0,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03; 07,08; 09,44,ODD,0x4,0,,ALBI 03,0,COVER 4
+278,"2601 UAB O @ Illinois, Play 034",,2,1,10,'+14,1,,RA,4,2,7,R,L,12,GN,TWINS U STING,,,,,,,WING SLOT,,,IZ,,ZN,,JOKER,4 MAN,,,,,,,,,,,12,R,,L,17,7,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03,08; 09,44; 85,ODD,2x2,1,P,,1,COVER 4
+279,"2601 UAB O @ Illinois, Play 037",,2,1,9,'+9,1,,RA,4,5,4,R,M,12,GF,TO TREY U STING,ENDOVER,,,,X,,WING SLOT,,,SPL ZN,,ZN,,EVEN,5 MAN,,,,,,,,,,,12,R,,C,,4,0,,,INSIDE ZONE,,,0,1,0,0,0,ALBI 02,ALBI 05,02,08; 09,44; 85,EVEN,1x3,0,,,1,RED ZONE
+280,"2601 UAB O @ Illinois, Play 038",,2,2,5,'+5,2,,RA,4,6,1,R,LM,12,DOT,TO ACE U OFF,,,,,,,PRO,,,SPL ZN,,ZN,,BEAR,5 MAN,,,,,,,,,,,12,R,,L,4,1,0,,,OUTSIDE ZONE,,,0,1,0,0,0,ALBI 02,ALBI 05,02,08; 09,44; 85,WIDE OVER,1x3,0,R,,0,RED ZONE
+281,"2601 UAB O @ Illinois, Play 039",,2,3,4,'+4,3,,RA,4,7,0,P,R,11,GF,DUO,,,,,,,ON,91,INCOMPLETE,,,QK,FULL SL RT,STACK,3 MAN,,,,,,,,,,,11,P,,R,1,0,0,0,,,,,0,0,0,0,0,,ALBI 05,03,01; 04; 08,85,ODD,2x2,0,R,ALBI 03,0,RED ZONE
+282,"2601 UAB O @ Illinois, Play 040",,2,0,10,'+50,P,,,5,1,0,P,LM,11,GN,TREY Y OFF,,,,,,,OFF,VERTS RD,INCOMPLETE,,,PA,ZONE,EVEN,4 MAN,,,,,,,,,,,11,P,,C,0,0,0,0,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 05,07,00; 01; 08,44,WIDE UNDER,3x1,1,R,ALBI 01,0,COVER 3
+283,"2601 UAB O @ Illinois, Play 041",,2,2,10,'+50,2,,,5,2,2,R,LM,11,PSTL,DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH,,,,OFF,,,SPL ZN,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,C,,2,0,,,MAN,,,0,1,0,0,0,ALBI 07,ALBI 05,07,00; 01; 08,85,ONE INTERIOR,1x3,1,P,,0,COVER 1
+284,"2601 UAB O @ Illinois, Play 042",,2,3,8,'+48,3,,,5,3,7,P,R,11,GN,TRIPS OPEN,Y FLEX,T RELOAD,EMPTY 3x2 BUNCH,,,,OPEN,SPACING,COMPLETE,,,DB,MAN,BENCH,4 MAN,,,,,,,,,,,11,P,,R,2,7,0,0,,,,,0,0,0,0,0,ALBI 08,ALBI 05,07,00; 01; 08,85,WIDE UNDER,1x3,0,R,ALBI 08,1,COVER 1
+285,"2601 UAB O @ Illinois, Play 043",,2,4,1,'+41,4,,,5,4,3,R,R,31,DOT,ACE F OFF R STING,,R MTR,,,,,ON,,,JET SWEEP,,JET,,BEAR,5 MAN,,,,,,,,,,,31,R,,R,7,3,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 05,02; 03; 07,84,44,BEAR,2x2,0,P,,0,COVER 2
+286,"2601 UAB O @ Illinois, Play 044",,2,1,10,'+38,1,,,5,5,8,R,L,11,GF,NUMBERS,,,,,,,OFF,,,Y INSERT,,ZN,,,OTHER,,,,,,,,,,,11,R,,L,3,8,0,,,INSIDE ZONE,,,1,0,0,2,0,ALBI 03,ALBI 05,03,00; 01; 08,44,WIDE OVER,2x4,1,R,,0,COVER 3
+287,"2601 UAB O @ Illinois, Play 045",,2,2,2,'+30,2,,,5,6,6,R,L,11,GF,NUMBERS,,,,,,,OFF,,,Y INSERT,,ZN,,,OTHER,,,,,,,,,,,11,R,,L,8,6,0,,,INSIDE ZONE,,,1,0,1,2,0,ALBI 03,ALBI 05,03,00; 01; 08,44,EVEN,2x4,0,R,,0,COVER 3
+288,"2601 UAB O @ Illinois, Play 046",,2,1,10,'+24,1,,RA,5,7,0,P,L,11,GN,TRIPS OPEN,Y FLEX,,,,,,OPEN,OVERS,INCOMPLETE,,,DB,HALF SL,JACK,4 MAN,,,,,,,,,,,11,P,,L,6,0,0,0,,,,,0,0,0,2,0,,ALBI 05,07,01; 08; 09,85,ODD,3x1,0,R,ALBI 08,1,COVER 3
+289,"2601 UAB O @ Illinois, Play 047",,2,2,10,'+24,2,,RA,5,8,0,P,LM,11,GF,TRIPS OPEN,,,,,,,OPEN,VERTS RD,INCOMPLETE,,,DB,HALF SL,JOKER,4 MAN,,,,,,,,,,,11,P,,L,,0,0,0,,,,,0,0,0,2,0,,ALBI 05,07,00; 01; 08,85,WIDE OVER,3x1,0,P,ALBI 01,1,COVER 1
+290,"2601 UAB O @ Illinois, Play 048",,2,3,10,'+24,3,,RA,5,9,14,P,LM,11,GN,DOUBLES,,Z BNC,TRIPS OPEN V BUNCH,,,X,OPEN,SPACING,RUN,,,DB,HALF SL,OKIE,3 MAN,,,,,,,,,,,11,P,,L,,14,0,0,,,,,0,0,0,2,0,ALBI 05,ALBI 05,07,00; 01; 08,85,ODD,2x2,0,P,,0,COVER 3 SEAM
+291,"2601 UAB O @ Illinois, Play 049",,2,1,10,'+10,1,,RA,5,10,10,P,L,11,GN,TRIPS OPEN,Y FLEX,,,,,,,227,COMPLETE,,,DB,32R,STACK,3 MAN,,,,,,,,,,,11,P,,L,14,10,0,0,,,,ALBI 02,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,ODD,3x1,0,P,ALBI 02,0,RED ZONE
+292,"2601 UAB O @ Illinois, Play 050",,3,0,10,'-25,P,,,6,1,13,P,R,21,GS,PRO TWINS,ENDOVER,R SWING,,,X,,ON,HITCHES,COMPLETE,,,PA,ZONE,JACK,4 MAN,,,,,,,,,,,21,P,,R,71,13,0,1,,INSIDE ZONE,,,0,0,0,0,0,ALBI 08,ALBI 05,02; 03,08; 09,85,ODD,0x4,1,,ALBI 08,0,COVER 3
+293,"2601 UAB O @ Illinois, Play 051",,3,1,10,'-38,1,,,6,2,3,R,LM,11,PSTL,DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH,,,,OFF,,,SPL ZN,,ZN,,JACK,4 MAN,,,,,,,,,,,11,R,,C,13,3,0,,,MAN,,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,WIDE OVER,2x3,0,P,,0,COVER 1
+294,"2601 UAB O @ Illinois, Play 052",,3,2,7,'-41,2,,,6,3,5,R,LM,12,PSTL,TREY U STING,,,,,,,WING PRO,,,OZ,,ZN,,JOKER,4 MAN,,,,,,,,,,,12,R,,C,3,5,0,,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 02,ALBI 05,02,08; 09,44; 85,ODD,1x3,0,R,,0,COVER 1
+295,"2601 UAB O @ Illinois, Play 053",,3,3,2,'-46,3,,,6,4,1,R,L,12,DOT,TREY Y OFF BUNCH FIB,,,,X,,,OFF,,,QB SNEAK,,SNEAK,,SOLID,4 MAN,,,,,,,,,,,12,R,,L,5,1,0,,,SNEAK,,,0,0,0,0,0,ALBI 05,ALBI 05,03,01; 09,44; 85,BEAR,1x3,0,R,,0,COVER 4
+296,"2601 UAB O @ Illinois, Play 054",,3,4,1,'-47,4,,,6,5,6,R,L,12,DOT,TREY Y OFF BUNCH FIB,,,,X,,,OFF,,,DIVE,,ZN,,BEAR,4 MAN,,,,,,,,,,,12,R,,L,1,6,0,,,MAN,,,0,0,0,0,0,ALBI 03,ALBI 05,03,08; 09,44; 85,BEAR,1x3,0,R,,1,COVER 0
+297,"2601 UAB O @ Illinois, Play 055",,3,1,10,'+47,1,,,6,6,2,R,L,12,GF,TWINS U HIP,,,,,,,WING SLOT,,,SPL ZN,,ZN,,SOLID,4 MAN,,,,,,,,,,,12,R,,L,6,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03,08; 09,44; 85,ODD,2x2,1,R,,0,COVER 3
+298,"2601 UAB O @ Illinois, Play 056",,3,2,8,'+45,2,,,6,7,24,R,L,11,GS,SLOT,,SHIFT,NUMBERS,,,,OPEN,,,REVERSE,,TRICK,,OKIE,3 MAN,,,,,,,,,,,11,R,,L,2,24,0,,,TRICK,,,0,1,0,0,0,ALBI 08,ALBI 05,07,00; 01; 08,85,ODD,2x1,0,R,,1,COVER 1
+299,"2601 UAB O @ Illinois, Play 057",,3,1,10,'+21,1,,RA,6,8,0,P,R,11,GN,DOUBLES,,,,,,,OPEN,SLUGGO,INCOMPLETE,,,DB,MAN,BENCH,4 MAN,,,,,,,,,,,11,P,,R,24,0,0,0,,,,,0,0,0,0,0,,ALBI 05,07,00; 01; 08,85,WIDE OVER,2x2,0,R,ALBI 01,0,COVER 1
+300,"2601 UAB O @ Illinois, Play 058",,3,2,10,'+21,2,,RA,6,9,'-1,R,R,12,GN,UNBAL TO ACE U OFF,,Z ORB,,,,,PRO,,,SPL ZN,,ZN,,JACK,4 MAN,,,,,,,,,,,12,R,,R,,'-1,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 07,ALBI 05,07,01; 04,44; 85,EVEN,3x2,0,P,,0,COVER 3
+301,"2601 UAB O @ Illinois, Play 059",,3,3,11,'+22,3,,RA,6,10,5,P,R,11,GN,TRIPS OPEN V BUNCH,Y FLEX,,,,,,OPEN,SCISSORS,RUN,,,DB,MAN,OKIE,3 MAN,,,,,,,,,,,11,P,,R,'-1,5,0,0,,,,,0,0,0,0,0,ALBI 05,ALBI 05,02,00; 01; 04,19,ODD,1x3,0,R,,0,COVER 3
+302,"2601 UAB O @ Illinois, Play 060",,4,0,10,'-25,P,,,7,1,0,P,L,11,PSTL,DUO Y OFF,SNUG,Z MTR,TREY Y OFF BUNCH,,,,OFF,POST WHEEL,INCOMPLETE,,,BOOT,ZONE,OKIE,3 MAN,,,,,,,,,,,11,P,,L,73,0,0,0,,MAN,ALBI 66 IDP,,0,0,0,0,0,,ALBI 05,02,00; 01; 08,85,ODD,2x2,0,,ALBI 00,1,COVER 1
+303,"2601 UAB O @ Illinois, Play 061",,4,1,15,'-20,1,,,7,2,0,R,L,11,GN,TRIPS,,,,,,,ON,,INCOMPLETE,,,PA,,JACK,4 MAN,,,,,,,,,,,11,P,,L,,0,0,0,,INSIDE ZONE,(D) ALBI 55 IDP,,0,0,0,0,0,,ALBI 05,02,00; 01; 08,85,OVER,3x1,1,P,ALBI 00,0,COVER 3 SEAM
+304,"2601 UAB O @ Illinois, Play 062",,4,2,15,'-20,2,,,7,3,4,P,L,11,GF,NUMBERS,,,,,,,OFF,VERTS RD,COMPLETE,,,DB,OTHER,,OTHER,,,,,,,,,,,11,P,,L,,4,0,0,,,,,1,0,0,0,0,ALBI 02,ALBI 05,02,00; 01; 08,85,EVEN,2x4,0,P,ALBI 02,0,COVER 3
+305,"2601 UAB O @ Illinois, Play 063",,4,3,11,'-24,3,,,7,4,12,P,R,11,GN,TRIPS OPEN,Y FLEX,,,,,,OPEN,CURLS,COMPLETE,,,DB,MAN,WIDE,4 MAN,,,,,,,,,,,11,P,,R,4,12,0,0,,,,,0,0,0,0,0,ALBI 00,ALBI 05,02,00; 08; 09,19,ONE INTERIOR,1x3,0,P,ALBI 00,0,COVER 3
+306,"2601 UAB O @ Illinois, Play 064",,4,1,10,'-36,1,,,7,5,5,P,L,12,GF,TREY Y OFF,SNUG,,,,,,OFF/OPEN,VERTS RD,COMPLETE,,,DB,MAN,EVEN,4 MAN,,,,,,,,,,,12,P,,L,12,5,0,0,,,,,0,0,0,0,0,ALBI 19,ALBI 05,02,01; 08,19; 44,EVEN,3x1,0,P,ALBI 19,1,COVER 3
+307,"2601 UAB O @ Illinois, Play 065",,4,2,5,'-41,2,,,7,6,0,P,M,11,GN,DOUBLES,,X RETURN,,,,,OPEN,OVER,HIT AS THREW,,,DB,HALF SL,OKIE,3 MAN,,,,,,,,,,,11,P,,C,5,0,0,0,,,,,0,0,0,0,0,,ALBI 05,03,00; 01; 08,44,ODD,2x2,0,P,,1,COVER 1
+308,"2601 UAB O @ Illinois, Play 066",,4,3,5,'-41,3,,,7,7,15,P,R,11,GF,TRIPS OPEN,,,,,,,OPEN,SCISSORS,COMPLETE,,,DB,32L,SOLID,4 MAN,,,,,,,,,,,11,P,,R,,15,0,0,,,,,0,0,0,0,0,ALBI 01,ALBI 05,03,01; 04; 08,19,ODD,1x3,0,P,ALBI 01,0,COVER 2
+309,"2601 UAB O @ Illinois, Play 067",,4,1,10,'+44,1,,,7,8,0,P,L,11,GF,TREY Y OFF,STK,,,,,,OFF,POST DIG,INCOMPLETE,,,PA,FULL SL LT,JACK,4 MAN,,,,,,,,,,,11,P,,L,15,0,0,0,,INSIDE ZONE,,,0,0,1,0,0,,ALBI 05,03,01; 04; 08,19,ODD,3x1,0,P,ALBI 08,0,COVER 4
+310,"2601 UAB O @ Illinois, Play 068",,4,2,10,'+44,2,,,7,9,8,P,L,21,GS,PRO Y OFF,,Y MO,,,,,OFF,POST WHEEL,COMPLETE,,,BOOT,ZONE,OKIE,3 MAN,,,,,,,,,,,21,P,,L,,8,0,0,,INSIDE ZONE,,,0,0,0,0,0,ALBI 03,ALBI 05,03; 07,04; 09,85,ODD,1x2,0,P,ALBI 03,0,COVER 4
+311,"2601 UAB O @ Illinois, Play 069",,4,3,2,'+36,3,,,7,10,2,R,L,12,GN,KING U OFF FIB,,Z MTR,,X,,,SLOT,,,SPL ZN,,ZN,,BEAR,5 MAN,,,,,,,,,,,12,R,,L,8,2,0,,,INSIDE ZONE,,,0,0,0,0,0,ALBI 02,ALBI 05,02,04; 09,44; 85,BEAR,1x3,0,P,,0,COVER 4
+312,"2601 UAB O @ Illinois, Play 070",,4,1,10,'+34,1,,,7,11,8,P,L,12,PSTL,ACE YU OFF,,,,,,X,PRO,POST OVER,RUN,,,PA,FULL SL LT,JACK,4 MAN,,,,,,,,,,,12,P,,L,2,8,0,0,,OUTSIDE ZONE,,,0,0,0,0,0,ALBI 05,ALBI 05,02,04; 09,44; 85,UNDER,2x2,0,R,,0,COVER 3
+313,"2601 UAB O @ Illinois, Play 071",,4,2,2,'+26,2,,,7,12,10,R,LM,11,GN,TREY Y OFF,,,,,,,OFF,,,SPL ZN,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,L,8,10,0,,,INSIDE ZONE,ALBI 77 OH,,0,0,0,0,0,ALBI 02,ALBI 05,02,00; 04; 09,44,ODD,3x1,0,P,,1,COVER 3
+314,"2601 UAB O @ Illinois, Play 072",,4,2,12,'+36,2,,,7,13,0,P,L,11,GF,NUMBERS,,,,,,,OFF,POST WHEEL,INCOMPLETE,,,BOOT,OTHER,,OTHER,,,,,,,,,,,11,P,,L,10,0,0,0,,INSIDE ZONE,,,0,0,0,0,0,,ALBI 05,03,00; 01; 08,44,ONE INTERIOR,2x4,1,R,ALBI 44,1,COVER 3
+315,"2601 UAB O @ Illinois, Play 073",,4,3,12,'+36,3,,,7,14,5,P,LM,11,GF,TREY Y OFF,,,,,,,OFF,CURLS,COMPLETE,,,DB,MAN,WIDE,4 MAN,,,,,,,,,,,11,P,,L,,5,0,0,,,,,0,0,0,0,0,ALBI 07,ALBI 05,07,00; 01; 08,19,EVEN,3x1,0,P,ALBI 07,0,COVER 3
+316,"2601 UAB O @ Illinois, Play 074",,4,4,7,'+31,4,,,7,15,0,P,L,11,GF,TREY Y OFF,,,,,,,OFF,MESH,INTERCEPTION,,,DB,MAN,BENCH,4 MAN,,,,,,,,,,,11,P,,L,5,0,0,0,,,,ILUN D26,0,0,0,0,0,,ALBI 05,07,00; 01; 08,19,WIDE UNDER,3x1,0,P,ALBI 07,1,COVER 1
+317,"2601 UAB O @ Illinois, Play 075",,4,0,10,'-25,P,,,8,1,5,P,R,11,GN,TREY Y OFF FIB,,,,X,,,OFF,HITCHES,COMPLETE,,,RPO,ZONE,STACK,3 MAN,,,,,,,,,,,11,P,,R,75,5,0,1,,INSIDE ZONE,,,0,0,0,0,1,ALBI 00,ALBI 05,03,00; 04; 08,19,ODD,3x1,1,,ALBI 00,0,COVER 4
+318,"2601 UAB O @ Illinois, Play 076",,4,2,5,'-30,2,,,8,2,4,P,R,11,GN,DUO YH OFF,,Y NR,,,,X,OFF,SPACING,COMPLETE,,,QK,MAN,EVEN,4 MAN,,,,,,,,,,,11,P,,R,5,4,0,1,,,,,0,0,1,0,1,ALBI 04,ALBI 05,03,00; 04; 08,19,WIDE OVER,2x2,0,P,ALBI 04,0,COVER 3
+319,"2601 UAB O @ Illinois, Play 077",,4,3,1,'-34,3,,,8,3,0,R,R,11,GN,DUO Y OFF,,Z MTR,,,,,OFF,,,IZ,,ZN,,SOLID,4 MAN,,,,,,,,,,,11,R,,R,4,0,0,,,INSIDE ZONE,,,0,0,1,0,1,ALBI 03,ALBI 05,03,00; 04; 08,19,UNDER,2x2,0,P,,1,COVER 3
+320,"2601 UAB O @ Illinois, Play 078",,4,4,1,0,4,,,8,4,3,R,RM,12,GN,KING U OFF,,,,,,,SLOT,,,SPL ZN,,ZN,,JOKER,5 MAN,,,,,,,,,,,12,R,,C,0,3,0,,,INSIDE ZONE,,,0,1,0,0,1,ALBI 03,ALBI 05,03,01; 04,19; 85,ODD,1x2,0,R,,1,COVER 3
+321,"2601 UAB O @ Illinois, Play 079",,4,1,10,'-37,1,,,8,5,3,P,R,12,GF,ACE YU OFF,,SHIFT,,,,X,PRO,SPACING,RUN,,,QK,MAN,OKIE,3 MAN,,,,,,,,,,,12,P,,R,3,3,0,1,,,,,0,0,0,0,1,ALBI 05,ALBI 05,07,01; 04,19; 85,ODD,2x2,0,R,,1,COVER 1
+322,"2601 UAB O @ Illinois, Play 080",,4,2,7,'-40,2,,,8,6,4,R,L,11,PSTL,TREY Y OFF,,,,,,,OFF,,,OZ,,ZN,,OKIE,3 MAN,,,,,,,,,,,11,R,,L,3,4,0,,,OUTSIDE ZONE,,,0,0,0,0,1,ALBI 07,ALBI 05,07,00; 04; 09,44,ODD,3x1,0,P,,1,COVER 1
+323,"2601 UAB O @ Illinois, Play 081",,4,3,3,'-44,3,,,8,7,15,P,M,11,GN,DUO Y OFF,,,,,,,OFF,CURLS,COMPLETE,,,DB,HALF SL,OKIE,3 MAN,,,,,,,,,,,11,P,,C,4,15,0,0,,,,,0,0,0,0,1,ALBI 44,ALBI 05,07,00; 04; 09,44,ODD,2x2,0,R,ALBI 44,0,COVER 3
+324,"2601 UAB O @ Illinois, Play 082",,4,1,10,'+41,1,,,8,8,14,P,R,11,GN,TREY Y OFF,STK,,,,,,OFF,TUNNEL SCR,COMPLETE,,,SCR,SCREEN,OKIE,3 MAN,,,,,,,,,,,11,P,,R,15,14,1,0,,OUTSIDE ZONE,,,0,0,0,0,1,ALBI 04,ALBI 05,07,00; 04; 09,44,ODD,1x3,0,P,ALBI 04,1,COVER 1
+325,"2601 UAB O @ Illinois, Play 083",,4,1,10,'+27,1,,,8,9,24,P,R,11,GN,TREY Y OFF,,,,,,,OFF,GLANCE,COMPLETE,,,RPO,ZONE,EVEN,4 MAN,,,,,,,,,,,11,P,,R,14,24,0,1,,INSIDE ZONE,,,0,0,1,0,1,ALBI 00,ALBI 05,07,00; 04; 09,44,WIDE OVER,1x3,1,P,ALBI 00,0,COVER 1
+326,"2601 UAB O @ Illinois, Play 084",,4,1,3,'+3,1,,RA,8,10,'-1,R,R,11,GN,TREY Y OFF BUNCH FIB,,,,X,,,OFF,,,IZ,,ZN,,BENCH,4 MAN,,,,,,,,,,,11,R,,R,24,'-1,0,,,INSIDE ZONE,,,0,0,0,0,1,ALBI 07,ALBI 05,07,00; 04; 09,44,ODD,3x1,0,P,,1,COVER 1
+327,"2601 UAB O @ Illinois, Play 085",,4,2,4,'+4,2,,RA,8,11,'-1,R,R,11,GN,TREY Y OFF BUNCH,,,,,,,OFF,,,IZ,,ZN,,BENCH,4 MAN,,,,,,,,,,,11,R,,R,'-1,'-1,0,,,INSIDE ZONE,,,0,0,0,0,1,ALBI 05,ALBI 05,07,00; 04; 09,44,EVEN,1x3,0,R,,0,RED ZONE
+328,"2601 UAB O @ Illinois, Play 086",,4,3,5,'+5,3,,RA,8,12,5,P,LM,11,GN,TREY Y OFF BUNCH,,,,,,,OFF,SPACING,RUN,,,DB,HALF SL,JOKER,4 MAN,,,,,,,,,,,11,P,,L,'-1,5,0,0,,,,ALBI 05,0,0,0,0,1,ALBI 05,ALBI 05,07,00; 04; 09,44,ODD,3x1,0,R,,0,RED ZONE

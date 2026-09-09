@@ -1,9 +1,11 @@
-# Tony D-Line Weekly Scout v14.9
+# Tony D-Line Weekly Scout v15.3
 
-UAB play alignment update:
-- Aligned play_feed-93.csv directly to the embedded 975-row UAB hybrid by play sequence, 975 rows to 975 rows.
-- Verification: quarter, down, run/pass, personnel and hash matched 975/975 rows. One distance value differs between sources but the sequence remains aligned.
-- The aligned hybrid now carries authoritative PFF fields for RPO, Screen, Play Action, Stunt, Time To Throw, Time To Pressure, Dropback Type, Pass Result, pressure and pass-rusher fields.
-- Stunt analysis now reads those aligned fields directly; no fuzzy play matching is required for UAB.
-- Pass Family classification prioritizes PFF Screen, RPO and Play Action tags. Quick Game and Sprint Out fall back to the manual Play Type because play_feed-93 has no dedicated QUICKGAME field.
-- play_feed-93.csv is included in the ZIP for verification.
+Hybrid-language update:
+- Uses the newly supplied 328-row ALL_BREAKDOWN_GAMES hybrid as the authoritative ULM tagging source.
+- Exact hybrid-tagged plays keep their exact ULM Formation values.
+- Extra PFF game-feed plays are translated only when their PFF formation structure maps cleanly/high-confidence to a ULM formation learned from the tagged hybrid.
+- Formation map coverage: 725 of 975 PFF plays.
+- Exact tagged matches: 322.
+- Ambiguous/unseen structures are left unassigned rather than guessed.
+- The same formation map is used by visible tables and stunt formation analysis.
+- Raw PFF/offensive formation language remains hidden from Tony's visible tables.
