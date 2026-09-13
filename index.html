@@ -156,10 +156,10 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 <header><div class="head"><img class="logo" src="ulm_avg_roundel_edge_star.png"><div class="brand"><div class="eyebrow">ULM Football · Defensive Line</div><h1>Tony | D-Line Weekly Scout</h1><div class="sub">Opponent OL + personnel intelligence · run game · protection · situations</div></div>
 <div class="controls">
 <div class="seasonSwitch"><button id="s2025" title="Mortensen era only: Memphis game forward">2025</button><button id="s2026" class="active">2026</button></div>
-<button id="msstBtn">Mississippi State</button><button id="uabBtn" class="active">UAB</button><button id="reloadBtn" class="gold">Reload</button>
+<button id="msstBtn">Mississippi State</button><button id="uabBtn">UAB</button><button id="selBtn" class="active">Southeastern Louisiana</button><button id="reloadBtn" class="gold">Reload</button>
 </div></div></header>
 <div class="wrap">
-<div class="hero"><div class="card"><div class="eyebrow" id="wk">Week 2 Opponent</div><h2 id="opp">UAB</h2><div class="muted">Built for the D-line room: what their offense is asking the OL, TE and RB to do and where the front can attack it.</div><div id="status" class="status">Loading live defensive-intelligence files…</div></div>
+<div class="hero"><div class="card"><div class="eyebrow" id="wk">Week 3 Opponent</div><h2 id="opp">Southeastern Louisiana</h2><div class="muted">Built for the D-line room: what their offense is asking the OL, TE and RB to do and where the front can attack it.</div><div id="status" class="status">Loading live defensive-intelligence files…</div></div>
 <div class="card"><div class="eyebrow">Tony's lens</div><div style="font-size:13px;line-height:1.55;margin-top:7px">Start with <b>their five</b>, then personnel and surface, then run concept / protection. Filters recalculate every report.</div></div></div>
 <div id="kpis" class="kpis"></div>
 <div class="filters">
@@ -175,13 +175,13 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 </div>
 <section id="overview" class="tabview">
 <div class="grid2"><div class="card"><h3>Personnel Usage</h3><div id="persRanks"></div></div><div class="card"><h3>ULM Formations</h3><div id="formRanks"></div></div></div>
-<div class="grid2 section"><div class="card"><h3>Run Concepts</h3><div id="runRanks"></div></div><div class="card"><h3>Protection / Pass Type</h3><div id="protRanks"></div></div></div>
+<div class="grid2 section"><div class="card"><h3>Run Concepts</h3><div id="runRanks"></div></div><div class="card"><h3>D Intel Protection / Play Type</h3><div id="protRanks"></div></div></div>
 </section>
 
 <section id="depth" class="tabview hidden">
   <div class="depthWrap">
     <div class="depthHead">
-      <div><div class="eyebrow">Opponent Personnel</div><h3 id="depthTitle">UAB Offensive Depth Chart</h3><div class="muted">OurLads depth order. Offensive-line names are linked directly to Tony's OL player cards.</div></div>
+      <div><div class="eyebrow">Opponent Personnel</div><h3 id="depthTitle">Southeastern Louisiana Offensive Depth Chart</h3><div class="muted">OurLads depth order. Offensive-line names are linked directly to Tony's OL player cards.</div></div>
       <div class="depthSource" id="depthSource"></div>
     </div>
     <div class="scroll"><table class="depthTable" id="depthTable"></table></div>
@@ -191,7 +191,7 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 <div class="card">
   <div class="eyebrow">Five-Man Matchup Board</div>
   <h3 style="font-size:18px;margin:5px 0 3px">LT · LG · C · RG · RT</h3>
-  <div class="muted">For UAB in 2026, the board uses the current D Intel offensive two-deep starters first, then attaches available blocking data. Historical views fall back to the highest-snap blocking sample.</div>
+  <div class="muted">For the current opponent in 2026, the board uses the live Defensive Intelligence depth chart first, then attaches available blocking data. Historical views fall back to the highest-snap blocking sample.</div>
   <div id="olBoard" class="olBoard"></div>
 </div>
 <div class="card section"><h3>Opponent OL Depth / Roster</h3><div id="olGrid" class="playerGrid"></div></div><div class="card section"><h3>Pass Blocking Data</h3><div class="scroll"><table id="pbTable"></table></div></div><div class="card section"><h3>Run Blocking Data</h3><div class="scroll"><table id="rbTable"></table></div></div></section>
@@ -237,7 +237,7 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 <div class="grid2"><div class="card"><h3>Protection / Dropback Family</h3><div id="protections"></div></div><div class="card"><h3>Sack / Negative Outcomes</h3><div id="passOutcomes"></div></div></div><div class="card section"><h3>Pass Plays</h3><div class="scroll"><table id="passTable"></table></div></div></section>
 <section id="personnel" class="tabview hidden">
   <div id="ulmLanguagePanel" class="card section">
-    <div class="section-head"><div><h3>ULM Formation Language</h3><div class="muted">Formation vocabulary is validated against ALL_BREAKDOWN_GAMES.csv (48 exact ULM formation names). D Intel fields: Formation · Personnel · Backfield · Form Var · Motion · Y Location.</div></div><span class="tag" id="ulmMatchBadge">ULM MATCHED</span></div>
+    <div class="section-head"><div><h3>ULM Formation Language</h3><div class="muted">SEL visible terminology is translated into the ULM Defensive Intelligence vocabulary. Raw PFF labels remain calculation-only. D Intel fields: Formation · Personnel · Backfield · Motion · Y Location · Run Concept · Play Type · Proctection.</div></div><span class="tag" id="ulmMatchBadge">ULM MATCHED</span></div>
     <div class="surfaceGrid">
       <div><div class="eyebrow">ULM Formation</div><div id="ulmFormLanguage"></div></div>
       <div><div class="eyebrow">ULM Personnel</div><div id="ulmPersLanguage"></div></div>
@@ -284,7 +284,8 @@ table{width:100%;border-collapse:collapse;font-size:12px}th{font-size:10px;text-
 <script>
 const BASE='https://hzrosmevuejjlxigdxmg.supabase.co/storage/v1/object/public';
 const CFG={
- UAB:{name:'UAB',week:'Week 2 Opponent',base:BASE+'/Defensive%20Intelligence/Opponents/UAB/',files:{plays:'play_feed (17).csv',qb:'pff-data (12).csv',runBlocking:'pff-data (21).csv',passBlocking:'pff-data (22).csv',runConcepts:'pff-data (19).csv',runDirections:'pff-data (20).csv',formations:'pff-data (23).csv',personnel:'pff-data (24).csv',personnel20:'pff-data (29).csv',personnel21:'pff-data (30).csv',personnelPlayers:'pff-data (31).csv'},roster:'roster.json'},
+ SEL:{name:'Southeastern Louisiana',week:'Week 3 Opponent',base:BASE+'/Defensive%20Intelligence/Opponents/Southeastern%20Louisiana/',files:{plays:'play_feed-98.csv'},rawFiles:['pff-data-144.csv','pff-data-145.csv','pff-data-146.csv','pff-data-147.csv','pff-data-148.csv','pff-data-149.csv','pff-data-150.csv','pff-data-151.csv','pff-data-152.csv','pff-data-153.csv','pff-data-154.csv','pff-data-155.csv','pff-data-156.csv'],roster:'roster.json',depth:'depth-chart.json'},
+ UAB:{name:'UAB',week:'Week 2 Archive',base:BASE+'/Defensive%20Intelligence/Opponents/UAB/',files:{plays:'play_feed (17).csv',qb:'pff-data (12).csv',runBlocking:'pff-data (21).csv',passBlocking:'pff-data (22).csv',runConcepts:'pff-data (19).csv',runDirections:'pff-data (20).csv',formations:'pff-data (23).csv',personnel:'pff-data (24).csv',personnel20:'pff-data (29).csv',personnel21:'pff-data (30).csv',personnelPlayers:'pff-data (31).csv'},roster:'roster.json'},
  MSST:{name:'Mississippi State',week:'Week 1 Archive',base:BASE+'/Defensive%20Intelligence/Mississippi%20State/Current/',files:{plays:'play_feed-82.csv',qb:'pff-data-92.csv',runBlocking:'pff-data-101.csv',passBlocking:'pff-data-102.csv',runConcepts:'pff-data-99.csv',runDirections:'pff-data-100.csv',formations:'pff-data-103.csv',personnel:'pff-data-104.csv'},roster:BASE+'/Special%20Teams/Current/roster.json'}
 };
 
@@ -332,7 +333,114 @@ function mergeDIntelUABRoster(liveRows){
 const UAB_2025_OL_MAP={
  'Payton Kirkland':'51','Aidan Platt':'57','Jaden Ligon':'59','Donovan Lawrence':'66','Adam Lepkowski':'68','Kade Martin':'69','Kyrik Mason':'71','Barry Walker Jr':'74','Barry Walker':'74','Calib Perez':'75','Nelson Ramirez':'78'
 };
-let team='UAB',data={},roster=[],filtered=[],rawPlays=[],seasonView=localStorage.getItem('tonyDLSeasonV1')||'2026';
+
+const SEL_ULM_FORM_MAP_FULL={"11|1X3|04|17|00; 06; 18":"TREY Y OFF","11|1X3|04|85|00; 06; 12":"TRIPS","11|2X2|02|85|00; 01; 08":"DUO Y OFF","11|2X2|03|85|00; 05; 12":"DUO Y OFF","11|2X2|04|17|00; 06; 08":"DUO Y OFF","11|2X2|04|17|00; 06; 18":"DUO Y OFF","11|2X2|04|85|00; 06; 08":"DUO Y OFF","11|2X2|04|85|00; 06; 12":"DUO Y OFF","11|2X2|04|85|00; 06; 18":"DUO Y OFF","11|2X2|07|85|00; 01; 08":"DOUBLES","11|2X2|30|87|13; 81; 84":"DUO Y OFF","11|2X4|03|44|00; 01; 08":"NUMBERS","11|3X1|03|17|00; 06; 12":"TREY Y OFF","11|3X1|07|19|00; 01; 08":"TREY Y OFF","11|4X2|02|85|00; 01; 08":"NUMBERS","12|1X3|11|17; 85|00; 08":"KING U OFF","12|3X1|03|17; 85|00; 06":"KING U OFF","12|3X1|04|17; 85|00; 06":"KING U OFF","12|3X1|04|17; 85|00; 08":"KING U OFF","21|1X2|03; 11|17|00; 06":"PRO Y OFF","21|1X2|03; 11|17|06; 18":"PRO Y OFF","21|1X3|03; 11|85|00; 06":"TRIPS BUNCH","21|2X1|03; 04|17|00; 06":"PRO Y OFF","21 (**)|0X2|03; 04|85|":"UNBAL TO B HIP","22|3X2|04; 11|17; 85|06":"EMPTY 3x2 TF STING","31|2X2|02; 03; 07|44|84":"ACE F OFF R STING"};
+const SEL_ULM_FORM_MAP_SURFACE={"11|2X2|02|85":"DUO Y OFF","11|2X2|04|17":"DUO Y OFF","11|2X2|04|85":"DUO Y OFF","11|2X2|07|85":"DOUBLES","11|2X2|30|87":"DUO Y OFF","11|2X4|03|44":"NUMBERS","11|3X1|07|19":"TREY Y OFF","11|3X1|07|85":"TRIPS OPEN","11|3X2|11|17":"EMPTY 3x2","11|4X2|02|85":"NUMBERS","11|5X2|11|17":"NUMBERS","12|3X1|04|17; 85":"KING U OFF","21|1X2|03; 11|17":"PRO Y OFF","21 (**)|0X2|03; 04|85":"UNBAL TO B HIP","22|3X2|04; 11|17; 85":"EMPTY 3x2 TF STING","31|2X2|02; 03; 07|44":"ACE F OFF R STING"};
+const SEL_ULM_FORM_MAP_BASIC={"11|2X4":"NUMBERS","11|4X2":"NUMBERS","11|5X2":"NUMBERS","20|1X2":"SLOT","21|0X4":"PRO TWINS","21 (**)|0X2":"UNBAL TO B HIP","22|3X2":"EMPTY 3x2 TF STING","31|2X2":"ACE F OFF R STING"};
+const SEL_ULM_FORM_MAP_GROUP={"0X2":"UNBAL TO B HIP","2X4":"NUMBERS","4X2":"NUMBERS","5X2":"NUMBERS"};
+
+const ULM_BACKFIELD_VOCAB=new Set(["DEMP", "DOT", "GEMP", "GF", "GN", "GS", "GS (RABBIT)", "I", "I NR", "PSTL", "PSTL FR", "PSTL NR"]);
+const ULM_MOTION_VOCAB=new Set(["BUZZ", "CK W ME", "F REVERSE", "FOZ", "H BNC", "H IN", "H MTR", "H RELOAD", "H RETURN", "HOY", "R MTR", "R SWING", "S BNC", "SHIFT", "SHIFT/Z MTR", "T BACK", "T BUZZ", "T MTR", "T RELOAD", "T RELOAD/X IN", "TOX", "TOZ", "U MO", "U OUT", "X MTR", "X RETURN", "Y IN", "Y MO", "Y MTR", "Y NR", "Y NR/TOX", "Y OUT", "Y RETURN", "Z BNC", "Z IN", "Z MTR", "Z ORB", "Z OUT"]);
+const ULM_YLOC_VOCAB=new Set(["OFF", "OFF/OPEN", "ON", "ON/OPEN", "OPEN", "PRO", "SLOT", "WING PRO", "WING SLOT"]);
+const ULM_PLAYTYPE_VOCAB=new Set(["BOOT", "DB", "GAP", "JET", "NKD", "PA", "QK", "RPO", "S", "SCR", "SNEAK", "TRICK", "ZN"]);
+const ULM_PROTECTION_VOCAB=new Set(["32", "32L", "32R", "FS LT", "FS RT", "FULL SL LT", "FULL SL RT", "GAP", "HALF SL", "HS", "MAN", "OTHER", "SCREEN", "SLD LT", "SLD RT", "SPO", "ZONE"]);
+const ULM_RUNCONCEPT_VOCAB=new Set(["CTR CY", "CTR OT", "CTR OY", "DIVE", "INSIDE ZN SS", "IZ", "IZ RD", "JET SWEEP", "OZ", "PIN PULL", "POWER G", "POWER G LD", "POWER O LD", "POWER O RD LD", "Q FOLLOW", "Q Y INSERT", "QB SNEAK", "REVERSE", "SPL ZN", "SPL ZN SS", "TOSS SWEEP", "U INSERT", "Y INSERT", "ZONE READ", "ZONE READ ARC"]);
+let liveDepthChart=null;
+function selSig(r,keys){return keys.map(k=>String(r?.[k]??'').trim().toUpperCase()).join('|')}
+function learnedSELFormation(r){
+ let k=selSig(r,['pff_OFFPERSONNELBASIC','pff_OFFFORMATIONGROUP','pff_RBS','pff_TES','pff_WRS']); if(SEL_ULM_FORM_MAP_FULL[k])return SEL_ULM_FORM_MAP_FULL[k];
+ k=selSig(r,['pff_OFFPERSONNELBASIC','pff_OFFFORMATIONGROUP','pff_RBS','pff_TES']); if(SEL_ULM_FORM_MAP_SURFACE[k])return SEL_ULM_FORM_MAP_SURFACE[k];
+ k=selSig(r,['pff_OFFPERSONNELBASIC','pff_OFFFORMATIONGROUP']); if(SEL_ULM_FORM_MAP_BASIC[k])return SEL_ULM_FORM_MAP_BASIC[k];
+ k=selSig(r,['pff_OFFFORMATIONGROUP']); return SEL_ULM_FORM_MAP_GROUP[k]||'';
+}
+
+function selClean(s){return String(s||'').trim().toUpperCase()}
+function selFlag(r,...keys){for(const k of keys){let x=r?.[k];if(x===1||x==='1'||String(x||'').toUpperCase()==='TRUE'||String(x||'').toUpperCase()==='YES')return true}return false}
+function selDefPlayType(r){
+  let direct=selClean(v(r,'Play Type'));
+  if(ULM_PLAYTYPE_VOCAB.has(direct))return direct;
+  if(selFlag(r,'pff_SCREEN','SCREEN'))return 'SCR';
+  if(selFlag(r,'pff_QUICKGAME','QUICKGAME'))return 'QK';
+  if(selFlag(r,'pff_RUNPASSOPTION','RUNPASSOPTION'))return 'RPO';
+  if(selFlag(r,'pff_PLAYACTION','PLAYACTION'))return 'PA';
+  let rp=selClean(v(r,'pff_RUNPASS','R/P'));
+  let rc=selClean(v(r,'pff_RUNCONCEPTPRIMARY','pff_RUNCONCEPT3','Run Concept'));
+  if(rp==='R'){
+    if(rc.includes('COUNTER')||rc.includes('POWER')||rc.includes('PULL LEAD'))return 'GAP';
+    if(rc.includes('SNEAK'))return 'S';
+    if(rc.includes('TRICK'))return 'TRICK';
+    if(rc.includes('ZONE')||rc==='MAN'||rc.includes('DRAW')||rc.includes('TRAP'))return 'ZN';
+    return 'ZN';
+  }
+  let db=selClean(v(r,'pff_DROPBACKTYPE','DROPBACKTYPE'));
+  if(db.includes('SPRINT')||db==='SPR'||db.includes('ROLLOUT'))return 'SPR';
+  return rp==='P'?'DB':'';
+}
+function selDefRunConcept(r){
+  let direct=selClean(v(r,'Run Concept'));
+  if(ULM_RUNCONCEPT_VOCAB.has(direct))return direct;
+  let rc=selClean(v(r,'pff_RUNCONCEPTPRIMARY','pff_RUNCONCEPT3'));
+  const map={'INSIDE ZONE':'IZ','OUTSIDE ZONE':'OZ','SNEAK':'QB SNEAK','DRAW':'Q Y INSERT','TRAP':'SPL ZN SS','POWER':'POWER G','PULL LEAD':'POWER G','TRICK':'REVERSE'};
+  if(map[rc])return map[rc];
+  if(rc.includes('COUNTER'))return 'CTR OY';
+  if(rc==='MAN')return 'IZ';
+  return '';
+}
+function selDefProtection(r){
+  let direct=selClean(v(r,'Proctection','Protection'));
+  if(ULM_PROTECTION_VOCAB.has(direct))return direct;
+  // Do not surface raw PFF dropback codes as protection terminology.
+  return selDefPlayType(r)||'—';
+}
+function selVocabValue(r,vocab,...keys){
+  for(const k of keys){let x=selClean(v(r,k));if(vocab.has(x))return x}
+  return '';
+}
+function selDefBackfield(r){return selVocabValue(r,ULM_BACKFIELD_VOCAB,'Backfield','pff_RBALIGNMENT','pff_BACKSET')||'—'}
+function selDefMotion(r){return selVocabValue(r,ULM_MOTION_VOCAB,'Motion','pff_MOTION')||'None'}
+function selDefYLocation(r){return selVocabValue(r,ULM_YLOC_VOCAB,'Y Location','pff_TEALIGNMENT','pff_TE_ALIGNMENT')||'—'}
+function selDefFormation(r){
+  let direct=canonicalULMFormationNormalized(v(r,'Formation'));
+  if(direct)return direct;
+  let raw=selClean(v(r,'pff_OFFENSIVE_FORMATION_NAME','pff_STARTING_OFFENSIVE_FORMATION_NAME','pff_OFFFORMATION'));
+  let pers0=selClean(v(r,'pff_OFFPERSONNELBASIC','Personnel'));
+  let grp=selClean(v(r,'pff_OFFFORMATIONGROUP','pff_STARTING_OFFENSIVE_FORMATION_GROUP'));
+  if(raw){
+    if(raw.includes('EMPTY')&&raw.includes('3X2'))return 'EMPTY 3x2';
+    if(raw.includes('TRIPS OPEN'))return 'TRIPS OPEN';
+    if(raw.includes('TRIPS')&&raw.includes('BUNCH'))return 'TRIPS BUNCH';
+    if(raw.includes('TRIPS'))return 'TRIPS';
+    if(raw.includes('TREY')&&raw.includes('BUNCH'))return 'TREY Y OFF BUNCH';
+    if(raw.includes('TREY'))return 'TREY Y OFF';
+    if(raw.includes('DOUBLES')&&pers0==='11')return 'DUO Y OFF';
+    if(raw.includes('NUMBERS'))return 'NUMBERS';
+  }
+  // Defensive-intelligence translations learned from the tagged hybrid.
+  const pg={
+    '11|2X2':'DUO Y OFF','12|3X1':'KING U OFF','21|1X2':'PRO Y OFF',
+    '11|2X4':'NUMBERS','11|4X2':'NUMBERS','11|5X2':'NUMBERS','20|1X2':'SLOT',
+    '21|0X4':'PRO TWINS','21 (**)|0X2':'UNBAL TO B HIP','22|3X2':'EMPTY 3x2 TF STING','31|2X2':'ACE F OFF R STING'
+  };
+  if(pg[pers0+'|'+grp])return pg[pers0+'|'+grp];
+  let learned=learnedSELFormation(r);
+  return learned||'';
+}
+
+function normHeaderKey(s){return String(s||'').toUpperCase().replace(/[^A-Z0-9]/g,'')}
+function classifySELRows(rows,filename){
+ if(!rows?.length)return '';
+ let ks=Object.keys(rows[0]||{}).map(normHeaderKey), has=x=>ks.includes(x), any=(...xs)=>xs.some(x=>has(x));
+ if(any('PBLKGRD','PBLK') && any('PR','SK','HU','HT'))return 'passBlocking';
+ if(any('RBLKGRD','RBLK') && (any('IMPACTRBLK','DEFEATEDRBLK','IMPACTRBLK','DEFEATEDRBLK')))return 'runBlocking';
+ if(any('PASSGRD','PASSYDS','COMP%') && any('DB','ATT'))return 'qb';
+ if(any('RUNCONCEPTPRIMARY','RUNCONCEPT3','RUNCONCEPT') && any('ATT','SNAPS','PCT','YDS'))return 'runConcepts';
+ if(any('RUNDIRECTION','RUNLOCATION','POA','POINTOFATTACK') && any('ATT','SNAPS','YDS'))return 'runDirections';
+ if(any('OFFFORMATIONGROUP','FORMATIONGROUP') && any('SNAPS','PCT','PLAYS'))return 'formations';
+ if(any('OFFPERSONNELBASIC','PERSONNEL') && any('SNAPS','PCT','PLAYS'))return 'personnel';
+ return 'extra_'+String(filename||'').replace(/[^0-9]/g,'');
+}
+
+let team='SEL',data={},roster=[],filtered=[],rawPlays=[],seasonView=localStorage.getItem('tonyDLSeasonV1')||'2026';
 const $=id=>document.getElementById(id), v=(r,...ks)=>{for(const k of ks)if(r&&k in r&&String(r[k]).trim()!=='')return String(r[k]).trim();return ''},n=x=>{x=parseFloat(String(x??'').replace(/[%,$]/g,''));return Number.isFinite(x)?x:null};
 function csv(s){let R=[],r=[],f='',q=false;for(let i=0;i<s.length;i++){let c=s[i],nx=s[i+1];if(q){if(c=='"'&&nx=='"'){f+='"';i++}else if(c=='"')q=false;else f+=c}else if(c=='"')q=true;else if(c==','){r.push(f);f=''}else if(c=='\n'){r.push(f);R.push(r);r=[];f=''}else if(c!='\r')f+=c}if(f||r.length){r.push(f);R.push(r)}let h=(R.shift()||[]).map(x=>x.trim());return R.filter(x=>x.some(y=>String(y).trim())).map(x=>Object.fromEntries(h.map((k,i)=>[k,x[i]??''])))}
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -363,6 +471,10 @@ function isMortensen2025Row(r){
 
 function seasonRows(rows){
   rows=rows||[];
+  if(team==='SEL'){
+    let tagged=rows.filter(r=>seasonYear(r));
+    return tagged.length?rows.filter(r=>seasonYear(r)===seasonView):rows;
+  }
   if(team==='UAB'){
     if(seasonView==='2026'){
       return rows.filter(r=>uabIsCurrentRow(r)||seasonYear(r)==='2026');
@@ -397,6 +509,7 @@ function dIntelField(r,key,fallback=''){
 function mapDefensiveIntelHybrid(){
   dIntelHybridMap=new WeakMap();dIntelHybridReady=false;dIntelHybridRate=0;
   let plays=rawPlays||[];
+  if(team==='SEL')return false;
   let rows=team==='UAB'?UAB_DINTEL_HYBRID:MSST_DINTEL_HYBRID;
   if(!plays.length||!rows.length)return false;
   let n=Math.min(plays.length,rows.length),compared=0,matched=0;
@@ -438,6 +551,7 @@ function canonicalULMFormation(value){
   return AUTHORITATIVE_ULM_FORMATIONS[s.toUpperCase()]||'';
 }
 function ulmFormationOnly(r){
+  if(team==='SEL'){let f=selDefFormation(r);if(f)return f;}
   if(team==='UAB'){
     let pid=String(v(r,'pff_PLAYID')||r?.pff_PLAYID||'');
     let mapped=UAB_HYBRID_TRANSLATED_FORMATION_BY_PLAYID[pid];
@@ -470,16 +584,16 @@ function form(r){
  return f||'Unmapped';
 }
 function formVar(r){return dIntelField(r,DINTEL_ULM_FIELDS.variation,'')}
-function yLocation(r){return dIntelField(r,DINTEL_ULM_FIELDS.yLocation,'')}
-function hybridBackfield(r){return dIntelField(r,DINTEL_ULM_FIELDS.backfield,v(r,'Backfield','pff_RBALIGNMENT','pff_BACKSET')||'Unknown')}
-function hybridMotion(r){return dIntelField(r,DINTEL_ULM_FIELDS.motion,v(r,'pff_MOTION')||'None')}
-function hybridRunConcept(r){return dIntelField(r,DINTEL_ULM_FIELDS.runConcept,runConcept(r))}
+function yLocation(r){if(team==='SEL')return selDefYLocation(r);return dIntelField(r,DINTEL_ULM_FIELDS.yLocation,'')}
+function hybridBackfield(r){if(team==='SEL')return selDefBackfield(r);return dIntelField(r,DINTEL_ULM_FIELDS.backfield,v(r,'Backfield','pff_RBALIGNMENT','pff_BACKSET')||'Unknown')}
+function hybridMotion(r){if(team==='SEL')return selDefMotion(r);return dIntelField(r,DINTEL_ULM_FIELDS.motion,v(r,'pff_MOTION')||'None')}
+function hybridRunConcept(r){if(team==='SEL')return selDefRunConcept(r)||'—';return dIntelField(r,DINTEL_ULM_FIELDS.runConcept,runConcept(r))}
 
 function dist(r){let d=n(v(r,'pff_DISTANCE','Distance'));return d==null?'?':d<=3?'1-3':d<=6?'4-6':d<=10?'7-10':'11+'}
-function pers(r){return dIntelField(r,DINTEL_ULM_FIELDS.personnel,v(r,'pff_OFFPERSONNELBASIC','Personnel')||'Unknown')}
+function pers(r){if(team==='SEL')return v(r,'Personnel','pff_OFFPERSONNELBASIC')||'Unknown';return dIntelField(r,DINTEL_ULM_FIELDS.personnel,v(r,'pff_OFFPERSONNELBASIC','Personnel')||'Unknown')}
 
-function runConcept(r){return v(r,'Run Concept','pff_RUNCONCEPTPRIMARY','pff_RUNCONCEPT3')||'Unknown'}
-function prot(r){return v(r,'Proctection','Protection','pff_PASSPLAYTYPE','pff_DROPBACKTYPE')||'Unknown'}
+function runConcept(r){if(team==='SEL')return selDefRunConcept(r)||'—';return v(r,'Run Concept','pff_RUNCONCEPTPRIMARY','pff_RUNCONCEPT3')||'Unknown'}
+function prot(r){if(team==='SEL')return selDefProtection(r);return v(r,'Proctection','Protection','pff_PASSPLAYTYPE','pff_DROPBACKTYPE')||'Unknown'}
 function gain(r){return n(v(r,'pff_GAINLOSSNET','pff_GAINLOSS','Gain'))}
 function by(rows,fn){let m={};rows.forEach(r=>{let k=fn(r)||'Unknown';m[k]=(m[k]||0)+1});return Object.entries(m).sort((a,b)=>b[1]-a[1])}
 function ranks(rows,total=filtered.length){if(!rows.length)return '<div class="muted">No charted data</div>';let mx=rows[0][1];return rows.slice(0,12).map(([k,c])=>`<div class="rank"><div><b>${esc(k)}</b><div class="bar"><i style="width:${100*c/mx}%"></i></div></div><div>${c}</div><div>${(100*c/Math.max(1,total)).toFixed(1)}%</div></div>`).join('')}
@@ -516,7 +630,7 @@ function personnelMetrics(rows){
 function persKpiHTML(m){
  return `<div class="persMini"><span>Plays</span><b>${m.n}</b></div><div class="persMini"><span>Run %</span><b>${m.runPct.toFixed(1)}%</b></div><div class="persMini"><span>YPP</span><b>${m.ypp.toFixed(2)}</b></div><div class="persMini"><span>Neg %</span><b>${m.neg.toFixed(1)}%</b></div>`;
 }
-function scoutingRunConcept(r){return dIntelField(r,'Run Concept',runConcept(r))}
+function scoutingRunConcept(r){if(team==='SEL')return selDefRunConcept(r)||'—';return dIntelField(r,'Run Concept',runConcept(r))}
 function runDirection(r){return v(r,'Run Strength','pff_RUNDIRECTION','pff_RUNLOCATION','pff_POA','pff_POINT_OF_ATTACK')||'Unknown'}
 function backfield(r){return v(r,'Backfield','pff_RBALIGNMENT','pff_BACKSET','pff_RB_ALIGNMENT')||'Unknown'}
 function teSurface(r){return v(r,'Y Location','pff_TEALIGNMENT','pff_TE_ALIGNMENT','pff_OFFPLAYERS')||'Unknown'}
@@ -524,7 +638,7 @@ function personnelBreakdown(code){
  let rows=personnelRows(code), m=personnelMetrics(rows), runs=rows.filter(r=>v(r,'pff_RUNPASS','R/P')==='R');
  let k=$(code==='20'?'p20Kpis':'p21Kpis'), f=$(code==='20'?'p20Forms':'p21Forms'), rr=$(code==='20'?'p20Run':'p21Run'), s=$(code==='20'?'p20Surface':'p21Surface');
  if(k)k.innerHTML=persKpiHTML(m);
- if(f)f.innerHTML='<div class="eyebrow" style="margin-bottom:6px">ULM Formation</div>'+ranksAll(by(rows,ulmFormationOnly).filter(([k])=>k),rows.length)+'<div class="eyebrow" style="margin:12px 0 6px">Formation Variation</div>'+ranksAll(by(rows,formVar),rows.length)+'<div class="eyebrow" style="margin:12px 0 6px">Y Location</div>'+ranksAll(by(rows,yLocation),rows.length)+'<div class="eyebrow" style="margin:12px 0 6px">Unmapped / Raw Labels</div>'+ranksAll(by(rows,unmappedFormationLabel).filter(([k])=>k),rows.length)+'<div class="eyebrow" style="margin:12px 0 6px">PFF Reference · Formation Group</div>'+ranksAll(by(rows,formationGroup),rows.length);
+ if(f)f.innerHTML='<div class="eyebrow" style="margin-bottom:6px">ULM Defensive Formation</div>'+ranksAll(by(rows,ulmFormationOnly).filter(([k])=>k),rows.length)+(team==='SEL'?'<div class="eyebrow" style="margin:12px 0 6px">D Intel Play Type</div>'+ranksAll(by(rows,selDefPlayType).filter(([k])=>k),rows.length):'<div class="eyebrow" style="margin:12px 0 6px">Formation Variation</div>'+ranksAll(by(rows,formVar),rows.length)+'<div class="eyebrow" style="margin:12px 0 6px">Y Location</div>'+ranksAll(by(rows,yLocation),rows.length));
  if(rr)rr.innerHTML='<div class="eyebrow" style="margin-bottom:6px">Run Concept</div>'+ranksAll(by(runs,scoutingRunConcept),runs.length)+'<div class="eyebrow" style="margin:12px 0 6px">Direction / POA</div>'+ranksAll(by(runs,runDirection),runs.length);
  if(s)s.innerHTML='<div class="eyebrow" style="margin-bottom:6px">Backfield</div>'+ranksAll(by(rows,hybridBackfield),rows.length)+(code==='21'?'<div class="eyebrow" style="margin:12px 0 6px">Y Location</div>'+ranksAll(by(rows,yLocation),rows.length):'')+'<div class="eyebrow" style="margin:12px 0 6px">Motion</div>'+ranksAll(by(rows,hybridMotion),rows.length);
 }
@@ -548,7 +662,7 @@ function renderULMLanguage(){
  if(unm)unm.innerHTML=ranksAll(by(rows,unmappedFormationLabel).filter(([k])=>k),rows.length);
  let afl=$('authoritativeFormationList');
  if(afl)afl.innerHTML=Object.values(AUTHORITATIVE_ULM_FORMATIONS).map(x=>`<span class="tag">${esc(x)}</span>`).join('');
- let b=$('ulmMatchBadge');if(b)b.textContent=dIntelHybridReady?`ULM BREAKDOWN VOCAB · 48 NAMES · ${(100*dIntelHybridRate).toFixed(1)}% ROW MATCH`:`ULM BREAKDOWN VOCAB · 48 NAMES`;
+ let b=$('ulmMatchBadge');if(b)b.textContent=team==='SEL'?'ULM DEFENSIVE TERMINOLOGY · TRANSLATED':(dIntelHybridReady?`ULM BREAKDOWN VOCAB · 48 NAMES · ${(100*dIntelHybridRate).toFixed(1)}% ROW MATCH`:`ULM BREAKDOWN VOCAB · 48 NAMES`);
 }
 
 function render2021(){
@@ -573,13 +687,13 @@ function depthPlayerHTML(pos,entry,opts={}){
 }
 function renderDepthChart(){
  let tbl=$('depthTable'),src=$('depthSource'),ttl=$('depthTitle');if(!tbl)return;
- if(team!=='UAB'){
+ if(team==='MSST'){
    ttl.textContent='Mississippi State Offensive Depth Chart';
-   src.textContent='The current Tony build only has the saved OurLads UAB chart linked here.';
-   tbl.innerHTML='<tbody><tr><td style="padding:22px">Switch to UAB to view the saved OurLads depth chart.</td></tr></tbody>';
+   src.textContent='No saved live depth-chart file is connected for Mississippi State in this build.';
+   tbl.innerHTML='<tbody><tr><td style="padding:22px">No live depth chart connected for Mississippi State.</td></tr></tbody>';
    return;
  }
- let d=OURLADS_UAB_DEPTH||{},pos=d?.offense?.positions||{};
+ let d=(team==='SEL'?liveDepthChart:OURLADS_UAB_DEPTH)||{},pos=d?.offense?.positions||d?.positions||{};
  let entries=Object.entries(pos);
  let maxDepth=Math.max(2,...entries.map(([_,arr])=>Array.isArray(arr)?arr.length:0));
  let heads=['Position',...Array.from({length:maxDepth},(_,i)=>`${i+1}${i===0?'st':i===1?'nd':i===2?'rd':'th'}`)];
@@ -601,7 +715,7 @@ function renderDepthChart(){
      }).join('')}</tr>`;
    }).join('')+
    '</tbody>';
- ttl.textContent=`${d.team||'UAB'} Offensive Depth Chart`;
+ ttl.textContent=`${d.team||(team==='SEL'?'Southeastern Louisiana':'UAB')} Offensive Depth Chart`;
  src.innerHTML=`OurLads · ${esc(String(d.season||''))}${d.updated?`<br>Saved update: ${esc(new Date(d.updated).toLocaleString())}`:''}<br><span style="color:#ffd85a">Gold/red highlight = actual game starter differs from listed depth chart</span><br><span style="color:#ffd85a">OL names open Tony's OL bios</span>`;
 }
 function switchTab(id){
@@ -1118,7 +1232,17 @@ function attachFilteredTTTToStuntRows(stuntRows){
 }
 
 function currentStuntRows(){
-  // UAB_STUNT_HYBRID is now enriched row-for-row from play_feed-93.csv (975/975 plays).
+  if(team==='SEL'){
+    return passFilteredRows().map(r=>Object.assign({},r,{
+      Stunt:(['1','TRUE','YES','Y','STUNT'].includes(String(v(r,'pff_STUNT','Stunt')).trim().toUpperCase())?'STUNT':''),
+      'Pass Result':v(r,'pff_PASSRESULT','Pass Result'),
+      Gain:gain(r),Down:v(r,'pff_DOWN','Down'),Distance:v(r,'pff_DISTANCE','Distance'),
+      Personnel:pers(r),Formation:ulmFormationOnly(r)||'Unknown',
+      'Play Type':v(r,'Play Type','pff_PLAYTYPE','pff_DROPBACKTYPE'),
+      _ttt:rowTTT(r),_feed:r
+    }));
+  }
+  // UAB_STUNT_HYBRID is enriched row-for-row from play_feed-93.csv.
   if(team!=='UAB')return [];
   return UAB_STUNT_HYBRID.filter(r=>{
     if(String(r.pff_RUNPASS||r['R/P']||'').toUpperCase()!=='P')return false;
@@ -1183,7 +1307,7 @@ function renderStuntStress(){
   })).sort((x,y)=>(Number(x.k)||99)-(Number(y.k)||99));
   let formMap={};
   stunt.forEach(r=>{
-    let k=UAB_HYBRID_TRANSLATED_FORMATION_BY_PLAYID[String(r.pff_PLAYID||'')]||String(r.Formation||'Unknown').trim()||'Unknown';
+    let k=(team==='SEL'?String(r.Formation||'Unknown').trim():UAB_HYBRID_TRANSLATED_FORMATION_BY_PLAYID[String(r.pff_PLAYID||'')])||String(r.Formation||'Unknown').trim()||'Unknown';
     (formMap[k]||(formMap[k]=[])).push(r);
   });
   let topForms=Object.entries(formMap).map(([k,rs])=>({k,n:rs.length,s:stuntResultStats(rs)})).sort((x,y)=>y.n-x.n).slice(0,6);
@@ -1240,7 +1364,7 @@ function render(){
  $('protections').innerHTML=ranks(by(passes,prot),passes.length);$('passOutcomes').innerHTML=ranks(by(passes,r=>v(r,'pff_PASSRESULT','Pass Result')||((gain(r)??1)<=0?'Non-positive':'Positive')),passes.length);
  $('persDetail').innerHTML=ranks(by(filtered,pers));$('formDetail').innerHTML=ranks(by(filtered,form));
  table('runTable',runs.slice(0,500),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],['Concept',scoutingRunConcept],['Gain',r=>gain(r)??''],['Hash',r=>v(r,'pff_HASHDEF','pff_HASH','Hash')]]);
- table('passTable',passes.slice(0,500),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],['Protection',prot],['Result',r=>v(r,'pff_PASSRESULT','Pass Result')],['Gain',r=>gain(r)??'']]);
+ table('passTable',passes.slice(0,500),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],[team==='SEL'?'D Intel Type':'Protection',prot],['Result',r=>v(r,'pff_PASSRESULT','Pass Result')],['Gain',r=>gain(r)??'']]);
  table('playTable',filtered.slice(0,800),[['Down',r=>v(r,'pff_DOWN','Down')],['Dist',r=>v(r,'pff_DISTANCE','Distance')],['R/P',r=>v(r,'pff_RUNPASS','R/P')],['Pers',pers],['ULM Formation',r=>ulmFormationOnly(r)||'—'],['Run Concept',scoutingRunConcept],['Protection',prot],['Gain',r=>gain(r)??'']]);
  let sit=Object.entries(filtered.reduce((a,r)=>{let k=`${v(r,'pff_DOWN','Down')||'?'} & ${dist(r)}`;(a[k]||(a[k]=[])).push(r);return a},{})).map(([k,rs])=>{let x=metricRows(rs);return {k,n:x.n,ypp:x.ypp,neg:x.neg,expl:x.expl,run:rs.filter(r=>v(r,'pff_RUNPASS','R/P')=='R').length}}).sort((a,b)=>b.n-a.n);
  table('sitTable',sit,[['Situation','k'],['Plays','n'],['Run %',r=>(100*r.run/Math.max(1,r.n)).toFixed(1)+'%'],['YPP',r=>r.ypp.toFixed(2)],['Neg %',r=>r.neg.toFixed(1)+'%'],['Expl %',r=>r.expl.toFixed(1)+'%']]);
@@ -1341,6 +1465,16 @@ function attackText(m,pos){
 }
 
 function activeStarterFive(){
+  if(team==='SEL' && seasonView==='2026' && liveDepthChart){
+    let pos=liveDepthChart?.offense?.positions||liveDepthChart?.positions||{};
+    return ['LT','LG','C','RG','RT'].map(slot=>{
+      let arr=pos?.[slot]||[];
+      let s=arr?.[0]||null,b=arr?.[1]||null;
+      if(!s)return {slot,starter:null,backup:null};
+      if(Array.isArray(s))return {slot,starter:{number:String(s[0]||''),name:String(s[1]||''),class:String(s[2]||'')},backup:Array.isArray(b)?{number:String(b[0]||''),name:String(b[1]||''),class:String(b[2]||'')}:null};
+      return {slot,starter:{number:String(s.number||s.jersey||''),name:String(s.name||''),class:String(s.class||'')},backup:b?{number:String(b.number||b.jersey||''),name:String(b.name||''),class:String(b.class||'')}:null};
+    });
+  }
   if(team==='UAB' && seasonView==='2026' && Array.isArray(UAB_CURRENT_DEPTH)){
     let slots=['LT','LG','C','RG','RT'];
     return slots.map(slot=>{
@@ -1481,14 +1615,22 @@ function renderOL(){
 }
 async function load(){
  syncSeasonUI();
- let c=CFG[team];$('opp').textContent=c.name;$('wk').textContent=c.week;$('status').textContent='Loading '+c.name+'…';data={};
- for(const [k,f] of Object.entries(c.files)){try{let r=await fetch(c.base+encodeURIComponent(f)+'?t='+Date.now(),{cache:'no-store'});data[k]=r.ok?csv(await r.text()):[]}catch(e){data[k]=[]}}
+ let c=CFG[team];$('opp').textContent=c.name;$('wk').textContent=c.week;$('status').textContent='Loading '+c.name+'…';data={};liveDepthChart=null;
+ for(const [k,f] of Object.entries(c.files||{})){try{let r=await fetch(c.base+encodeURIComponent(f)+'?t='+Date.now(),{cache:'no-store'});data[k]=r.ok?csv(await r.text()):[]}catch(e){data[k]=[]}}
+ if(team==='SEL' && Array.isArray(c.rawFiles)){
+   for(const f of c.rawFiles){
+     try{let r=await fetch(c.base+encodeURIComponent(f)+'?t='+Date.now(),{cache:'no-store'});let rows=r.ok?csv(await r.text()):[];let k=classifySELRows(rows,f);if(k){if(data[k]?.length)data[k]=data[k].concat(rows);else data[k]=rows;}data['raw_'+f]=rows}catch(e){data['raw_'+f]=[]}
+   }
+ }
  try{let u=c.roster.startsWith('http')?c.roster:c.base+c.roster;let r=await fetch(u+'?t='+Date.now(),{cache:'no-store'});roster=r.ok?await r.json():[]}catch(e){roster=[]}
+ if(team==='SEL'&&c.depth){try{let r=await fetch(c.base+encodeURIComponent(c.depth)+'?t='+Date.now(),{cache:'no-store'});liveDepthChart=r.ok?await r.json():null}catch(e){liveDepthChart=null}}
  if(team==='UAB')roster=mergeDIntelUABRoster(roster);rawPlays=(data.plays||[]).slice();mapDefensiveIntelHybrid();let plays=seasonRows(rawPlays);setSel('fDown',plays.map(r=>v(r,'pff_DOWN','Down')));setSel('fPers',plays.map(pers));setSel('fForm',(team==='UAB'&&seasonView==='2025')
       ? ALL_BREAKDOWN_GAMES.map(r=>canonicalULMFormation(r.Formation)).filter(Boolean)
       : plays.map(ulmFormationOnly).filter(Boolean));setSel('fHash',plays.map(r=>v(r,'pff_HASHDEF','pff_HASH','Hash')));
- $('status').textContent=`Loaded ${plays.length.toLocaleString()} play-feed rows · ${Object.values(data).filter(x=>x.length).length}/${Object.keys(c.files).length} scouting files live`;
- renderOL();apply()
+ let expected=team==='SEL'?14:Object.keys(c.files||{}).length;
+ let live=team==='SEL'?[data.plays,...(c.rawFiles||[]).map(f=>data['raw_'+f])].filter(x=>x?.length).length:Object.values(data).filter(x=>x?.length).length;
+ $('status').textContent=`Loaded ${plays.length.toLocaleString()} play-feed rows · ${live}/${expected} SEL/PFF files live${team==='SEL'?(liveDepthChart?' · depth chart live':' · depth chart missing'):''}`;
+ renderDepthChart();renderOL();apply()
 }
 document.querySelectorAll('.filters select').forEach(e=>e.onchange=apply);
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.tabview').forEach(x=>x.classList.add('hidden'));$(b.dataset.tab).classList.remove('hidden')});
@@ -1514,7 +1656,8 @@ function setSeasonView(y){
 }
 $('s2025').onclick=()=>setSeasonView('2025');
 $('s2026').onclick=()=>setSeasonView('2026');
-$('uabBtn').onclick=()=>{team='UAB';$('uabBtn').classList.add('active');$('msstBtn').classList.remove('active');load()};$('msstBtn').onclick=()=>{team='MSST';$('msstBtn').classList.add('active');$('uabBtn').classList.remove('active');load()};$('reloadBtn').onclick=load;
+function setOpponent(t){team=t;['uabBtn','msstBtn','selBtn'].forEach(id=>$(id)?.classList.remove('active'));({UAB:'uabBtn',MSST:'msstBtn',SEL:'selBtn'}[t]&&$(({UAB:'uabBtn',MSST:'msstBtn',SEL:'selBtn'})[t])?.classList.add('active'));load()}
+$('uabBtn').onclick=()=>setOpponent('UAB');$('msstBtn').onclick=()=>setOpponent('MSST');$('selBtn').onclick=()=>setOpponent('SEL');$('reloadBtn').onclick=load;
 syncSeasonUI();load();
 </script>
 </body></html>
