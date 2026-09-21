@@ -1,11 +1,10 @@
-# Tony D-Line Weekly Scout · Southeastern Louisiana v1.1
+# Tony D-Line Weekly Scout — FAU FIXED v2.1
 
-Terminology correction:
-- SEL visible terminology now uses the ULM Defensive Intelligence language dictionary from the uploaded hybrid tagging file.
-- Raw PFF formation/dropback labels are calculation-only and are not used as coach-facing terminology.
-- Formation translates into ULM defensive formation names where the hybrid supports a confident mapping.
-- Personnel uses ULM/PFF personnel numbers directly.
-- Run Concept translates common PFF concepts into ULM defensive run-language families.
-- Play Type uses D Intel codes such as DB, PA, RPO, QK, SCR, ZN and GAP.
-- Protection display avoids raw PFF dropback codes; when exact D Intel protection cannot be inferred it uses the D Intel play-type family rather than inventing a protection call.
-- Backfield, Motion and Y Location are only surfaced when they match the existing D Intel vocabulary.
+Fixes only; no chart/layout changes.
+
+- Preserves Mississippi State, UAB, Southeastern Louisiana, and Florida Atlantic opponent toggles.
+- Florida Atlantic now automatically opens in 2026 because the embedded FAU Defensive Intel dataset is 2026-only.
+- Prevents a saved 2025 localStorage preference from filtering FAU to zero plays.
+- Clicking 2025 while FAU is selected keeps the FAU dataset in 2026 rather than blanking every chart.
+- Embedded ULM roundel directly in index.html so local Windows/temp-folder previews cannot lose the logo.
+- All existing Tony D-Line charts, tabs, filters, run-hit visuals, pass protection, stunt analysis, 20/21 personnel and play explorer are unchanged.
