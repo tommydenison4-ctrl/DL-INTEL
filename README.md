@@ -1,10 +1,16 @@
-# Tony D-Line Weekly Scout — FAU FIXED v2.1
+# Tony D-Line Weekly Scout — Week 5 South Alabama
 
-Fixes only; no chart/layout changes.
+Current opponent: **South Alabama**.
 
-- Preserves Mississippi State, UAB, Southeastern Louisiana, and Florida Atlantic opponent toggles.
-- Florida Atlantic now automatically opens in 2026 because the embedded FAU Defensive Intel dataset is 2026-only.
-- Prevents a saved 2025 localStorage preference from filtering FAU to zero plays.
-- Clicking 2025 while FAU is selected keeps the FAU dataset in 2026 rather than blanking every chart.
-- Embedded ULM roundel directly in index.html so local Windows/temp-folder previews cannot lose the logo.
-- All existing Tony D-Line charts, tabs, filters, run-hit visuals, pass protection, stunt analysis, 20/21 personnel and play explorer are unchanged.
+- Keeps the previous Tony D-Line app unchanged as `app-base.html`.
+- Preserves Mississippi State, UAB, Southeastern Louisiana, and Florida Atlantic.
+- Adds South Alabama as the Week 5/current opponent.
+- Loads the current South Alabama Defensive Intelligence files directly from the existing public Supabase folder.
+- Uses exact tagged ULM defensive formations first, then the same formation-signature learning approach used in Defensive Intelligence for untagged plays.
+- Preserves every existing Tony D-Line chart, tab and filter. No chart/layout redesign.
+- Uses current South Alabama roster, Week 5 depth chart, OL run/pass blocking, TTT, stunt, run concepts/directions, personnel and formation data.
+
+Deployment structure:
+- `index.html` — lightweight loader
+- `app-base.html` — exact prior FAU FIXED v2.1 app
+- `south-alabama-week5.js` — Week 5 South Alabama data/terminology extension
