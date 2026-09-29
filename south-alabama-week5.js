@@ -68,6 +68,13 @@
     rows=rows||[];const tagged=rows.filter(r=>seasonYear(r));
     return tagged.length?rows.filter(r=>seasonYear(r)==='2026'):rows;
   };
+  const oldOffPlayerNumberMatch=offPlayerNumberMatch;
+  offPlayerNumberMatch=function(r,number){
+    if(team!=='SA')return oldOffPlayerNumberMatch(r,number);
+    const n=String(number||'').replace(/\D/g,'');if(!n)return false;
+    const players=String(v(r,'pff_OFFPLAYERS','OFFPLAYERS')||'').toUpperCase();
+    return new RegExp('(?:^|;\\s*)ALSO\\s+0*'+n+'\\s*\\(').test(players);
+  };
   const oldULMFormation=ulmFormationOnly;
   ulmFormationOnly=function(r){return team==='SA'?(saFormation(r)||''):oldULMFormation(r)};
   const oldUnmapped=unmappedFormationLabel;
