@@ -13,7 +13,7 @@
     personnel21:'pff-personnel-21-player.csv', personnelPlayers:'pff-personnel-player-summary.csv'
   };
   const SA_ROSTER='roster.json', SA_DEPTH='depth-chart.json';
-  let saFormationMap={};
+  const SA_DEFENSIVE_FORMATION_MAP={"PRO - CLOSED":"I-FLUTE","PRO - OPEN":"SPIN","PRO - PRO":"DIAMOND","QUADS WING - NIX":"FLANK","QUAY - NIX":"TRIO XTRA","QUAY - OPEN":"TRIO XTRA","SLOT - CLOSED":"FLANK FIB","SLOT - OPEN":"TRIO","SLOT - PRO":"DUO","SLOT - SLOT":"DICE","SLOT - WING":"FLANK FIB","TOAD WING - OPEN":"TOP","TREY - CLOSED":"FLANK","TREY - NIX":"TRIPS XTRA","TREY - OPEN":"TRIO","TREY - PRO":"TRUST FIB","TREY - SLOT":"TRUST","TRIPS - CLOSED":"FIST","TRIPS - OPEN":"TOP","TRIPS - SLOT":"TOP"};
 
   CFG.SA={name:'South Alabama',week:'Week 5 Opponent',base:SA_BASE,files:SA_FILES,roster:SA_ROSTER,depth:SA_DEPTH};
   if(CFG.FAU) CFG.FAU.week='Week 4 Archive';
@@ -29,47 +29,37 @@
 
   const txt=(r,...keys)=>{for(const k of keys){const x=r?.[k];if(x!==undefined&&x!==null&&String(x).trim()!=='')return String(x).trim()}return ''};
   const flag=(r,...keys)=>keys.some(k=>['1','TRUE','YES','Y'].includes(String(r?.[k]??'').trim().toUpperCase()));
-  const saSig=r=>[
-    txt(r,'pff_OFFENSIVE_FORMATION_NAME','pff_STARTING_OFFENSIVE_FORMATION_NAME'),
-    txt(r,'pff_OFFFORMATIONGROUP','pff_STARTING_OFFENSIVE_FORMATION_GROUP'),
-    txt(r,'pff_OFFPERSONNELBASIC','pff_OFF_PERSONNEL_GROUP')
-  ].map(x=>x.toUpperCase()).join('|');
-  const learnFormations=plays=>{
-    const votes={};
-    (plays||[]).forEach(r=>{
-      const form=txt(r,'Formation'), sig=saSig(r);
-      if(!form||!sig)return;
-      const o=votes[sig]||(votes[sig]={});o[form]=(o[form]||0)+1;
-    });
-    saFormationMap={};
-    Object.entries(votes).forEach(([sig,o])=>saFormationMap[sig]=Object.entries(o).sort((a,b)=>b[1]-a[1])[0][0]);
+  const saFormation=r=>{
+    // ULM defensive scout language only: exact charted defensive tag first, workbook translation second.
+    const exact=txt(r,'Formation');if(exact)return exact;
+    const pff=txt(r,'pff_OFFENSIVE_FORMATION_NAME','pff_STARTING_OFFENSIVE_FORMATION_NAME').toUpperCase();
+    return SA_DEFENSIVE_FORMATION_MAP[pff]||'';
   };
-  const saFormation=r=>txt(r,'Formation')||saFormationMap[saSig(r)]||'';
   const saRunConcept=r=>{
     const direct=txt(r,'Run Concept').toUpperCase(); if(direct)return direct;
     const x=txt(r,'pff_RUNCONCEPTPRIMARY').toUpperCase();
-    const map={'INSIDE ZONE':'INSIDE ZN','OUTSIDE ZONE':'OUTSIDE ZN','COUNTER':'CTR','QB RUNS':'QB RUN','READ OPTION':'READ OPTION','PULL LEAD':'PULL LEAD'};
+    const map={'INSIDE ZONE':'INSIDE ZONE','OUTSIDE ZONE':'OUTSIDE ZONE','COUNTER':'COUNTER','QB RUNS':'QB RUN','READ OPTION':'READ OPTION','PULL LEAD':'PULL LEAD'};
     return map[x]||x||'—';
   };
   const saPlayType=r=>{
     const direct=txt(r,'Play Type').toUpperCase(); if(direct)return direct;
     const rp=txt(r,'pff_RUNPASS').toUpperCase(),rc=saRunConcept(r);
     if(rp==='R'){
-      if(/ZONE|ZN|READ OPTION/.test(rc))return 'ZN';
-      if(/COUNTER|CTR|POWER|PULL|LEAD|MAN/.test(rc))return 'GAP';
+      if(/ZONE|READ OPTION/.test(rc))return 'ZONE';
+      if(/COUNTER|POWER|PULL|LEAD|MAN/.test(rc))return 'GAP';
       if(/DRAW/.test(rc))return 'DRAW';
     }
     if(flag(r,'pff_RUNPASSOPTION'))return 'RPO';
-    if(flag(r,'pff_SCREEN'))return 'SCR';
+    if(flag(r,'pff_SCREEN'))return 'SCREEN';
     if(flag(r,'pff_PLAYACTION'))return 'PA';
-    return rp==='P'?'DB':'';
+    return rp==='P'?'DROPBACK':'';
   };
-  const saMotion=r=>txt(r,'Motion','Motion 1','pff_SHIFTMOTION')||'None';
-  const saBackfield=r=>txt(r,'Backfield')||(txt(r,'pff_RBALIGNMENT','pff_BACKSET')?`PFF · ${txt(r,'pff_RBALIGNMENT','pff_BACKSET')}`:'Unknown');
+  const saMotion=r=>txt(r,'Motion','Motion 1')||'';
+  const saBackfield=r=>txt(r,'Backfield','Backfield Set')||'';
   const saY=r=>txt(r,'Y Location','Y Open/Close')||'—';
   const saProtection=r=>{
-    const direct=txt(r,'Proctection','Protection','PROTSTYLE');if(direct)return direct;
-    const m=txt(r,'pff_PASSBLOCKING').match(/^\s*(\d+)/);return m?`${m[1]}-MAN`:(saPlayType(r)||'—');
+    // Do not synthesize offensive protection language from PFF blocking counts.
+    return txt(r,'Proctection','Protection','PROTSTYLE')||'';
   };
 
   const oldSeasonRows=seasonRows;
@@ -101,12 +91,12 @@
   mapDefensiveIntelHybrid=function(){
     if(team!=='SA')return oldHybrid();
     dIntelHybridMap=new WeakMap();dIntelHybridReady=false;dIntelHybridRate=0;
-    const plays=rawPlays||[];learnFormations(plays);
+    const plays=rawPlays||[];
     plays.forEach(r=>dIntelHybridMap.set(r,{
       ...r,
       Personnel:txt(r,'Personnel','pff_OFFPERSONNELBASIC','pff_OFF_PERSONNEL_GROUP'),
       Formation:saFormation(r),'Form Var':txt(r,'Form Var'),Motion:saMotion(r),'Y Location':saY(r),
-      Backfield:saBackfield(r),'Run Concept':saRunConcept(r),'Pass Concept':txt(r,'Pass Concept')||(flag(r,'pff_SCREEN')?'SCREEN':flag(r,'pff_RUNPASSOPTION')?'RPO':flag(r,'pff_DEEPPASS')?'DEEP PASS':''),
+      Backfield:saBackfield(r),'Run Concept':saRunConcept(r),'Pass Concept':txt(r,'Pass Concept'),
       'Play Type':saPlayType(r),Proctection:saProtection(r)
     }));
     dIntelHybridReady=plays.length>0;dIntelHybridRate=plays.length?1:0;return dIntelHybridReady;
@@ -148,7 +138,7 @@
   };
 
   const oldRenderULM=renderULMLanguage;
-  renderULMLanguage=function(){oldRenderULM();if(team==='SA'){const b=$('ulmMatchBadge');if(b)b.textContent='SOUTH ALABAMA · ULM DEFENSIVE TERMINOLOGY'}};
+  renderULMLanguage=function(){oldRenderULM();if(team==='SA'){const b=$('ulmMatchBadge');if(b)b.textContent='SOUTH ALABAMA · ULM DEFENSIVE LANGUAGE'}};
 
   const oldLoad=load;
   load=async function(){
