@@ -183,5 +183,5 @@
   saBtn.onclick=()=>setOpponent('SA');
 
   // Make Week 5 the current view after the unchanged base app has initialized.
-  setOpponent('SA');
+  if(!LaTech.initial())setOpponent('SA');
 })();
