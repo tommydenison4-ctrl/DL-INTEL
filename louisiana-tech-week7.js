@@ -99,10 +99,13 @@
  };
  currentOLUsage=function(player){
    if(team!=='LT')return oldUsage(player);
-   const number=String(player?.roster?.number||player?.depthStarter?.number||'').replace(/\\D/g,'');
+   const number=String(player?.roster?.number||player?.depthStarter?.number||'').trim();
    if(!number)return {snaps:0,pass:0,run:0,games:0};
-   const re=new RegExp('(?:^|;\\\\s*)LATC\\\\s+0*'+number+'\\\\s*\\\\(','i');
-   const rows=seasonRows(rawPlays||[]).filter(x=>re.test(String(x.pff_OFFPLAYERS||'')));
+   const rows=seasonRows(rawPlays||[]).filter(x=>String(x.pff_OFFPLAYERS||'').split(';').some(part=>{
+     const fields=part.trim().split(' ');let jersey=String(fields[1]||'');
+     while(jersey.length>1&&jersey.startsWith('0'))jersey=jersey.slice(1);
+     return fields[0]==='LATC'&&jersey===number;
+   }));
    return {snaps:rows.length,pass:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='P').length,run:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='R').length,games:new Set(rows.map(x=>v(x,'pff_GAMEID','pff_GAMEDATE')).filter(Boolean)).size};
  };
  historicalBlockingRows=function(name){if(team==='LT')return {pb:null,rb:null};return oldHistorical(name)};
