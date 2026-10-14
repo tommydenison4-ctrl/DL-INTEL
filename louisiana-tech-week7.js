@@ -102,13 +102,28 @@
    const number=String(player?.roster?.number||player?.depthStarter?.number||'').trim();
    if(!number)return {snaps:0,pass:0,run:0,games:0};
    const rows=seasonRows(rawPlays||[]).filter(x=>String(x.pff_OFFPLAYERS||'').split(';').some(part=>{
-     const fields=part.trim().split(' ');let jersey=String(fields[1]||'');
+     const fields=part.trim().split(' ').filter(Boolean);let jersey=String(fields[1]||'');
      while(jersey.length>1&&jersey.startsWith('0'))jersey=jersey.slice(1);
      return fields[0]==='LATC'&&jersey===number;
    }));
    return {snaps:rows.length,pass:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='P').length,run:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='R').length,games:new Set(rows.map(x=>v(x,'pff_GAMEID','pff_GAMEDATE')).filter(Boolean)).size};
  };
- historicalBlockingRows=function(name){if(team==='LT')return {pb:null,rb:null};return oldHistorical(name)};
+ historicalBlockingRows=function(name){
+   if(team!=='LT')return oldHistorical(name);
+   const key=String(name||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+   return {
+     pb:(data.passBlocking||[]).find(r=>String(r.Name||r.name||'').toLowerCase().replace(/[^a-z0-9]/g,'')===key)||null,
+     rb:(data.runBlocking||[]).find(r=>String(r.Name||r.name||'').toLowerCase().replace(/[^a-z0-9]/g,'')===key)||null
+   };
+ };
+ const oldOLBoard=renderOLBoard;
+ renderOLBoard=function(){
+   oldOLBoard();
+   if(team==='LT'){
+     const board=$('olBoard');
+     if(board)board.innerHTML=board.innerHTML.replaceAll('2025 PBLK','2026 PBLK').replaceAll('2025 RBLK','2026 RBLK').replaceAll('2025 PFF baseline shown below','2026 PFF grades shown below').replaceAll('2025 PFF baseline only where shown','2026 PFF blocking metrics');
+   }
+ };
 
  load=async function(){if(team!=='LT')return oldLoad();restorePanels();['fDown','fPers','fForm','fHash'].forEach(id=>setSel(id,[]));data={};roster=[];rawPlays=[];liveDepthChart=LaTech.depth;dIntelHybridMap=new WeakMap();dIntelHybridReady=false;dIntelHybridRate=0;seasonView='2026';syncSeasonUI();$('opp').textContent='Louisiana Tech';$('wk').textContent='Week 7 · October 17, 2026';$('status').textContent='Louisiana Tech · Checking uploads…';renderDepthChart();renderOL();apply();const result=await LaTech.load(csv);if(!result||team!=='LT')return;data=result.data;
   for(const key of ['passBlocking','runBlocking'])data[key]=(data[key]||[]).map(r=>({...r,pff_GAMESEASON:'2026'}));
