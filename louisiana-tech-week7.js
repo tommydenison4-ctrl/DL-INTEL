@@ -4,10 +4,10 @@
 (() => {
  // Translate the defensive staff's ALL_BREAKDOWN_GAMES tags onto matching LA Tech PFF play signatures.
  const tagText=(r,k)=>{const x=r&&r[k];return x===undefined||x===null?'':String(x).trim()};
- const tagNorm=x=>String(x||'').trim().toUpperCase().replace(/\\s+/g,' ');
+ const tagNorm=x=>String(x||'').trim().toUpperCase().replace(/\s+/g,' ');
  function defensiveRefParts(r){
    const name=tagText(r,'Name');
-   const m=name.match(/LATC\\s+O\\s+(?:@|vs)\\s+([A-Z0-9]+),\\s*Play\\s+(\\d+)/i);
+   const m=name.match(/LATC\s+O\s+(?:@|vs)\s+([A-Z0-9]+),\s*Play\s+(\\d+)/i);
    return m?{opponent:m[1].toUpperCase(),play:Number(m[2])}:null;
  }
  function refCandidates(play, refs){
