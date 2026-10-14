@@ -7,7 +7,7 @@
  const tagNorm=x=>String(x||'').trim().toUpperCase().replace(/\s+/g,' ');
  function defensiveRefParts(r){
    const name=tagText(r,'Name');
-   const m=name.match(/LATC\s+O\s+(?:@|vs)\s+([A-Z0-9]+),\s*Play\s+(\\d+)/i);
+   const m=name.match(/LATC\s+O\s+(?:@|vs)\s+([A-Z0-9]+),\s*Play\s+(\d+)/i);
    return m?{opponent:m[1].toUpperCase(),play:Number(m[2])}:null;
  }
  function refCandidates(play, refs){
