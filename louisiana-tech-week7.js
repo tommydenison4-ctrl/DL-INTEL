@@ -63,7 +63,7 @@
  currentStuntRows=function(){
    if(team!=='LT')return oldLTStuntRows();
    return passFilteredRows().map(r=>Object.assign({},r,{
-     Stunt:dIntelField(r,'Stunt',v(r,'pff_STUNT','Stunt')),
+     Stunt:(['1','TRUE','YES','Y','STUNT'].includes(String(dIntelField(r,'Stunt',v(r,'pff_STUNT','Stunt'))).trim().toUpperCase())?'STUNT':'NO STUNT'),
      'Pass Result':v(r,'pff_PASSRESULT','Pass Result'),Gain:gain(r),
      Down:v(r,'pff_DOWN','Down'),Distance:v(r,'pff_DISTANCE','Distance'),Personnel:pers(r),
      Formation:ulmFormationOnly(r)||'Unknown',
@@ -80,14 +80,41 @@
 })();
  const oldSeason=setSeasonView;setSeasonView=function(y){if(team!=='LT')return oldSeason(y);seasonView='2026';syncSeasonUI();apply()};
  const oldSet=setOpponent,oldLoad=load,oldApply=apply,oldDepth=renderDepthChart,oldOL=renderOL;
+ const oldActiveFive=activeStarterFive,oldUsage=currentOLUsage,oldHistorical=historicalBlockingRows;
  CFG.LT={name:'Louisiana Tech',week:'Week 7 Opponent'};
  const btn=document.createElement('button');btn.id='ltBtn';btn.textContent='Louisiana Tech · Week 7';document.querySelector('.controls').insertBefore(btn,$('reloadBtn'));
  function pendingPanels(){$('kpis').innerHTML=LaTech.pending('Summary');document.querySelectorAll('.tabview:not(#depth):not(#ol)').forEach(section=>{section.querySelectorAll('.lt-pending').forEach(x=>x.remove());const el=document.createElement('div');el.className='lt-pending';el.innerHTML=LaTech.pending('Analytics');section.prepend(el);section.querySelectorAll('.card,.runHitCard,.passRushLaneCard,.stuntCard,.persHero,.surfaceGrid').forEach(x=>{if(!x.closest('.lt-pending')){if(x.style.display)x.dataset.ltDisplay=x.style.display;x.style.display='none';x.dataset.ltHidden='1'}})});}
  function restorePanels(){document.querySelectorAll('.lt-pending').forEach(x=>x.remove());document.querySelectorAll('[data-lt-hidden]').forEach(x=>{x.style.display=x.dataset.ltDisplay||'';delete x.dataset.ltHidden})}
  apply=function(){if(team==='LT'){data=LaTech.state.data;rawPlays=(data.plays||[]).slice();}if(team==='LT'&&!data.plays?.length){pendingPanels();return}restorePanels();return oldApply()};
  renderDepthChart=function(){if(team!=='LT')return oldDepth();$('depthTitle').textContent='Louisiana Tech Offensive Depth Chart';$('depthSource').innerHTML=`Week 7 · Ourlads · ${LaTech.depth.updated} · <a href="${LaTech.depth.sourceUrl}" target="_blank" rel="noopener">Source ↗</a>`;$('depthTable').innerHTML=LaTech.table('offense').match(/<table[^>]*>([\s\S]*)<\/table>/)[1]};
- renderOL=function(){if(team!=='LT')return oldOL();$('olGrid').innerHTML=LaTech.roster(['offense']).filter(p=>['LT','LG','C','RG','RT'].includes(p.position)).map(p=>`<div class="card"><b>#${p.number} ${LaTech.esc(p.name)}</b><p>${p.position} · ${p.class}</p><p>Biography and blocking grades awaiting upload.</p></div>`).join('');$('olBoard').innerHTML=LaTech.pending('OL Blocking');};
- load=async function(){if(team!=='LT')return oldLoad();restorePanels();['fDown','fPers','fForm','fHash'].forEach(id=>setSel(id,[]));data={};roster=[];rawPlays=[];liveDepthChart=LaTech.depth;dIntelHybridMap=new WeakMap();dIntelHybridReady=false;dIntelHybridRate=0;seasonView='2026';syncSeasonUI();$('opp').textContent='Louisiana Tech';$('wk').textContent='Week 7 · October 17, 2026';$('status').textContent='Louisiana Tech · Checking uploads…';renderDepthChart();renderOL();apply();const result=await LaTech.load(csv);if(!result||team!=='LT')return;data=result.data;roster=result.roster||LaTech.roster(['offense']);rawPlays=(data.plays||[]).slice();$('status').textContent='Louisiana Tech · '+(rawPlays.length?'2026 play feed loaded':'Awaiting upload');setSel('fDown',rawPlays.map(r=>v(r,'pff_DOWN','Down')));setSel('fPers',rawPlays.map(pers));setSel('fForm',[]);setSel('fHash',rawPlays.map(r=>v(r,'pff_HASHDEF','pff_HASH','Hash')));renderDepthChart();renderOL();apply()};
+ renderOL=function(){if(team!=='LT')return oldOL();return oldOL()};
+ activeStarterFive=function(){
+   if(team!=='LT')return oldActiveFive();
+   const pos=liveDepthChart?.offense||LaTech.depth.offense||{};
+   return ['LT','LG','C','RG','RT'].map(slot=>{
+     const arr=pos[slot]||[],a=arr[0]||null,b=arr[1]||null;
+     const cv=x=>Array.isArray(x)?{number:String(x[0]||''),name:String(x[1]||''),class:String(x[2]||'')}:{number:String(x?.number||x?.jersey||''),name:String(x?.name||''),class:String(x?.class||'')};
+     return {slot,starter:a?cv(a):null,backup:b?cv(b):null};
+   });
+ };
+ currentOLUsage=function(player){
+   if(team!=='LT')return oldUsage(player);
+   const number=String(player?.roster?.number||player?.depthStarter?.number||'').replace(/\\D/g,'');
+   if(!number)return {snaps:0,pass:0,run:0,games:0};
+   const re=new RegExp('(?:^|;\\\\s*)LATC\\\\s+0*'+number+'\\\\s*\\\\(','i');
+   const rows=seasonRows(rawPlays||[]).filter(x=>re.test(String(x.pff_OFFPLAYERS||'')));
+   return {snaps:rows.length,pass:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='P').length,run:rows.filter(x=>String(v(x,'pff_RUNPASS','R/P')).toUpperCase()==='R').length,games:new Set(rows.map(x=>v(x,'pff_GAMEID','pff_GAMEDATE')).filter(Boolean)).size};
+ };
+ historicalBlockingRows=function(name){if(team==='LT')return {pb:null,rb:null};return oldHistorical(name)};
+
+ load=async function(){if(team!=='LT')return oldLoad();restorePanels();['fDown','fPers','fForm','fHash'].forEach(id=>setSel(id,[]));data={};roster=[];rawPlays=[];liveDepthChart=LaTech.depth;dIntelHybridMap=new WeakMap();dIntelHybridReady=false;dIntelHybridRate=0;seasonView='2026';syncSeasonUI();$('opp').textContent='Louisiana Tech';$('wk').textContent='Week 7 · October 17, 2026';$('status').textContent='Louisiana Tech · Checking uploads…';renderDepthChart();renderOL();apply();const result=await LaTech.load(csv);if(!result||team!=='LT')return;data=result.data;
+  for(const key of ['passBlocking','runBlocking'])data[key]=(data[key]||[]).map(r=>({...r,pff_GAMESEASON:'2026'}));
+  const olDepth=LaTech.roster(['offense']).filter(p=>['LT','LG','C','RG','RT'].includes(p.position));
+  const official=result.roster||[];
+  const clean=n=>String(n||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+  roster=olDepth.map(p=>{const match=official.find(x=>clean(x.name)===clean(p.name)||String(x.number||x.jersey||'')===String(p.number));return {...(match||{}),...p,position:'OL',pos:p.position,depthPosition:p.position}});
+  rawPlays=(data.plays||[]).slice();mapDefensiveIntelHybrid();
+  $('status').textContent='Louisiana Tech · '+(rawPlays.length?'2026 play feed loaded':'Awaiting upload');setSel('fDown',rawPlays.map(r=>v(r,'pff_DOWN','Down')));setSel('fPers',rawPlays.map(pers));setSel('fForm',[]);setSel('fHash',rawPlays.map(r=>v(r,'pff_HASHDEF','pff_HASH','Hash')));renderDepthChart();renderOL();apply()};
  setOpponent=function(t){restorePanels();btn.classList.toggle('active',t==='LT');if(t!=='LT')return oldSet(t);team='LT';['uabBtn','msstBtn','selBtn','fauBtn','saBtn'].forEach(id=>$(id)?.classList.remove('active'));seasonView='2026';load()};
  btn.onclick=()=>setOpponent('LT');$('reloadBtn').onclick=()=>load();if(LaTech.initial())setOpponent('LT');
 })();
